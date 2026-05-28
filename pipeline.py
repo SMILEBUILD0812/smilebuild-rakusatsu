@@ -438,12 +438,15 @@ def send_email(new_targets, total_new):
     msg["Subject"] = "【SmileBuild】本日の新着ターゲット %d件（%s）" % (len(new_targets), TODAY)
     msg["From"], msg["To"] = MAIL_FROM, MAIL_TO
     msg.attach(MIMEText(body, "html", "utf-8"))
-    with smtplib.SMTP(SMTP_HOST, SMTP_PORT, timeout=30) as s:
-        s.starttls()
-        if SMTP_USER:
-            s.login(SMTP_USER, SMTP_PASS)
-        s.sendmail(MAIL_FROM, [a.strip() for a in MAIL_TO.split(",")], msg.as_string())
-    log("メール送信:", len(new_targets), "件 →", MAIL_TO)
+    try:
+        with smtplib.SMTP(SMTP_HOST, SMTP_PORT, timeout=30) as s:
+            s.starttls()
+            if SMTP_USER:
+                s.login(SMTP_USER, SMTP_PASS)
+            s.sendmail(MAIL_FROM, [a.strip() for a in MAIL_TO.split(",")], msg.as_string())
+        log("メール送信:", len(new_targets), "件 →", MAIL_TO)
+    except Exception as e:
+        log("メール送信に失敗（データ更新は継続します）:", e)
 
 # ---- 取得値の正規化 ----
 def _norm_date(s):
