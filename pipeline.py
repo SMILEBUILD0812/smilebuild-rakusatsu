@@ -33,10 +33,16 @@ try:
 except Exception:
     requests = None
     BeautifulSoup = None
+import io
 try:
-    import io, xlrd          # 関東地整の入札結果Excel(.xls)解析用
+    import xlrd            # 入札結果Excel(.xls)解析用
 except Exception:
     xlrd = None
+try:
+    import openpyxl          # 入札結果Excel(.xlsx)解析用（東北など）
+except Exception:
+    openpyxl = None
+import urllib.parse as _up
 
 # =========================================================
 #  設定（GitHub Secrets / 環境変数で上書き可）
@@ -59,12 +65,30 @@ SMTP_PASS = os.environ.get("SMTP_PASS", "")
 MAIL_FROM = os.environ.get("MAIL_FROM", SMTP_USER)
 MAIL_TO   = os.environ.get("MAIL_TO", "")
 
-KTR_BASE  = "https://www.ktr.mlit.go.jp"
-# 関東地整「入札結果（工事・建設コンサルタント業務）」ページ。各月のExcelが固定ページに並ぶ。
-KTR_RESULT_URL = os.environ.get("KTR_RESULT_URL",
-    "https://www.ktr.mlit.go.jp/nyuusatu/nyuusatu00004729.html")
-KTR_HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-               "Referer": KTR_RESULT_URL}
+HTTP_UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+
+# ---- 全国の地方整備局：入札結果Excel（高知談合対応の全国共通様式）を自動取得 ----
+# 各局「ページ →(必要なら年度サブページ)→ 工事Excel」。様式は全国共通なので同じパーサーで抜ける。
+#   pat = 工事Excelのファイル名の特徴（業務=_g/gyoumu等は別途除外）。None=工事見出し配下を採用。
+#   sub = 年度サブページを辿る場合のリンク条件（None=トップ直下のみ）。
+BUREAU_SOURCES = [
+    {"name": "関東地方整備局", "page": "https://www.ktr.mlit.go.jp/nyuusatu/nyuusatu00004729.html",
+     "pat": None, "sub": None},
+    {"name": "四国地方整備局", "page": "http://www.skr.mlit.go.jp/send/nyuusatu/index.html",
+     "pat": r"kou?zi", "sub": None},
+    {"name": "東北地方整備局", "page": "http://www.thr.mlit.go.jp/Bumon/B00013/K00730/nyusatu/nyusatukekka/index.html",
+     "pat": r"kouji", "sub": r"kensetsu|令和|R\d"},
+    {"name": "北陸地方整備局", "page": "https://www.hrr.mlit.go.jp/keiyaku/kekka.html",
+     "pat": r"kouji_\d+\.xls", "sub": r"kekka/r\d+\.html"},
+    {"name": "九州地方整備局", "page": "https://www.qsr.mlit.go.jp/nyusatu_joho/keiyaku/nyusatu_data/",
+     "pat": None, "sub": r"R\d{2}_\d+\.html"},
+    # TODO（要・置き場所確認）：
+    #   近畿  … n_info/nyusatukekka は平成28で更新停止＝現役の置き場所を要再調査
+    #   中部  … contract/ にExcel公開無し、PPI(検索フォーム型)に誘導される
+    #   中国 / 北海道開発局 / 沖縄総合事務局 … 現役の入札結果Excelページが見つからず
+]
+# 限定したい場合は Secrets/Variables BUREAUS_ONLY="関東,近畿" を設定（空=全部）
+MAX_FILES_PER_BUREAU = int(os.environ.get("MAX_FILES_PER_BUREAU") or 8)
 
 # ---- データ源：国交省 全地方整備局（工事のみ）----
 # PPI(入札情報サービス)が全整備局を横断する公式の統合検索。工事専用の検索画面がある：
@@ -157,122 +181,192 @@ def fetch_results(sample=False):
     log("P1 取得:", len(cases), "件")
     return cases
 
-def _fetch_ktr():
-    """関東地整の『入札結果（工事）』ページから各月のExcel(.xls)を自動ダウンロードし、
-       落札者・落札金額・予定価格・落札率・参加業者を抽出する。ブラウザ操作不要。"""
-    if requests is None or BeautifulSoup is None:
-        log("requests/bs4 が無いため取得スキップ。`pip install -r requirements.txt`")
-        return []
-    if xlrd is None:
-        log("xlrd が無いため取得スキップ。`pip install xlrd`")
-        return []
+def _http_get(url):
+    """(status, html文字列)。サーバのcharset未指定に備えUTF-8→cp932で復号。"""
     try:
-        resp = requests.get(KTR_RESULT_URL, timeout=40, headers=KTR_HEADERS)
-        html = resp.content.decode("utf-8", "replace")   # サーバがcharset未指定→UTF-8明示
+        r = requests.get(url, timeout=50, headers={**HTTP_UA, "Referer": url})
     except Exception as e:
-        log("関東地整ページ取得エラー:", e); return []
-    # 「令和X年度 工事」見出しの配下にある .xls だけを対象（業務は除外）
-    import re as _re
-    parts = _re.split(r"(令和\s*[0-9]+\s*年度[　\s]*(?:工事|業務))", html)
-    xls_urls = []
+        log("  取得エラー", url, e); return 0, ""
+    raw = r.content
+    for enc in ("utf-8", "cp932", "euc-jp"):
+        try: return r.status_code, raw.decode(enc)
+        except Exception: pass
+    return r.status_code, ""
+
+_NG_FILE = re.compile(r"gyoumu|業務|youshiki|様式|buppin|物品|zuikei|随契|teinyu|低入|consul|コンサル|manual|tebiki", re.I)
+
+def _excel_links(base, html, pat):
+    out = []
+    for m in re.findall(r'href="([^"]+\.(?:xls|xlsx))"', html or "", re.I):
+        f = m.split("/")[-1]
+        if _NG_FILE.search(f):           continue       # 業務・様式・物品などは除外
+        if pat and not re.search(pat, f, re.I): continue
+        out.append(_up.urljoin(base, m))
+    return list(dict.fromkeys(out))
+
+def _koji_links_by_heading(base, html):
+    """関東のように「令和X年度 工事」見出しの配下に並ぶExcelを拾う（業務見出しは除外）。"""
+    parts = re.split(r"(令和\s*\d+\s*年度[　\s]*(?:工事|業務))", html or "")
+    out = []
     for i in range(1, len(parts), 2):
-        head = parts[i]
+        if "業務" in parts[i]:
+            continue
         body = parts[i + 1] if i + 1 < len(parts) else ""
-        if "業務" in head:
-            continue   # 業務（コンサル）は対象外
-        for href in _re.findall(r'href="(/ktr_content/content/\d+\.xls)"', body):
-            u = KTR_BASE + href
-            if u not in xls_urls:
-                xls_urls.append(u)
-    if not xls_urls:
-        log("関東地整ページから工事Excelのリンクを検出できず（ページ構成変更の可能性）")
+        for m in re.findall(r'href="([^"]+\.(?:xls|xlsx))"', body, re.I):
+            if not _NG_FILE.search(m.split("/")[-1]):
+                out.append(_up.urljoin(base, m))
+    return list(dict.fromkeys(out))
+
+def _sub_links(base, html, pat):
+    """年度サブページ等のリンク（hrefがpatに合致）。新しい順に。"""
+    out = [ _up.urljoin(base, a) for a in re.findall(r'href="([^"]+\.html?[^"]*)"', html or "", re.I)
+            if re.search(pat, a, re.I) ]
+    return sorted(dict.fromkeys(out), reverse=True)
+
+def _locate_koji_xls(cfg):
+    st, html = _http_get(cfg["page"])
+    if not html:
         return []
-    log("関東地整 工事Excel:", len(xls_urls), "ファイル")
+    urls = _koji_links_by_heading(cfg["page"], html)        # 関東型（見出し配下）
+    if not urls:
+        urls = _excel_links(cfg["page"], html, cfg.get("pat"))  # 四国型（トップ直下＋ファイル名）
+    if not urls and cfg.get("sub"):                          # 近畿/東北型（年度サブページ）
+        for sp in _sub_links(cfg["page"], html, cfg["sub"])[:4]:
+            _, h2 = _http_get(sp)
+            urls += _excel_links(sp, h2, cfg.get("pat"))
+    urls = list(dict.fromkeys(urls))
+    urls.sort(reverse=True)                                  # ファイル名降順≒新しい年月を優先
+    return urls[:MAX_FILES_PER_BUREAU]
+
+def _read_excel_rows(blob, _hint=None):
+    head = blob[:8]
+    if head[:2] == b"PK":                       # 本物の .xlsx（ZIP）
+        if openpyxl is None: raise RuntimeError("openpyxl未導入")
+        wb = openpyxl.load_workbook(io.BytesIO(blob), read_only=True, data_only=True)
+        sh = wb[wb.sheetnames[0]]
+        return [list(r) for r in sh.iter_rows(values_only=True)]
+    if head[:4] == b"\xD0\xCF\x11\xE0":          # OLE2 = .xls（拡張子が.xlsxでも中身がこれの場合あり）
+        if xlrd is None: raise RuntimeError("xlrd未導入")
+        wb = xlrd.open_workbook(file_contents=blob); sh = wb.sheet_by_index(0)
+        return [[sh.cell_value(r, c) for c in range(sh.ncols)] for r in range(sh.nrows)]
+    raise RuntimeError("Excelでない応答（HTML/エラー等）")
+
+def _fetch_ktr():
+    """全国の地方整備局の入札結果Excel（全国共通様式）を自動取得・解析。
+       BUREAU_SOURCES に列挙した局を巡回。ブラウザ操作不要。"""
+    if requests is None:
+        log("requests が無いため取得スキップ。`pip install -r requirements.txt`"); return []
+    if xlrd is None and openpyxl is None:
+        log("xlrd/openpyxl が無いため取得スキップ。`pip install xlrd openpyxl`"); return []
+    targets = [c for c in BUREAU_SOURCES
+               if (not BUREAUS_ONLY or any(k in c["name"] for k in BUREAUS_ONLY))]
+    log("対象整備局:", ", ".join(c["name"] for c in targets) or "（なし）")
     cases = []
-    for u in xls_urls:
+    for cfg in targets:
         try:
-            blob = requests.get(u, timeout=60, headers=KTR_HEADERS).content
-            n0 = len(cases)
-            cases += _parse_ktr_xls(blob, u)
-            log("  %s … %d件" % (u.split("/")[-1], len(cases) - n0))
-            time.sleep(1.0)  # 礼儀
+            urls = _locate_koji_xls(cfg)
         except Exception as e:
-            log("  Excel取得/解析エラー %s: %s" % (u, e))
+            log("  %s 置き場所探索エラー: %s" % (cfg["name"], e)); urls = []
+        if not urls:
+            log("  %s … 工事Excelを検出できず（要URL確認）" % cfg["name"]); continue
+        n_b = len(cases)
+        for u in urls:
+            try:
+                blob = requests.get(u, timeout=60, headers={**HTTP_UA, "Referer": cfg["page"]}).content
+                rows = _read_excel_rows(blob)
+                cases += _parse_result_xls(rows, cfg["name"], u)
+                time.sleep(0.8)  # 礼儀
+            except Exception as e:
+                log("    Excel取得/解析エラー %s: %s" % (u.split("/")[-1], e))
+        log("  %s … %d件（%dファイル）" % (cfg["name"], len(cases) - n_b, len(urls)))
     return cases
 
-def _parse_ktr_xls(blob, source_url):
-    """関東地整の入札結果Excel(1業者=1行の調書形式)を、工事単位の落札情報に集約。"""
-    wb = xlrd.open_workbook(file_contents=blob)
-    sh = wb.sheet_by_index(0); dm = wb.datemode
-    def C(r, c):
-        try: return sh.cell_value(r, c)
-        except Exception: return ""
+def _parse_result_xls(rows, bureau, source_url):
+    """全国共通様式の入札結果Excel（1業者=1行の調書形式）を工事単位の落札情報に集約。
+       列はヘッダー名で自動検出するため、局ごとの列位置ズレや.xls/.xlsxの差を吸収する。"""
     def S(v):
-        if isinstance(v, float):
-            return str(int(v)) if v == int(v) else str(v)
+        if v is None: return ""
+        if isinstance(v, float): return str(int(v)) if v == int(v) else str(v)
+        if isinstance(v, (datetime.datetime, datetime.date)):
+            return (v.date() if isinstance(v, datetime.datetime) else v).isoformat()
         return str(v).strip()
     def D(v):
+        if isinstance(v, (datetime.datetime, datetime.date)):
+            return (v.date() if isinstance(v, datetime.datetime) else v).isoformat()
         if isinstance(v, (int, float)) and v > 20000:
-            try: return xlrd.xldate.xldate_as_datetime(v, dm).date().isoformat()
+            try: return xlrd.xldate.xldate_as_datetime(v, 0).date().isoformat()
             except Exception: return ""
+        s = S(v)
+        m = re.search(r"(\d{4})[/.\-年](\d{1,2})[/.\-月](\d{1,2})", s)
+        if m: return "%04d-%02d-%02d" % (int(m[1]), int(m[2]), int(m[3]))
+        m = re.search(r"(令和|平成|R|H)\s*(\d{1,2})[/.\-年]\s*(\d{1,2})[/.\-月]\s*(\d{1,2})", s)
+        if m:
+            base = 2018 if m[1] in ("令和", "R") else 1988
+            return "%04d-%02d-%02d" % (base + int(m[2]), int(m[3]), int(m[4]))
         return ""
     def N(v):
-        return float(v) if isinstance(v, (int, float)) else None
-    # ヘッダー行＝部局名・工事名・入札業者名 を含む行
+        if isinstance(v, (int, float)): return float(v)
+        t = re.sub(r"[^\d.]", "", S(v)); return float(t) if t else None
+
     H = None; HDR = None
-    for r in range(min(15, sh.nrows)):
-        row = [S(C(r, c)) for c in range(sh.ncols)]
-        if any("部局名" in x for x in row) and any("工事名" in x for x in row) and any("業者" in x for x in row):
-            H, HDR = r, row; break
+    for r in range(min(20, len(rows))):
+        line = "|".join(S(x) for x in rows[r])
+        if "工事名" in line and ("入札業者名" in line or "業者名" in line) and ("入札結果" in line or "備考" in line):
+            H, HDR = r, [S(x) for x in rows[r]]; break
     if H is None:
         return []
     def col(*keys):
         for c, x in enumerate(HDR):
             if any(k in x for k in keys): return c
         return None
-    ci = dict(org=col("部局名"), name=col("工事名"), bid=col("入札日"), ctr=col("契約日"),
-              kind=col("工種"), company=col("入札業者名", "業者名"),
+    ci = dict(org=col("部局名", "発注機関"), name=col("工事名", "件名"),
+              bid=col("入札年月日", "開札年月日", "入札日", "開札日"),
+              ctr=col("契約年月日", "契約日"), kind=col("工種"),
+              company=col("入札業者名", "業者名"),
+              addr=col("本店住所", "本社", "住所", "所在地"),
               yotei=col("予定価格"), memo=col("備考"), result=col("入札結果"))
-    if ci["company"] is None or ci["name"] is None:
+    if ci["company"] is None or ci["name"] is None or ci["result"] is None:
         return []
-    rc = ci["result"] if ci["result"] is not None else 11
-    amt_cols = [rc, rc + 2, rc + 4]            # 1回目/2回目/3回目 の金額列
-    memo_c = ci["memo"] if ci["memo"] is not None else (sh.ncols - 1)
+    rc = ci["result"]; amt_cols = [rc, rc + 2, rc + 4]
+    memo_c = ci["memo"] if ci["memo"] is not None else (len(HDR) - 1)
     groups = {}; order = []
-    for r in range(H + 1, sh.nrows):
-        comp = S(C(r, ci["company"])); name = S(C(r, ci["name"]))
+    for r in range(H + 1, len(rows)):
+        row = rows[r]
+        def cell(c): return row[c] if (c is not None and c < len(row)) else ""
+        comp = S(cell(ci["company"])); name = S(cell(ci["name"]))
         if not comp or not name:
             continue
-        org = S(C(r, ci["org"])); date = D(C(r, ci["bid"]))
-        key = (org, name, date)
+        key = (S(cell(ci["org"])), name, D(cell(ci["bid"])))
         if key not in groups:
-            groups[key] = {"org": org, "name": name, "date": date,
-                           "ctr": D(C(r, ci["ctr"])), "kind": S(C(r, ci["kind"])),
-                           "yotei": N(C(r, ci["yotei"])), "bidders": [],
-                           "winner": None, "win_amt": None}
+            groups[key] = {"org": S(cell(ci["org"])), "name": name, "date": D(cell(ci["bid"])),
+                           "ctr": D(cell(ci["ctr"])), "kind": S(cell(ci["kind"])),
+                           "yotei": N(cell(ci["yotei"])), "bidders": [],
+                           "winner": None, "win_amt": None, "win_addr": ""}
             order.append(key)
         g = groups[key]
         amt = None
         for c in amt_cols:
-            n = N(C(r, c))
+            n = N(cell(c))
             if n is not None and n > 0: amt = n
-        g["bidders"].append({"company": comp, "pref": "", "amount": amt})
-        if "落札" in S(C(r, memo_c)):
+        g["bidders"].append({"company": comp, "pref": pref_of(S(cell(ci["addr"]))), "amount": amt})
+        if "落札" in S(cell(memo_c)) or "落札" in S(cell(rc)):
             g["winner"] = comp; g["win_amt"] = amt
+            g["win_addr"] = S(cell(ci["addr"]))
     out = []
     for key in order:
         g = groups[key]
         if not g["winner"]:
-            continue   # 落札者が特定できない（不調・随契等）はスキップ
+            continue
         rec = _blank_rec()
         rate = round(g["win_amt"] / g["yotei"] * 100, 2) if (g["win_amt"] and g["yotei"]) else None
         rec.update({
-            "date": g["ctr"] or g["date"], "name": g["name"],
-            "org": g["org"], "company": g["winner"],
-            "amount": g["win_amt"], "rate": rate, "kind": g["kind"] or classify_kind(g["name"]),
-            "category": "工事", "bureau": "関東地方整備局",
+            "date": g["ctr"] or g["date"], "name": g["name"], "org": g["org"],
+            "company": g["winner"], "amount": g["win_amt"], "rate": rate,
+            "kind": g["kind"] or classify_kind(g["name"]),
+            "pref": pref_of(g["win_addr"]), "city": city_of(g["win_addr"]),
+            "category": "工事", "bureau": bureau,
             "bidders": [b for b in g["bidders"] if b["company"]],
-            "docs": [{"label": "入札結果(関東地整)", "url": source_url}],
+            "docs": [{"label": "入札結果(%s)" % bureau, "url": source_url}],
         })
         out.append(rec)
     return out
@@ -656,7 +750,7 @@ def _sample_cases():
             "org": orgs[i % len(orgs)], "company": w[0], "pref": w[1], "employees": w[2],
             "amount": amt, "rate": 90.0 + (i % 9), "kind": classify_kind("道路改良"),
             "period": d + "〜" + (base + datetime.timedelta(days=200)).isoformat(),
-            "docs": [{"label": "入札調書", "url": KTR_BASE + "/"}], "bidders": bidders, "detail_url": "",
+            "docs": [{"label": "入札調書", "url": "https://www.ktr.mlit.go.jp/"}], "bidders": bidders, "detail_url": "",
         })
     # 業務（測量・コンサル等）も混在させる → 工事フィルタで除外されるのを確認できる
     for k, gname in enumerate(["一般国道○○号 橋梁点検業務", "△△川 河川測量業務",
