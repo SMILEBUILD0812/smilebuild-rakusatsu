@@ -490,13 +490,18 @@ def main(sample=False):
     save_json(DATA_JSON, {"updated": TODAY, "cases": recent})
     log("data.json 出力:", len(recent), "件")
 
-    # 6. 差分通知（前回未通知 かつ 条件合致）
+    # 6. 差分通知（前回未通知 かつ 条件合致）。--sample は動作確認のため毎回テスト送信。
     state = load_json(STATE, {"notified": []})
     notified = set(state["notified"])
-    new_targets = [c for c in added if matches_target(c) and c["id"] not in notified]
-    send_email(new_targets, len(added))
-    state["notified"] = list(notified | {c["id"] for c in added if matches_target(c)})
-    save_json(STATE, state)
+    if sample:
+        new_targets = [c for c in merged if matches_target(c)]
+        log("サンプル: テスト送信のため該当", len(new_targets), "件を通知対象に")
+        send_email(new_targets, len(added))
+    else:
+        new_targets = [c for c in added if matches_target(c) and c["id"] not in notified]
+        send_email(new_targets, len(added))
+        state["notified"] = list(notified | {c["id"] for c in added if matches_target(c)})
+        save_json(STATE, state)
 
     log("=== DONE ===")
 
