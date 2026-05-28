@@ -72,6 +72,7 @@ HTTP_UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 #   pat = 工事Excelのファイル名の特徴（業務=_g/gyoumu等は別途除外）。None=工事見出し配下を採用。
 #   sub = 年度サブページを辿る場合のリンク条件（None=トップ直下のみ）。
 BUREAU_SOURCES = [
+    # ===== 取り込み済み（実データ検証済・直近2年で約3,000件）=====
     {"name": "関東地方整備局", "page": "https://www.ktr.mlit.go.jp/nyuusatu/nyuusatu00004729.html",
      "pat": None, "sub": None},
     {"name": "四国地方整備局", "page": "http://www.skr.mlit.go.jp/send/nyuusatu/index.html",
@@ -82,10 +83,32 @@ BUREAU_SOURCES = [
      "pat": r"kouji_\d+\.xls", "sub": r"kekka/r\d+\.html"},
     {"name": "九州地方整備局", "page": "https://www.qsr.mlit.go.jp/nyusatu_joho/keiyaku/nyusatu_data/",
      "pat": None, "sub": r"R\d{2}_\d+\.html"},
-    # TODO（要・置き場所確認）：
-    #   近畿  … n_info/nyusatukekka は平成28で更新停止＝現役の置き場所を要再調査
-    #   中部  … contract/ にExcel公開無し、PPI(検索フォーム型)に誘導される
-    #   中国 / 北海道開発局 / 沖縄総合事務局 … 現役の入札結果Excelページが見つからず
+    # ===== 取り込み不可（実調査の結果、現役のExcel公表が見つからず）=====
+    #   ・近畿地方整備局：DataLink記載のn_info/nyusatukekka は平成28年で更新停止。
+    #                    現役の置き場所が見つからず（PPI誘導に切替えた可能性）。
+    #   ・中部地方整備局：contract/ 配下に Excel 公開なし。「入札の経過」は PPI に誘導。
+    #                    transparency Excel は港湾空港部のみ（土木工事は対象外）。
+    #   ・中国地方整備局：hattyu/result/index.htm はほぼ空ページ(444bytes)。Excel未公開。
+    #   ・北海道開発局：DataLink記載URLは全て404。現役URL不明。
+    #   ・沖縄総合事務局：国交省「入札契約データリンク集」にExcel公表のリンクなし。
+    #   ※追加検討する場合の手掛かりとして、国交省「入札契約データリンク集」を再確認：
+    #     https://www.mlit.go.jp/tec/nyuusatu/datalink.html
+    #
+    # ===== 都道府県（実調査の結論：取り込み不可）=====
+    # 公共工事入札契約適正化法(第8条)で全都道府県に公表が義務付けられているが、
+    # 公表"方法"が「電子調達ポータル(検索フォーム型)」に集約されており、整備局のような
+    # 月次/年次のExcelを固定ページに置く形では公開していない。実調査:
+    #   ・東京都    ✕ 東京都電子調達システム(e-procurement.metro.tokyo.lg.jp)
+    #   ・神奈川県  ✕ かながわ電子入札共同システム
+    #   ・千葉県    ✕ ちば電子調達システム
+    #   ・埼玉県    ✕ 埼玉県電子入札共同システム
+    #   ・茨城県    ✕ ppi.cals-ibaraki.lg.jp
+    #   ・群馬県    ✕ 電子調達(トップで誘導検出)
+    #   ・福岡県    ✕ 電子調達ポータル
+    #   ・大阪府    ✕ 大阪府電子契約システム
+    #   ※残り県も同じ「電子入札共同システム」系パターンに集約されており、Excel直リンク
+    #     公開は事実上ゼロ。都道府県は本データ源では対象外（仕様としての限界）。
+    # 都道府県・市町村まで網羅したい場合は、有料の入札情報サービス(NJSS等)の併用が現実解。
 ]
 # 限定したい場合は Secrets/Variables BUREAUS_ONLY="関東,近畿" を設定（空=全部）
 MAX_FILES_PER_BUREAU = int(os.environ.get("MAX_FILES_PER_BUREAU") or 8)
@@ -281,44 +304,61 @@ def _fetch_ktr():
         log("  %s … %d件（%dファイル）" % (cfg["name"], len(cases) - n_b, len(urls)))
     return cases
 
-def _parse_result_xls(rows, bureau, source_url):
-    """全国共通様式の入札結果Excel（1業者=1行の調書形式）を工事単位の落札情報に集約。
-       列はヘッダー名で自動検出するため、局ごとの列位置ズレや.xls/.xlsxの差を吸収する。"""
-    def S(v):
-        if v is None: return ""
-        if isinstance(v, float): return str(int(v)) if v == int(v) else str(v)
-        if isinstance(v, (datetime.datetime, datetime.date)):
-            return (v.date() if isinstance(v, datetime.datetime) else v).isoformat()
-        return str(v).strip()
-    def D(v):
-        if isinstance(v, (datetime.datetime, datetime.date)):
-            return (v.date() if isinstance(v, datetime.datetime) else v).isoformat()
-        if isinstance(v, (int, float)) and v > 20000:
-            try: return xlrd.xldate.xldate_as_datetime(v, 0).date().isoformat()
-            except Exception: return ""
-        s = S(v)
-        m = re.search(r"(\d{4})[/.\-年](\d{1,2})[/.\-月](\d{1,2})", s)
-        if m: return "%04d-%02d-%02d" % (int(m[1]), int(m[2]), int(m[3]))
-        m = re.search(r"(令和|平成|R|H)\s*(\d{1,2})[/.\-年]\s*(\d{1,2})[/.\-月]\s*(\d{1,2})", s)
-        if m:
-            base = 2018 if m[1] in ("令和", "R") else 1988
-            return "%04d-%02d-%02d" % (base + int(m[2]), int(m[3]), int(m[4]))
-        return ""
-    def N(v):
-        if isinstance(v, (int, float)): return float(v)
-        t = re.sub(r"[^\d.]", "", S(v)); return float(t) if t else None
+def _xv_S(v):
+    """セル値→文字列。"""
+    if v is None: return ""
+    if isinstance(v, float): return str(int(v)) if v == int(v) else str(v)
+    if isinstance(v, (datetime.datetime, datetime.date)):
+        return (v.date() if isinstance(v, datetime.datetime) else v).isoformat()
+    return str(v).strip()
 
-    H = None; HDR = None
+def _xv_D(v):
+    """セル値→YYYY-MM-DD。datetime/Excel日付シリアル/YYYY/MM/DD/和暦に対応。"""
+    if isinstance(v, (datetime.datetime, datetime.date)):
+        return (v.date() if isinstance(v, datetime.datetime) else v).isoformat()
+    if isinstance(v, (int, float)) and v > 20000:
+        try: return xlrd.xldate.xldate_as_datetime(v, 0).date().isoformat()
+        except Exception: return ""
+    s = _xv_S(v)
+    m = re.search(r"(\d{4})[/.\-年](\d{1,2})[/.\-月](\d{1,2})", s)
+    if m: return "%04d-%02d-%02d" % (int(m.group(1)), int(m.group(2)), int(m.group(3)))
+    m = re.search(r"(令和|平成|R|H)\s*(\d{1,2})[/.\-年]\s*(\d{1,2})[/.\-月]\s*(\d{1,2})", s)
+    if m:
+        base = 2018 if m.group(1) in ("令和", "R") else 1988
+        return "%04d-%02d-%02d" % (base + int(m.group(2)), int(m.group(3)), int(m.group(4)))
+    return ""
+
+def _xv_N(v):
+    """セル値→float。文字列中の数字も拾う。"""
+    if isinstance(v, (int, float)): return float(v)
+    t = re.sub(r"[^\d.]", "", _xv_S(v)); return float(t) if t else None
+
+def _parse_result_xls(rows, bureau, source_url):
+    """入札結果Excelを解析（フォーマット自動判定）：
+       A. per-bidder型（1業者=1行の調書）… 国交省共通様式（関東/東北/北陸/四国/九州 等）
+       B. flat型（1工事=1行）… 適正化法に基づく「公共工事の契約状況の公表」（都道府県・市町村に多い）
+       どちらでもなければ空。"""
+    # ヘッダー行を見つけて様式判定
+    H = None; HDR = None; mode = None
     for r in range(min(20, len(rows))):
-        line = "|".join(S(x) for x in rows[r])
-        if "工事名" in line and ("入札業者名" in line or "業者名" in line) and ("入札結果" in line or "備考" in line):
-            H, HDR = r, [S(x) for x in rows[r]]; break
-    if H is None:
-        return []
+        line = "|".join(_xv_S(x) for x in rows[r])
+        has_name = ("工事名" in line or "件名" in line or "公共工事の名称" in line)
+        if not has_name: continue
+        if "入札業者名" in line or "業者名" in line:
+            H, HDR, mode = r, [_xv_S(x) for x in rows[r]], "per_bidder"; break
+        if any(k in line for k in ("契約の相手方", "受注者", "落札者", "商号", "契約者")):
+            H, HDR, mode = r, [_xv_S(x) for x in rows[r]], "flat"; break
+    if H is None: return []
     def col(*keys):
         for c, x in enumerate(HDR):
             if any(k in x for k in keys): return c
         return None
+    if mode == "per_bidder":
+        return _parse_per_bidder(rows, HDR, H, col, bureau, source_url)
+    return _parse_flat(rows, HDR, H, col, bureau, source_url)
+
+def _parse_per_bidder(rows, HDR, H, col, bureau, source_url):
+    """A. 1業者=1行の調書型。工事単位にグループ化、備考='落札'で落札者を特定。"""
     ci = dict(org=col("部局名", "発注機関"), name=col("工事名", "件名"),
               bid=col("入札年月日", "開札年月日", "入札日", "開札日"),
               ctr=col("契約年月日", "契約日"), kind=col("工種"),
@@ -333,30 +373,28 @@ def _parse_result_xls(rows, bureau, source_url):
     for r in range(H + 1, len(rows)):
         row = rows[r]
         def cell(c): return row[c] if (c is not None and c < len(row)) else ""
-        comp = S(cell(ci["company"])); name = S(cell(ci["name"]))
-        if not comp or not name:
-            continue
-        key = (S(cell(ci["org"])), name, D(cell(ci["bid"])))
+        comp = _xv_S(cell(ci["company"])); name = _xv_S(cell(ci["name"]))
+        if not comp or not name: continue
+        key = (_xv_S(cell(ci["org"])), name, _xv_D(cell(ci["bid"])))
         if key not in groups:
-            groups[key] = {"org": S(cell(ci["org"])), "name": name, "date": D(cell(ci["bid"])),
-                           "ctr": D(cell(ci["ctr"])), "kind": S(cell(ci["kind"])),
-                           "yotei": N(cell(ci["yotei"])), "bidders": [],
+            groups[key] = {"org": _xv_S(cell(ci["org"])), "name": name, "date": _xv_D(cell(ci["bid"])),
+                           "ctr": _xv_D(cell(ci["ctr"])), "kind": _xv_S(cell(ci["kind"])),
+                           "yotei": _xv_N(cell(ci["yotei"])), "bidders": [],
                            "winner": None, "win_amt": None, "win_addr": ""}
             order.append(key)
         g = groups[key]
         amt = None
         for c in amt_cols:
-            n = N(cell(c))
+            n = _xv_N(cell(c))
             if n is not None and n > 0: amt = n
-        g["bidders"].append({"company": comp, "pref": pref_of(S(cell(ci["addr"]))), "amount": amt})
-        if "落札" in S(cell(memo_c)) or "落札" in S(cell(rc)):
+        g["bidders"].append({"company": comp, "pref": pref_of(_xv_S(cell(ci["addr"]))), "amount": amt})
+        if "落札" in _xv_S(cell(memo_c)) or "落札" in _xv_S(cell(rc)):
             g["winner"] = comp; g["win_amt"] = amt
-            g["win_addr"] = S(cell(ci["addr"]))
+            g["win_addr"] = _xv_S(cell(ci["addr"]))
     out = []
     for key in order:
         g = groups[key]
-        if not g["winner"]:
-            continue
+        if not g["winner"]: continue
         rec = _blank_rec()
         rate = round(g["win_amt"] / g["yotei"] * 100, 2) if (g["win_amt"] and g["yotei"]) else None
         rec.update({
@@ -366,6 +404,51 @@ def _parse_result_xls(rows, bureau, source_url):
             "pref": pref_of(g["win_addr"]), "city": city_of(g["win_addr"]),
             "category": "工事", "bureau": bureau,
             "bidders": [b for b in g["bidders"] if b["company"]],
+            "docs": [{"label": "入札結果(%s)" % bureau, "url": source_url}],
+        })
+        out.append(rec)
+    return out
+
+def _parse_flat(rows, HDR, H, col, bureau, source_url):
+    """B. 1工事=1行のフラット型（適正化法『公共工事の契約状況の公表』形式）。
+       契約の相手方・契約金額・予定価格・落札率が1行に並ぶ。都道府県・市町村で多い。"""
+    ci = dict(
+        name=col("公共工事の名称", "工事名", "件名"),
+        date=col("契約を締結", "契約年月日", "契約日", "落札日", "入札年月日", "入札日", "開札日"),
+        org=col("発注者", "発注機関", "部局名", "契約担当官", "所管", "所属"),
+        kind=col("工事種別", "工種"),
+        company=col("契約の相手方", "受注者", "落札者", "商号", "契約者", "業者名"),
+        addr=col("契約の相手方の住所", "相手方の住所", "受注者の住所", "本店住所", "本社", "住所", "所在地"),
+        yotei=col("予定価格"),
+        amount=col("当初契約額", "契約金額", "契約額", "落札金額", "落札価格"),
+        rate=col("落札率"),
+    )
+    if ci["name"] is None or ci["company"] is None: return []
+    out = []
+    for r in range(H + 1, len(rows)):
+        row = rows[r]
+        def cell(c): return row[c] if (c is not None and c < len(row)) else ""
+        name = _xv_S(cell(ci["name"])); comp = _xv_S(cell(ci["company"]))
+        if not name or not comp: continue
+        kind = _xv_S(cell(ci["kind"]))
+        if kind and any(k in kind for k in ("業務", "コンサルタント", "コンサル")):
+            continue                                      # 行レベルで業務を除外
+        amt = _xv_N(cell(ci["amount"]))
+        yt  = _xv_N(cell(ci["yotei"]))
+        rv  = _xv_N(cell(ci["rate"]))
+        if rv is not None and rv <= 1.5: rv *= 100        # 0.9 → 90 へ正規化
+        rate = round(rv, 2) if rv else (round(amt / yt * 100, 2) if amt and yt else None)
+        addr = _xv_S(cell(ci["addr"]))
+        org  = _xv_S(cell(ci["org"])) or bureau
+        rec = _blank_rec()
+        rec.update({
+            "date": _xv_D(cell(ci["date"])),
+            "name": name, "org": org,
+            "company": comp, "amount": amt, "rate": rate,
+            "kind": kind or classify_kind(name),
+            "pref": pref_of(addr), "city": city_of(addr),
+            "category": "工事", "bureau": bureau,
+            "bidders": [{"company": comp, "pref": pref_of(addr), "amount": amt}],
             "docs": [{"label": "入札結果(%s)" % bureau, "url": source_url}],
         })
         out.append(rec)
