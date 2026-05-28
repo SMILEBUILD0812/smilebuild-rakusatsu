@@ -43,13 +43,13 @@ DATA_JSON = os.path.join(ROOT, "data.json")        # ツールが読む最新デ
 STATE     = os.path.join(ROOT, "state.json")       # 前回通知済みID
 
 # 通知の条件（＝弘晃のターゲット）。Secrets で調整可。
-NOTIFY_MIN_YEN = int(os.environ.get("NOTIFY_MIN_YEN", 100_000_000))   # 1億
-NOTIFY_MAX_YEN = int(os.environ.get("NOTIFY_MAX_YEN", 200_000_000))   # 2億
+NOTIFY_MIN_YEN = int(os.environ.get("NOTIFY_MIN_YEN") or 100_000_000)   # 1億
+NOTIFY_MAX_YEN = int(os.environ.get("NOTIFY_MAX_YEN") or 200_000_000)   # 2億
 NOTIFY_PREFS   = [p for p in os.environ.get("NOTIFY_PREFS", "").split(",") if p]  # 空=全部
 
 # メール（GitHub Secrets に登録）
 SMTP_HOST = os.environ.get("SMTP_HOST", "")
-SMTP_PORT = int(os.environ.get("SMTP_PORT", "587"))
+SMTP_PORT = int(os.environ.get("SMTP_PORT") or "587")
 SMTP_USER = os.environ.get("SMTP_USER", "")
 SMTP_PASS = os.environ.get("SMTP_PASS", "")
 MAIL_FROM = os.environ.get("MAIL_FROM", SMTP_USER)
@@ -63,7 +63,7 @@ KTR_BASE  = "https://www.ktr.mlit.go.jp"
 # PPIは.aspxフォームのため取得には Playwright が必要（USE_PPI=1 で有効化）。
 USE_PPI       = os.environ.get("USE_PPI", "0") == "1"
 PPI_KOJI_URL  = "https://www.i-ppi.jp/ippi/SearchServices/web/Koji/Kokoku/Search.aspx"  # ★工事専用★
-LOOKBACK_DAYS = int(os.environ.get("LOOKBACK_DAYS", "45"))   # 何日分さかのぼるか
+LOOKBACK_DAYS = int(os.environ.get("LOOKBACK_DAYS") or "45")   # 何日分さかのぼるか
 
 # PPIを使わない場合：各地方整備局の入札結果ページを巡回。
 # ★CALIBRATE★ 実URL/年度ディレクトリは年度替わりで変わるため、稼働時に最新を設定。
