@@ -1,4 +1,5 @@
 requests>=2.31
 beautifulsoup4>=4.12
-xlrd>=2.0.1   # 関東地整の入札結果Excel(.xls)解析用
+xlrd>=2.0.1     # 入札結果Excel(.xls)解析用
+openpyxl>=3.1   # 入札結果Excel(.xlsx)解析用（東北など）
 # lxml>=4.9   # 任意: パースを速くしたい場合
