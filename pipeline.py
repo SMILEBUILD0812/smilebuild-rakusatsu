@@ -51,11 +51,22 @@ ROOT      = os.path.dirname(os.path.abspath(__file__))
 HISTORY   = os.path.join(ROOT, "history.json")     # 全期間の蓄積
 DATA_JSON = os.path.join(ROOT, "data.json")        # ツールが読む最新データ
 STATE     = os.path.join(ROOT, "state.json")       # 前回通知済みID
+SALES_STATUS_CSV = os.path.join(ROOT, "sales-status.csv")  # 落札くんから書き出した営業ステータス
 
 # 通知の条件（＝弘晃のターゲット）。Secrets で調整可。
-NOTIFY_MIN_YEN = int(os.environ.get("NOTIFY_MIN_YEN") or 100_000_000)   # 1億
-NOTIFY_MAX_YEN = int(os.environ.get("NOTIFY_MAX_YEN") or 200_000_000)   # 2億
+NOTIFY_MIN_YEN = int(os.environ.get("NOTIFY_MIN_YEN") or 80_000_000)    # 8千万
+NOTIFY_MAX_YEN = int(os.environ.get("NOTIFY_MAX_YEN") or 250_000_000)   # 2.5億
 NOTIFY_PREFS   = [p for p in os.environ.get("NOTIFY_PREFS", "").split(",") if p]  # 空=全部
+
+# メール本文に載せる上位社数（多すぎると読まれない、少なすぎるとアクション数が足りない）
+MAIL_TOP_N = int(os.environ.get("MAIL_TOP_N") or 30)
+
+# 関東1都6県（ターゲット度のボーナス）
+KANTO_PREFS = {"千葉県", "東京都", "神奈川県", "埼玉県", "茨城県", "栃木県", "群馬県"}
+# 関東+隣接（second-tier ボーナス）
+KANTO_NEIGHBOR = {"山梨県", "長野県", "新潟県", "福島県", "静岡県"}
+# 工事系の主要工種（弘晃のスイートスポット）
+SWEET_KINDS = ("一般土木", "維持修繕", "舗装", "河川", "道路", "土木")
 
 # メール（GitHub Secrets に登録）
 SMTP_HOST = os.environ.get("SMTP_HOST", "")
@@ -700,7 +711,69 @@ def merge_history(history_cases, new_cases):
     merged = sorted(by_id.values(), key=lambda x: x.get("date") or "", reverse=True)
     return merged, added
 
+def _load_sales_status():
+    """落札くんから書き出された sales-status.csv を読込み、{会社名(正規化)→ステータス文字列}を返す。
+       ファイルが無い場合は空dict（=全社未着手扱い）。"""
+    import csv
+    if not os.path.exists(SALES_STATUS_CSV):
+        return {}
+    status_map = {}
+    try:
+        with open(SALES_STATUS_CSV, encoding="utf-8-sig", newline="") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                name = (row.get("会社名") or row.get("company") or "").strip()
+                stat = (row.get("営業ステータス") or row.get("status") or "").strip()
+                if name and stat:
+                    status_map[_normalize_co(name)] = stat
+    except Exception as e:
+        log("sales-status.csv 読込失敗（無視して継続）:", e)
+    return status_map
+
+def _company_lookup_counts(merged):
+    """蓄積全件から、同社の累計落札件数を集計（ターゲット度の判定材料）"""
+    counts = {}
+    for c in merged:
+        nm = _normalize_co(c.get("company") or "")
+        if nm:
+            counts[nm] = counts.get(nm, 0) + 1
+    return counts
+
+def target_score(c, company_counts=None):
+    """1案件のターゲット度を0〜20点で算出。営業優先順位に使う。
+       内訳：
+         金額帯（1〜2億=+5、8千万-1億 or 2億-2.5億=+3、その他=+0）
+         県（関東1都6県=+5、隣接=+3）
+         工種（一般土木/維持修繕/舗装/河川/道路=+3）
+         落札率（80-95%=+2、99%超=-3、80%未満=-3）
+         同社累計落札件数（3件以上=+4、2件=+2）
+         従業員（5〜25人=+3、補完なし=+1） ※gBiz補完済を想定
+    """
+    score = 0
+    a = c.get("amount") or 0
+    if 100_000_000 <= a <= 200_000_000:        score += 5
+    elif 80_000_000 <= a < 100_000_000:         score += 3
+    elif 200_000_000 < a <= 250_000_000:        score += 3
+    pref = c.get("pref") or ""
+    if pref in KANTO_PREFS:                     score += 5
+    elif pref in KANTO_NEIGHBOR:                score += 3
+    kind = c.get("kind") or ""
+    if any(k in kind for k in SWEET_KINDS):     score += 3
+    r = c.get("rate")
+    if r is not None:
+        if 80 <= r <= 95:                       score += 2
+        elif r > 99 or r < 80:                  score -= 3
+    if company_counts is not None:
+        n = company_counts.get(_normalize_co(c.get("company") or ""), 1)
+        if n >= 3:                              score += 4
+        elif n >= 2:                            score += 2
+    emp = c.get("employees")
+    if emp is not None and 5 <= emp <= 25:      score += 3
+    elif emp is None:                           score += 1     # 突合できてない=判定不能だが除外しない
+    return score
+
 def matches_target(c):
+    """旧仕様の基本フィルタ（金額帯・県）。下流の優先順位は target_score で決める。"""
     a = c.get("amount")
     if a is None or not (NOTIFY_MIN_YEN <= a <= NOTIFY_MAX_YEN):
         return False
@@ -708,40 +781,115 @@ def matches_target(c):
         return False
     return True
 
-def send_email(new_targets, total_new):
+# 営業ステータスの分類（落札くん側と整合）
+# 「未着手」「対象外」以外（連絡済/手紙送付済/FAX送付済/商談中/契約/失注）はメール対象から除外
+_EXCLUDE_STATUSES = {"連絡済", "手紙送付済", "FAX送付済", "商談中", "契約", "失注"}
+def _is_actionable(c, status_map):
+    """メール（手紙・FAX対応の対象）として有効か。営業ステータスが上記の除外集合に
+       入っていれば False（既にアクション中・終了済）。"""
+    if not status_map:
+        return True
+    nm = _normalize_co(c.get("company") or "")
+    st = status_map.get(nm, "")
+    return st not in _EXCLUDE_STATUSES
+
+def _yen_jp(amount):
+    """円→「1億2,345万円」形式に変換（メール本文の可読性向上）"""
+    if amount is None: return "—"
+    a = int(amount)
+    if a >= 100_000_000:
+        oku = a // 100_000_000
+        man = (a % 100_000_000) // 10_000
+        if man:  return "%d億%s万円" % (oku, "{:,}".format(man))
+        return "%d億円" % oku
+    return "{:,}万円".format(a // 10_000)
+
+def _stars(score):
+    """ターゲット度（0〜20点）を★1〜5に変換（メール表示用）"""
+    if score >= 16: return "★★★★★"
+    if score >= 13: return "★★★★☆"
+    if score >= 10: return "★★★☆☆"
+    if score >=  7: return "★★☆☆☆"
+    if score >=  4: return "★☆☆☆☆"
+    return "☆☆☆☆☆"
+
+def send_email(top_targets, total_new, status_excluded_n=0):
+    """ターゲット度上位の未着手会社のみをリッチ表でメール送信。
+       top_targets はすでに target_score 降順でソート済み・上位N件。"""
     if not (SMTP_HOST and MAIL_TO):
-        log("メール設定が無いため送信スキップ（新着該当 %d件）" % len(new_targets))
+        log("メール設定が無いため送信スキップ（候補 %d件）" % len(top_targets))
         return
-    if not new_targets:
-        log("新着の該当案件なし → メール送らず")
+    if not top_targets:
+        log("候補ゼロ → メール送らず")
         return
     rows = ""
-    for c in new_targets:
-        rows += ("<tr><td style='padding:6px 10px;border-bottom:1px solid #eee'>%s</td>"
-                 "<td style='padding:6px 10px;border-bottom:1px solid #eee;font-weight:700;color:#1b2e3c'>%s</td>"
-                 "<td style='padding:6px 10px;border-bottom:1px solid #eee'>%s</td>"
-                 "<td style='padding:6px 10px;border-bottom:1px solid #eee'>%s</td>"
-                 "<td style='padding:6px 10px;border-bottom:1px solid #eee;text-align:right'>%s万円</td></tr>") % (
-                 c.get("date",""), c.get("company",""), c.get("pref",""), c.get("name",""),
-                 "{:,}".format(int((c.get("amount") or 0)/10000)))
+    for i, c in enumerate(top_targets, 1):
+        bg = "#FAFCFA" if i % 2 == 0 else "#FFFFFF"
+        rows += (
+            "<tr style='background:%s'>"
+            "<td style='padding:8px 10px;border-bottom:1px solid #eee;text-align:center;color:#999'>%d</td>"
+            "<td style='padding:8px 10px;border-bottom:1px solid #eee;color:#C0392B;letter-spacing:-1px'>%s</td>"
+            "<td style='padding:8px 10px;border-bottom:1px solid #eee;font-weight:700;color:#1b2e3c'>%s</td>"
+            "<td style='padding:8px 10px;border-bottom:1px solid #eee;color:#5a6a72;font-size:12px'>%s</td>"
+            "<td style='padding:8px 10px;border-bottom:1px solid #eee;color:#5a6a72;font-size:12px'>%s</td>"
+            "<td style='padding:8px 10px;border-bottom:1px solid #eee'>%s</td>"
+            "<td style='padding:8px 10px;border-bottom:1px solid #eee;text-align:right;font-weight:600'>%s</td>"
+            "<td style='padding:8px 10px;border-bottom:1px solid #eee;text-align:right;color:#5a6a72'>%s%%</td>"
+            "<td style='padding:8px 10px;border-bottom:1px solid #eee;text-align:right;color:#5a6a72'>%s</td>"
+            "<td style='padding:8px 10px;border-bottom:1px solid #eee;text-align:center;color:#2d7a4f;font-weight:700'>%s社目</td>"
+            "</tr>"
+        ) % (
+            bg, i, c.get("_stars", ""),
+            c.get("company", "")[:18],
+            (c.get("pref","") + (c.get("city","") or ""))[:14] or "—",
+            (c.get("kind","") or "")[:12],
+            (c.get("name","") or "")[:34],
+            _yen_jp(c.get("amount")),
+            "{:.1f}".format(c.get("rate") or 0) if c.get("rate") else "—",
+            ("%d人" % c.get("employees")) if c.get("employees") else "—",
+            c.get("_company_count", 1),
+        )
+
     body = """
-    <div style="font-family:sans-serif;color:#1b2e3c">
-      <h2 style="color:#2d7a4f;margin:0 0 4px">本日の新着ターゲット {n} 件</h2>
-      <p style="color:#5a6a72;font-size:13px;margin:0 0 14px">
-        条件：落札 {lo}〜{hi}万円{pf}　／　本日の取得 {tot} 件中、条件に合致した新着のみ抜粋</p>
-      <table style="border-collapse:collapse;font-size:13px;min-width:560px">
-        <tr style="background:#1b2e3c;color:#fff">
-          <th style="padding:7px 10px;text-align:left">落札日</th><th style="padding:7px 10px;text-align:left">落札者</th>
-          <th style="padding:7px 10px;text-align:left">県</th><th style="padding:7px 10px;text-align:left">工事名</th>
-          <th style="padding:7px 10px;text-align:right">落札金額</th></tr>
-        {rows}
-      </table>
-      <p style="color:#5a6a72;font-size:12px;margin-top:14px">詳細・過去履歴・入札参加ランキングはツールで確認 → 落札情報フィルタ</p>
-    </div>""".format(n=len(new_targets), tot=total_new, rows=rows,
-                     lo="{:,}".format(int(NOTIFY_MIN_YEN/10000)), hi="{:,}".format(int(NOTIFY_MAX_YEN/10000)),
-                     pf=("／"+ "・".join(NOTIFY_PREFS) if NOTIFY_PREFS else ""))
+<div style="font-family:'Hiragino Kaku Gothic ProN','Yu Gothic',sans-serif;color:#1b2e3c;max-width:1100px">
+  <h2 style="color:#2d7a4f;margin:0 0 4px;font-size:20px">本日の優先ターゲット {n} 社</h2>
+  <p style="color:#5a6a72;font-size:12px;margin:0 0 8px;line-height:1.6">
+    本日の取得 {tot} 件のうち、ターゲット度が高く<b>未着手</b>の会社のみ抜粋（上位 {n} 社／対象外・商談中・契約済を除外{exc}）。<br>
+    並び順：<b>ターゲット度＞落札金額帯＞関東優先</b>。表示の★は県・金額帯・工種・落札率・累計落札・従業員規模を合成したスコア。
+  </p>
+  <p style="color:#5a6a72;font-size:12px;margin:0 0 14px">
+    アクション目安：<b>★★★★★ → 即手紙（個別カスタム）</b>　<b>★★★★☆ → 手紙 or FAX</b>　<b>★★★☆☆ → FAX</b>
+  </p>
+  <table style="border-collapse:collapse;font-size:12px;width:100%;border:1px solid #ccc">
+    <thead>
+      <tr style="background:#1b2e3c;color:#fff">
+        <th style="padding:8px 6px;text-align:center;width:30px">#</th>
+        <th style="padding:8px 6px;text-align:center;width:90px">ターゲット度</th>
+        <th style="padding:8px 10px;text-align:left">落札者</th>
+        <th style="padding:8px 6px;text-align:left">所在地</th>
+        <th style="padding:8px 6px;text-align:left">工種</th>
+        <th style="padding:8px 10px;text-align:left">直近工事名</th>
+        <th style="padding:8px 6px;text-align:right">落札金額</th>
+        <th style="padding:8px 6px;text-align:right">落札率</th>
+        <th style="padding:8px 6px;text-align:right">従業員</th>
+        <th style="padding:8px 6px;text-align:center">累計</th>
+      </tr>
+    </thead>
+    <tbody>{rows}</tbody>
+  </table>
+  <p style="color:#5a6a72;font-size:11px;margin-top:10px;line-height:1.6">
+    詳細・履歴・参加業者ランキング・営業ステータスの更新は<br>
+    <a href="https://smilebuild0812.github.io/smilebuild-rakusatsu/" style="color:#2d7a4f">→ 落札くん（Pages版）</a><br>
+    で「★優先ターゲット」ボタンを押すと、同条件で他の候補も全件閲覧できます。
+  </p>
+</div>""".format(
+    n=len(top_targets),
+    tot=total_new,
+    rows=rows,
+    exc=("（営業中除外 %d社）" % status_excluded_n) if status_excluded_n else ""
+)
     msg = MIMEMultipart("alternative")
-    msg["Subject"] = "【SmileBuild】本日の新着ターゲット %d件（%s）" % (len(new_targets), TODAY)
+    msg["Subject"] = "【SmileBuild】本日の優先ターゲット %d社（%s）" % (len(top_targets), TODAY)
     msg["From"], msg["To"] = MAIL_FROM, MAIL_TO
     msg.attach(MIMEText(body, "html", "utf-8"))
     try:
@@ -750,7 +898,7 @@ def send_email(new_targets, total_new):
             if SMTP_USER:
                 s.login(SMTP_USER, SMTP_PASS)
             s.sendmail(MAIL_FROM, [a.strip() for a in MAIL_TO.split(",")], msg.as_string())
-        log("メール送信:", len(new_targets), "件 →", MAIL_TO)
+        log("メール送信:", len(top_targets), "社 →", MAIL_TO)
     except Exception as e:
         log("メール送信に失敗（データ更新は継続します）:", e)
 
@@ -796,16 +944,54 @@ def main(sample=False):
     save_json(DATA_JSON, {"updated": TODAY, "cases": recent})
     log("data.json 出力:", len(recent), "件")
 
-    # 6. 差分通知（前回未通知 かつ 条件合致）。--sample は動作確認のため毎回テスト送信。
+    # 6. 通知用：① 落札くんから書き出されたsales-status.csvで「未着手」のみ通す
+    #            ② target_score で優先順位を算出、上位N件をメール
     state = load_json(STATE, {"notified": []})
     notified = set(state["notified"])
+    status_map = _load_sales_status()
+    if status_map:
+        log("sales-status.csv 読込:", len(status_map), "社のステータスを認識")
+
+    # 同社の累計落札件数（merged全体から集計）→ ターゲット度ボーナスに使う
+    counts = _company_lookup_counts(merged)
+
     if sample:
-        new_targets = [c for c in merged if matches_target(c)]
-        log("サンプル: テスト送信のため該当", len(new_targets), "件を通知対象に")
-        send_email(new_targets, len(added))
+        # sample モード：基本フィルタにかかった案件を全部通知対象に（テスト動作確認）
+        pool = [c for c in merged if matches_target(c)]
+        log("サンプル: 通知候補", len(pool), "件")
     else:
-        new_targets = [c for c in added if matches_target(c) and c["id"] not in notified]
-        send_email(new_targets, len(added))
+        # 本番：① 新規 ② 前回未通知 ③ 基本フィルタ合致
+        pool = [c for c in added
+                if matches_target(c) and c["id"] not in notified]
+
+    # 営業ステータスで除外（連絡済・商談中・契約・失注・対象外などはメール対象外）
+    pre_n = len(pool)
+    pool = [c for c in pool if _is_actionable(c, status_map)]
+    excluded = pre_n - len(pool)
+    if excluded:
+        log("営業ステータスで除外:", excluded, "件（手紙/FAX送付済・商談中・契約等）")
+
+    # ターゲット度を計算 → 各案件にスコアと表示用情報を付与
+    for c in pool:
+        sc = target_score(c, counts)
+        c["_score"] = sc
+        c["_stars"] = _stars(sc)
+        c["_company_count"] = counts.get(_normalize_co(c.get("company") or ""), 1)
+
+    # スコア降順で並べ、上位N件をメール対象に
+    pool.sort(key=lambda c: (-(c.get("_score") or 0),
+                              -(c.get("amount") or 0),
+                              0 if (c.get("pref") in KANTO_PREFS) else 1))
+    top = pool[:MAIL_TOP_N]
+    log("ターゲット度トップ%d社（プール %d社中）" % (len(top), len(pool)))
+
+    send_email(top, len(added), status_excluded_n=excluded)
+
+    if not sample:
+        # 「新規 かつ 基本フィルタ合致」した案件は全てnotified入り。
+        # （メール上位N件以外も再度同じケースが浮上しないよう、当日扱いに）
+        # ただし営業ステータスで除外された会社は、後日ステータスが「未着手」に戻れば
+        # 別の新規案件のときに再評価される（caseId単位なので別IDなら再通知される）。
         state["notified"] = list(notified | {c["id"] for c in added if matches_target(c)})
         save_json(STATE, state)
 
