@@ -54,5 +54,25 @@ jobs:
           git config user.name  "smilebuild-bot"
           git config user.email "bot@smile-build.com"
           git add -A
-          git commit -m "data update $(date +%F)" || echo "変更なし"
-          git push
+          # 変更が無ければ何もせず終了
+          if git diff --cached --quiet; then
+            echo "変更なし、コミット・push スキップ"
+            exit 0
+          fi
+          git commit -m "data update $(date +%F)"
+          # 競合に強い rebase + リトライ付き push（最大3回）
+          # 走行中にmainが進んでた場合でも、fetch→rebase→push でやり直す
+          n=0
+          until [ $n -ge 3 ]; do
+            git fetch origin main
+            git rebase origin/main || { echo "rebase失敗、abort して再試行"; git rebase --abort; }
+            if git push origin HEAD:main; then
+              echo "push成功"
+              exit 0
+            fi
+            n=$((n+1))
+            echo "push再試行 $n / 3"
+            sleep 5
+          done
+          echo "push最終失敗"
+          exit 1
