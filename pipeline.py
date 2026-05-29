@@ -853,13 +853,26 @@ def send_email(top_targets, total_new, status_excluded_n=0):
     body = """
 <div style="font-family:'Hiragino Kaku Gothic ProN','Yu Gothic',sans-serif;color:#1b2e3c;max-width:1100px">
   <h2 style="color:#2d7a4f;margin:0 0 4px;font-size:20px">本日の優先ターゲット {n} 社</h2>
-  <p style="color:#5a6a72;font-size:12px;margin:0 0 8px;line-height:1.6">
-    本日の取得 {tot} 件のうち、ターゲット度が高く<b>未着手</b>の会社のみ抜粋（上位 {n} 社／対象外・商談中・契約済を除外{exc}）。<br>
-    並び順：<b>ターゲット度＞落札金額帯＞関東優先</b>。表示の★は県・金額帯・工種・落札率・累計落札・従業員規模を合成したスコア。
+  <p style="color:#5a6a72;font-size:12px;margin:0 0 14px;line-height:1.6">
+    本日の取得 {tot} 件のうち、ターゲット度が高く<b>未着手</b>の会社のみ抜粋（上位 {n} 社／対象外・商談中・契約済を除外{exc}）。
   </p>
-  <p style="color:#5a6a72;font-size:12px;margin:0 0 14px">
-    アクション目安：<b>★★★★★ → 即手紙（個別カスタム）</b>　<b>★★★★☆ → 手紙 or FAX</b>　<b>★★★☆☆ → FAX</b>
-  </p>
+
+  <div style="background:#FAFCFA;border:1px solid #b9deca;border-left:4px solid #2d7a4f;border-radius:8px;padding:14px 18px;margin-bottom:18px">
+    <div style="font-weight:700;color:#2d7a4f;font-size:14px;margin-bottom:8px">📋 今すぐやること</div>
+    <ol style="margin:0;padding-left:22px;font-size:13px;line-height:1.9;color:#1b2e3c">
+      <li>下の表の上位<b>5社（★★★★★）</b>から手紙を書く対象を選ぶ</li>
+      <li>「<b>手紙テンプレ.docx</b>」を開いて差し込み印刷　→　宛名・追伸（P.S.）・署名は手書き、社印を押す</li>
+      <li>「<b>事例シート.docx</b>」＋名刺と同梱して<b>白封筒・社長宛・親展</b>でポスト投函</li>
+      <li>★★★★☆・★★★☆☆ の社には<b>秒速FAX</b>で「<b>FAX原稿.docx</b>」を一斉送信（任意）</li>
+      <li>送付した社を <a href="https://smilebuild0812.github.io/smilebuild-rakusatsu/" style="color:#2d7a4f;font-weight:700">落札くん</a> で開き、営業ステータスを<b>「送付済」</b>に変更</li>
+      <li>落札くんの「<b>📋 ステータスCSV</b>」ボタン → ダウンロードした <code style="background:#eee;padding:1px 5px;border-radius:3px">sales-status.csv</code> を <b>GitHubリポジトリのルート</b>にドラッグ＆ドロップで上書きアップロード → Commit</li>
+    </ol>
+    <div style="margin-top:8px;font-size:11px;color:#5a6a72">
+      ▶ 翌朝のメールから「送付済」の社は<b>自動的に除外</b>されます。<br>
+      ▶ ターゲット度の目安：<b>★★★★★ → 即手紙</b>　<b>★★★★☆ → 手紙 or FAX</b>　<b>★★★☆☆ → FAX</b>
+    </div>
+  </div>
+
   <table style="border-collapse:collapse;font-size:12px;width:100%;border:1px solid #ccc">
     <thead>
       <tr style="background:#1b2e3c;color:#fff">
@@ -878,8 +891,7 @@ def send_email(top_targets, total_new, status_excluded_n=0):
     <tbody>{rows}</tbody>
   </table>
   <p style="color:#5a6a72;font-size:11px;margin-top:10px;line-height:1.6">
-    詳細・履歴・参加業者ランキング・営業ステータスの更新は<br>
-    <a href="https://smilebuild0812.github.io/smilebuild-rakusatsu/" style="color:#2d7a4f">→ 落札くん（Pages版）</a><br>
+    <a href="https://smilebuild0812.github.io/smilebuild-rakusatsu/" style="color:#2d7a4f">→ 落札くん（Pages版）</a>
     で「★優先ターゲット」ボタンを押すと、同条件で他の候補も全件閲覧できます。
   </p>
 </div>""".format(
