@@ -1,5 +1,5 @@
 {
- "updated": "2026-05-30",
+ "updated": "2026-05-31",
  "cases": [
   {
    "date": "2026-04-30",
@@ -160910,86 +160910,6 @@
    ],
    "detail_url": "",
    "id": "1d79032aca72"
-  },
-  {
-   "date": "2024-05-31",
-   "name": "大河津分水路掘削土処理（分水西部地区排水路）その７工事",
-   "org": "北陸地方整備局　信濃川河川事務所",
-   "company": "（株）中越興業",
-   "amount": 216280000.0,
-   "rate": 91.17,
-   "kind": "一般土木工事",
-   "period": "",
-   "pref": "",
-   "city": "",
-   "employees": null,
-   "category": "工事",
-   "bureau": "北陸地方整備局",
-   "docs": [
-    {
-     "label": "入札結果(北陸地方整備局)",
-     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2024.xls"
-    }
-   ],
-   "bidders": [
-    {
-     "company": "（株）曙建設",
-     "pref": "",
-     "amount": 216280000.0
-    },
-    {
-     "company": "伊米ヶ崎建設（株）",
-     "pref": "",
-     "amount": 216350000.0
-    },
-    {
-     "company": "（株）大石組",
-     "pref": "",
-     "amount": null
-    },
-    {
-     "company": "大河津建設（株）",
-     "pref": "",
-     "amount": 216280000.0
-    },
-    {
-     "company": "（株）種村建設",
-     "pref": "",
-     "amount": 216380000.0
-    },
-    {
-     "company": "（株）中越興業",
-     "pref": "",
-     "amount": 216280000.0
-    },
-    {
-     "company": "（株）中元組",
-     "pref": "",
-     "amount": 216370000.0
-    },
-    {
-     "company": "丸運建設（株）",
-     "pref": "",
-     "amount": 216280000.0
-    },
-    {
-     "company": "（株）水倉組",
-     "pref": "",
-     "amount": null
-    },
-    {
-     "company": "（株）皆川組",
-     "pref": "",
-     "amount": 237220000.0
-    },
-    {
-     "company": "坂井建設（株）",
-     "pref": "",
-     "amount": null
-    }
-   ],
-   "detail_url": "",
-   "id": "fe10c2050ceb"
   }
  ]
 }
