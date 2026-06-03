@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-01",
+ "updated": "2026-06-03",
  "cases": [
   {
    "date": "2026-04-30",
@@ -53149,6 +53149,11 @@
     },
     {
      "company": "（株）光システム",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）ODK",
      "pref": "",
      "amount": null
     }
