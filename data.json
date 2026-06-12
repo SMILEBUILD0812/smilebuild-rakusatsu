@@ -1,6 +1,416 @@
 {
- "updated": "2026-06-10",
+ "updated": "2026-06-12",
  "cases": [
+  {
+   "date": "2026-05-28",
+   "name": "令和８ー１２年度　山鳥坂ダム選択取水設備新設工事",
+   "org": "四国地方整備局　山鳥坂ダム工事事務所",
+   "company": "（株）ＩＨＩインフラスクエア",
+   "amount": 3374000000.0,
+   "rate": 91.9,
+   "kind": "機械設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "四国地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(四国地方整備局)",
+     "url": "http://www.skr.mlit.go.jp/send/nyuusatu/kouzi2605.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "西田鉄工（株）",
+     "pref": "",
+     "amount": 3374200000.0
+    },
+    {
+     "company": "カナデビア（株）",
+     "pref": "",
+     "amount": 3650000000.0
+    },
+    {
+     "company": "豊国工業（株）",
+     "pref": "",
+     "amount": 3406970000.0
+    },
+    {
+     "company": "（株）ＩＨＩインフラスクエア",
+     "pref": "",
+     "amount": 3374000000.0
+    },
+    {
+     "company": "（株）丸島アクアシステム",
+     "pref": "",
+     "amount": 3383000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "7ad6c033973b"
+  },
+  {
+   "date": "2026-05-27",
+   "name": "令和８ー１２年度　山鳥坂ダム洪水吐ゲート設備新設工事",
+   "org": "四国地方整備局　山鳥坂ダム工事事務所",
+   "company": "（株）丸島アクアシステム",
+   "amount": 4755000000.0,
+   "rate": 91.33,
+   "kind": "機械設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "四国地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(四国地方整備局)",
+     "url": "http://www.skr.mlit.go.jp/send/nyuusatu/kouzi2605.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "カナデビア（株）",
+     "pref": "",
+     "amount": 4780000000.0
+    },
+    {
+     "company": "豊国工業（株）",
+     "pref": "",
+     "amount": 4736980000.0
+    },
+    {
+     "company": "（株）ＩＨＩインフラスクエア",
+     "pref": "",
+     "amount": 4746000000.0
+    },
+    {
+     "company": "（株）丸島アクアシステム",
+     "pref": "",
+     "amount": 4755000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "1bd5b4855cec"
+  },
+  {
+   "date": "2026-05-25",
+   "name": "令和８年度　佐賀大方道路小馬地川橋上部工事",
+   "org": "四国地方整備局　中村河川国道事務所",
+   "company": "（株）日本ピーエス",
+   "amount": 256500000.0,
+   "rate": 91.64,
+   "kind": "プレストレスト・コンクリート工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "四国地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(四国地方整備局)",
+     "url": "http://www.skr.mlit.go.jp/send/nyuusatu/kouzi2605.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）愛橋",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）安部日鋼工業",
+     "pref": "",
+     "amount": 256400000.0
+    },
+    {
+     "company": "オリエンタル白石（株）",
+     "pref": "",
+     "amount": 256800000.0
+    },
+    {
+     "company": "日本高圧コンクリート（株）",
+     "pref": "",
+     "amount": 285000000.0
+    },
+    {
+     "company": "（株）日本ピーエス",
+     "pref": "",
+     "amount": 256500000.0
+    },
+    {
+     "company": "ピーエス・コンストラクション（株）",
+     "pref": "",
+     "amount": 259200000.0
+    },
+    {
+     "company": "（株）富士ピー・エス",
+     "pref": "",
+     "amount": 256800000.0
+    },
+    {
+     "company": "（株）ＩＨＩインフラスクエア",
+     "pref": "",
+     "amount": 258000000.0
+    },
+    {
+     "company": "三井住友建設（株）",
+     "pref": "",
+     "amount": 269000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "6af0d73c335d"
+  },
+  {
+   "date": "2026-05-22",
+   "name": "令和８年度　窪川佐賀道路見付橋上部工事",
+   "org": "四国地方整備局　中村河川国道事務所",
+   "company": "（株）ＩＨＩインフラスクエア",
+   "amount": 213300000.0,
+   "rate": 91.98,
+   "kind": "プレストレスト・コンクリート工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "四国地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(四国地方整備局)",
+     "url": "http://www.skr.mlit.go.jp/send/nyuusatu/kouzi2605.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）愛橋",
+     "pref": "",
+     "amount": 211980000.0
+    },
+    {
+     "company": "（株）安部日鋼工業",
+     "pref": "",
+     "amount": 212300000.0
+    },
+    {
+     "company": "オリエンタル白石（株）",
+     "pref": "",
+     "amount": 212200000.0
+    },
+    {
+     "company": "日本高圧コンクリート（株）",
+     "pref": "",
+     "amount": 236000000.0
+    },
+    {
+     "company": "（株）日本ピーエス",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "ピーエス・コンストラクション（株）",
+     "pref": "",
+     "amount": 214000000.0
+    },
+    {
+     "company": "（株）富士ピー・エス",
+     "pref": "",
+     "amount": 212300000.0
+    },
+    {
+     "company": "（株）ＩＨＩインフラスクエア",
+     "pref": "",
+     "amount": 213300000.0
+    },
+    {
+     "company": "三井住友建設（株）",
+     "pref": "",
+     "amount": 216700000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "c526676d8f64"
+  },
+  {
+   "date": "2026-05-21",
+   "name": "令和８年度　まんのう公園受変電設備外工事",
+   "org": "四国地方整備局　香川河川国道事務所",
+   "company": "富士電機（株）",
+   "amount": 108000000.0,
+   "rate": 95.15,
+   "kind": "受変電設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "四国地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(四国地方整備局)",
+     "url": "http://www.skr.mlit.go.jp/send/nyuusatu/kouzi2605.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "大一電気工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "富士電機（株）",
+     "pref": "",
+     "amount": 108000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "9e0f6e412e8f"
+  },
+  {
+   "date": "2026-05-20",
+   "name": "令和８年度　中筋川ダム横瀬川ダム維持工事",
+   "org": "四国地方整備局　渡川ダム統合管理事務所",
+   "company": "（業）テスク",
+   "amount": 42500000.0,
+   "rate": 97.68,
+   "kind": "維持修繕工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "四国地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(四国地方整備局)",
+     "url": "http://www.skr.mlit.go.jp/send/nyuusatu/kouzi2605.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（業）テスク",
+     "pref": "",
+     "amount": 42500000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "335091cdc542"
+  },
+  {
+   "date": "2026-05-11",
+   "name": "令和８年度　山鳥坂ダム敷水第１橋橋台外工事",
+   "org": "四国地方整備局　山鳥坂ダム工事事務所",
+   "company": "久保興業（株）",
+   "amount": 265000000.0,
+   "rate": 96.99,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "四国地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(四国地方整備局)",
+     "url": "http://www.skr.mlit.go.jp/send/nyuusatu/kouzi2605.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "久保興業（株）",
+     "pref": "",
+     "amount": 265000000.0
+    },
+    {
+     "company": "（株）森本",
+     "pref": "",
+     "amount": 270000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "1979bcaf5d67"
+  },
+  {
+   "date": "2026-05-11",
+   "name": "令和８年度　山鳥坂ダム見の越工事用道路工事",
+   "org": "四国地方整備局　山鳥坂ダム工事事務所",
+   "company": "（株）佐々木組",
+   "amount": 259000000.0,
+   "rate": 96.89,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "四国地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(四国地方整備局)",
+     "url": "http://www.skr.mlit.go.jp/send/nyuusatu/kouzi2605.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）一宮工務店",
+     "pref": "",
+     "amount": 264000000.0
+    },
+    {
+     "company": "（株）佐々木組",
+     "pref": "",
+     "amount": 259000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "3237b3298f60"
+  },
+  {
+   "date": "2026-05-01",
+   "name": "令和８年度　佐田樋門外ゲート設備塗装工事",
+   "org": "四国地方整備局　中村河川国道事務所",
+   "company": "（株）尾崎塗装工業",
+   "amount": 21000000.0,
+   "rate": 94.42,
+   "kind": "塗装工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "四国地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(四国地方整備局)",
+     "url": "http://www.skr.mlit.go.jp/send/nyuusatu/kouzi2605.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）尾崎塗装工業",
+     "pref": "",
+     "amount": 21000000.0
+    },
+    {
+     "company": "（有）村地塗装",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（有）南国塗装",
+     "pref": "",
+     "amount": 21250000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "caf18c907e75"
+  },
   {
    "date": "2026-04-30",
    "name": "Ｒ７荒川左岸平方地区基盤整備工事",
@@ -166760,171 +167170,6 @@
    ],
    "detail_url": "",
    "id": "f3b73071854e"
-  },
-  {
-   "date": "2024-06-11",
-   "name": "野積橋上部工事",
-   "org": "北陸地方整備局　信濃川河川事務所",
-   "company": "野積橋上部工事前田・日本ピーエス特定建設工事共同企業体",
-   "amount": 2562380000.0,
-   "rate": 92.0,
-   "kind": "プレストレスト・コンクリート工事",
-   "period": "",
-   "pref": "",
-   "city": "",
-   "employees": null,
-   "category": "工事",
-   "bureau": "北陸地方整備局",
-   "docs": [
-    {
-     "label": "入札結果(北陸地方整備局)",
-     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2024.xls"
-    }
-   ],
-   "bidders": [
-    {
-     "company": "野積橋上部工事ピーエス三菱・安部日鋼工業特定建設工事共同企業体",
-     "pref": "",
-     "amount": 2562380000.0
-    },
-    {
-     "company": "野積橋上部工事清水・川田特定建設工事共同企業体",
-     "pref": "",
-     "amount": 2562380000.0
-    },
-    {
-     "company": "野積橋上部工事三井住友・本間特定建設工事共同企業体",
-     "pref": "",
-     "amount": null
-    },
-    {
-     "company": "野積橋上部工事前田・日本ピーエス特定建設工事共同企業体",
-     "pref": "",
-     "amount": 2562380000.0
-    },
-    {
-     "company": "野積橋上部工事安藤ハザマ・植木特定建設工事共同企業体",
-     "pref": "",
-     "amount": null
-    },
-    {
-     "company": "オリエンタル白石（株）",
-     "pref": "",
-     "amount": 2565000000.0
-    },
-    {
-     "company": "（株）大林組",
-     "pref": "",
-     "amount": 2980000000.0
-    },
-    {
-     "company": "（株）錢高組",
-     "pref": "",
-     "amount": 2562390000.0
-    },
-    {
-     "company": "鉄建建設（株）",
-     "pref": "",
-     "amount": 2813000000.0
-    },
-    {
-     "company": "（株）富士ピー・エス",
-     "pref": "",
-     "amount": null
-    },
-    {
-     "company": "極東興和（株）",
-     "pref": "",
-     "amount": null
-    },
-    {
-     "company": "日本高圧コンクリート（株）",
-     "pref": "",
-     "amount": 3100000000.0
-    }
-   ],
-   "detail_url": "",
-   "id": "72affbc4ee22"
-  },
-  {
-   "date": "2024-06-11",
-   "name": "令和６年度茶屋ヶ原地区災害復旧その３工事",
-   "org": "北陸地方整備局　高田河川国道事務所",
-   "company": "武江・大陽（共）",
-   "amount": 124000000.0,
-   "rate": 92.52,
-   "kind": "法面処理工事",
-   "period": "",
-   "pref": "",
-   "city": "",
-   "employees": null,
-   "category": "工事",
-   "bureau": "北陸地方整備局",
-   "docs": [
-    {
-     "label": "入札結果(北陸地方整備局)",
-     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2024.xls"
-    }
-   ],
-   "bidders": [
-    {
-     "company": "武江・大陽（共）",
-     "pref": "",
-     "amount": 124000000.0
-    },
-    {
-     "company": "（株）興和",
-     "pref": "",
-     "amount": null
-    },
-    {
-     "company": "西田建設（株）",
-     "pref": "",
-     "amount": 131000000.0
-    },
-    {
-     "company": "田中産業（株）",
-     "pref": "",
-     "amount": null
-    }
-   ],
-   "detail_url": "",
-   "id": "ede57747b085"
-  },
-  {
-   "date": "2024-06-11",
-   "name": "令和６年度田切地区災害復旧工事",
-   "org": "北陸地方整備局　高田河川国道事務所",
-   "company": "（株）野本組",
-   "amount": 69500000.0,
-   "rate": 96.15,
-   "kind": "維持修繕工事",
-   "period": "",
-   "pref": "",
-   "city": "",
-   "employees": null,
-   "category": "工事",
-   "bureau": "北陸地方整備局",
-   "docs": [
-    {
-     "label": "入札結果(北陸地方整備局)",
-     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2024.xls"
-    }
-   ],
-   "bidders": [
-    {
-     "company": "（株）野本組",
-     "pref": "",
-     "amount": 69500000.0
-    },
-    {
-     "company": "田中産業（株）",
-     "pref": "",
-     "amount": 71800000.0
-    }
-   ],
-   "detail_url": "",
-   "id": "167628e95b98"
   }
  ]
 }
