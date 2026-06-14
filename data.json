@@ -167135,41 +167135,6 @@
    ],
    "detail_url": "",
    "id": "920655da82b4"
-  },
-  {
-   "date": "2024-06-13",
-   "name": "Ｒ６赤岩砂防堰堤改築他工事",
-   "org": "北陸地方整備局　金沢河川国道事務所",
-   "company": "（株）風組",
-   "amount": 127000000.0,
-   "rate": 91.51,
-   "kind": "一般土木工事",
-   "period": "",
-   "pref": "",
-   "city": "",
-   "employees": null,
-   "category": "工事",
-   "bureau": "北陸地方整備局",
-   "docs": [
-    {
-     "label": "入札結果(北陸地方整備局)",
-     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2024.xls"
-    }
-   ],
-   "bidders": [
-    {
-     "company": "（株）風組",
-     "pref": "",
-     "amount": 127000000.0
-    },
-    {
-     "company": "竹腰永井建設（株）",
-     "pref": "",
-     "amount": null
-    }
-   ],
-   "detail_url": "",
-   "id": "f3b73071854e"
   }
  ]
 }
