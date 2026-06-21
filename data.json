@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-19",
+ "updated": "2026-06-20",
  "cases": [
   {
    "date": "2026-05-29",
@@ -170620,71 +170620,6 @@
    ],
    "detail_url": "",
    "id": "fc5a3fe32371"
-  },
-  {
-   "date": "2024-06-20",
-   "name": "北ノ入川第１号砂防堰堤その７工事",
-   "org": "北陸地方整備局　湯沢砂防事務所",
-   "company": "（株）種村建設",
-   "amount": 54000000.0,
-   "rate": 98.81,
-   "kind": "一般土木工事",
-   "period": "",
-   "pref": "",
-   "city": "",
-   "employees": null,
-   "category": "工事",
-   "bureau": "北陸地方整備局",
-   "docs": [
-    {
-     "label": "入札結果(北陸地方整備局)",
-     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2024.xls"
-    }
-   ],
-   "bidders": [
-    {
-     "company": "（株）カネカ建設",
-     "pref": "",
-     "amount": null
-    },
-    {
-     "company": "（株）種村建設",
-     "pref": "",
-     "amount": 54000000.0
-    }
-   ],
-   "detail_url": "",
-   "id": "0ae0f4e9a068"
-  },
-  {
-   "date": "2024-06-20",
-   "name": "Ｒ６―７黒薙川第２号下流砂防堰堤工事",
-   "org": "北陸地方整備局　黒部河川事務所",
-   "company": "大高建設（株）",
-   "amount": 230000000.0,
-   "rate": 99.68,
-   "kind": "一般土木工事",
-   "period": "",
-   "pref": "",
-   "city": "",
-   "employees": null,
-   "category": "工事",
-   "bureau": "北陸地方整備局",
-   "docs": [
-    {
-     "label": "入札結果(北陸地方整備局)",
-     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2024.xls"
-    }
-   ],
-   "bidders": [
-    {
-     "company": "大高建設（株）",
-     "pref": "",
-     "amount": 230000000.0
-    }
-   ],
-   "detail_url": "",
-   "id": "920655da82b4"
   }
  ]
 }
