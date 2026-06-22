@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-20",
+ "updated": "2026-06-21",
  "cases": [
   {
    "date": "2026-05-29",
@@ -170570,56 +170570,6 @@
    ],
    "detail_url": "",
    "id": "c85b13cf9916"
-  },
-  {
-   "date": "2024-06-21",
-   "name": "小出労働基準監督署（２４）屋上防水改修その他工事",
-   "org": "北陸地方整備局　営繕部",
-   "company": "（株）森下組",
-   "amount": 40800000.0,
-   "rate": 98.65,
-   "kind": "建築工事",
-   "period": "",
-   "pref": "",
-   "city": "",
-   "employees": null,
-   "category": "工事",
-   "bureau": "北陸地方整備局",
-   "docs": [
-    {
-     "label": "入札結果(北陸地方整備局)",
-     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2024.xls"
-    }
-   ],
-   "bidders": [
-    {
-     "company": "伊米ヶ崎建設（株）",
-     "pref": "",
-     "amount": 42000000.0
-    },
-    {
-     "company": "井口建設工業（株）",
-     "pref": "",
-     "amount": 42000000.0
-    },
-    {
-     "company": "北川瀝青工業（株）",
-     "pref": "",
-     "amount": 42500000.0
-    },
-    {
-     "company": "（株）森下組",
-     "pref": "",
-     "amount": 40800000.0
-    },
-    {
-     "company": "（株）竹田工務店",
-     "pref": "",
-     "amount": null
-    }
-   ],
-   "detail_url": "",
-   "id": "fc5a3fe32371"
   }
  ]
 }
