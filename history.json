@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-21",
+ "updated": "2026-06-22",
  "cases": [
   {
    "date": "2026-05-29",
@@ -225,6 +225,41 @@
    ],
    "detail_url": "",
    "id": "d37fe28aabda"
+  },
+  {
+   "date": "2026-05-29",
+   "name": "成瀬ダム取水設備据付工事",
+   "org": "東北地方整備局　成瀬ダム工事事務所",
+   "company": "（株）ＩＨＩインフラシステム",
+   "amount": 1460000000.0,
+   "rate": 99.95,
+   "kind": "機械設備工事",
+   "period": "",
+   "pref": "大阪府",
+   "city": "堺市",
+   "employees": null,
+   "category": "工事",
+   "bureau": "東北地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(東北地方整備局)",
+     "url": "http://www.thr.mlit.go.jp/Bumon/B00013/K00730/nyusatu/nyusatukekka/kekkadata/2605_kouji.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）ＩＨＩインフラシステム",
+     "pref": "大阪府",
+     "amount": 1460000000.0
+    },
+    {
+     "company": "豊国工業（株）",
+     "pref": "",
+     "amount": 1700000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "5d4b8289f0d7"
   },
   {
    "date": "2026-05-28",
@@ -1195,6 +1230,41 @@
    ],
    "detail_url": "",
    "id": "fa610f0a71fa"
+  },
+  {
+   "date": "2026-05-21",
+   "name": "長井ダム管内維持工事",
+   "org": "東北地方整備局　最上川ダム統合管理事務所",
+   "company": "那須建設（株）",
+   "amount": 36500000.0,
+   "rate": 95.65,
+   "kind": "維持修繕工事",
+   "period": "",
+   "pref": "山形県",
+   "city": "長井市",
+   "employees": null,
+   "category": "工事",
+   "bureau": "東北地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(東北地方整備局)",
+     "url": "http://www.thr.mlit.go.jp/Bumon/B00013/K00730/nyusatu/nyusatukekka/kekkadata/2605_kouji.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "那須建設（株）",
+     "pref": "山形県",
+     "amount": 36500000.0
+    },
+    {
+     "company": "山和建設（株）",
+     "pref": "",
+     "amount": 37200000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "29a9a86f8a38"
   },
   {
    "date": "2026-05-20",
@@ -2642,6 +2712,101 @@
    "id": "7bc64aea9fce"
   },
   {
+   "date": "2026-05-11",
+   "name": "鳴瀬川水系堰ゲート機側操作盤更新工事",
+   "org": "東北地方整備局　北上川下流河川事務所",
+   "company": "（株）ＩＨＩインフラシステム",
+   "amount": 109500000.0,
+   "rate": 93.12,
+   "kind": "機械設備工事",
+   "period": "",
+   "pref": "大阪府",
+   "city": "堺市",
+   "employees": null,
+   "category": "工事",
+   "bureau": "東北地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(東北地方整備局)",
+     "url": "http://www.thr.mlit.go.jp/Bumon/B00013/K00730/nyusatu/nyusatukekka/kekkadata/2605_kouji.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）ＩＨＩインフラシステム",
+     "pref": "大阪府",
+     "amount": 109500000.0
+    },
+    {
+     "company": "北日本機械（株）",
+     "pref": "",
+     "amount": 109500000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "f5d9e17de310"
+  },
+  {
+   "date": "2026-05-11",
+   "name": "鳥海ダム市道付替百宅線杉峠地区工事用道路工事",
+   "org": "東北地方整備局　鳥海ダム工事事務所",
+   "company": "伊藤建設工業（株）",
+   "amount": 82250000.0,
+   "rate": 90.86,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "秋田県",
+   "city": "横手市",
+   "employees": null,
+   "category": "工事",
+   "bureau": "東北地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(東北地方整備局)",
+     "url": "http://www.thr.mlit.go.jp/Bumon/B00013/K00730/nyusatu/nyusatukekka/kekkadata/2605_kouji.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "伊藤建設工業（株）",
+     "pref": "秋田県",
+     "amount": 82250000.0
+    },
+    {
+     "company": "（株）宮原組",
+     "pref": "",
+     "amount": 89000000.0
+    },
+    {
+     "company": "矢島建設（株）",
+     "pref": "",
+     "amount": 83000000.0
+    },
+    {
+     "company": "（株）小野建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）丸栄建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "村岡建設工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "三共（株）",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "a7dc9f8fc85a"
+  },
+  {
    "date": "2026-05-08",
    "name": "令和８年度　筑後川（杖立川）河川整備外工事",
    "org": "九州地方整備局　筑後川河川事務所",
@@ -2750,6 +2915,51 @@
    ],
    "detail_url": "",
    "id": "13c8949555fd"
+  },
+  {
+   "date": "2026-05-08",
+   "name": "阿武隈川水系須川流域砂防堰堤外工事",
+   "org": "東北地方整備局　福島河川国道事務所",
+   "company": "佐藤建材工業（株）",
+   "amount": 167500000.0,
+   "rate": 90.92,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "福島県",
+   "city": "伊達市",
+   "employees": null,
+   "category": "工事",
+   "bureau": "東北地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(東北地方整備局)",
+     "url": "http://www.thr.mlit.go.jp/Bumon/B00013/K00730/nyusatu/nyusatukekka/kekkadata/2605_kouji.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "佐藤建材工業（株）",
+     "pref": "福島県",
+     "amount": 167500000.0
+    },
+    {
+     "company": "富久泉工業（株）",
+     "pref": "",
+     "amount": 168400000.0
+    },
+    {
+     "company": "多田建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "マルナカ（株）",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "b144fdd657d3"
   },
   {
    "date": "2026-05-07",
@@ -3527,6 +3737,186 @@
    "id": "33a29d63d856"
   },
   {
+   "date": "2026-05-07",
+   "name": "Ｒ８　南部植栽維持工事",
+   "org": "東北地方整備局　青森河川国道事務所",
+   "company": "環境緑花工業（株）",
+   "amount": 26900000.0,
+   "rate": 98.0,
+   "kind": "造園工事",
+   "period": "",
+   "pref": "青森県",
+   "city": "八戸市",
+   "employees": null,
+   "category": "工事",
+   "bureau": "東北地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(東北地方整備局)",
+     "url": "http://www.thr.mlit.go.jp/Bumon/B00013/K00730/nyusatu/nyusatukekka/kekkadata/2605_kouji.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "環境緑花工業（株）",
+     "pref": "青森県",
+     "amount": 26900000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "362a2a31aa96"
+  },
+  {
+   "date": "2026-05-07",
+   "name": "高瀬川水環境工事",
+   "org": "東北地方整備局　高瀬川河川事務所",
+   "company": "東北建設（株）",
+   "amount": 93200000.0,
+   "rate": 90.14,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "青森県",
+   "city": "上北郡",
+   "employees": null,
+   "category": "工事",
+   "bureau": "東北地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(東北地方整備局)",
+     "url": "http://www.thr.mlit.go.jp/Bumon/B00013/K00730/nyusatu/nyusatukekka/kekkadata/2605_kouji.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "上北建設（株）",
+     "pref": "",
+     "amount": 103000000.0
+    },
+    {
+     "company": "田中建設（株）",
+     "pref": "",
+     "amount": 102300000.0
+    },
+    {
+     "company": "丸井重機建設（株）",
+     "pref": "",
+     "amount": 99500000.0
+    },
+    {
+     "company": "（株）佐々木建設工業",
+     "pref": "",
+     "amount": 100000000.0
+    },
+    {
+     "company": "東北建設（株）",
+     "pref": "青森県",
+     "amount": 93200000.0
+    },
+    {
+     "company": "（株）三村興業社",
+     "pref": "",
+     "amount": 100000000.0
+    },
+    {
+     "company": "附田建設（株）",
+     "pref": "",
+     "amount": 93000000.0
+    },
+    {
+     "company": "（株）高田工業",
+     "pref": "",
+     "amount": 94000000.0
+    },
+    {
+     "company": "（株）コウナン",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）鳥山土木工業",
+     "pref": "",
+     "amount": 96600000.0
+    },
+    {
+     "company": "彦建設（株）",
+     "pref": "",
+     "amount": 97000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "94611cc66507"
+  },
+  {
+   "date": "2026-05-07",
+   "name": "Ｒ８　水沢盛岡管内区画線工事",
+   "org": "東北地方整備局　岩手河川国道事務所",
+   "company": "岩手標識（株）",
+   "amount": 31350000.0,
+   "rate": 91.85,
+   "kind": "塗装工事",
+   "period": "",
+   "pref": "岩手県",
+   "city": "花巻市",
+   "employees": null,
+   "category": "工事",
+   "bureau": "東北地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(東北地方整備局)",
+     "url": "http://www.thr.mlit.go.jp/Bumon/B00013/K00730/nyusatu/nyusatukekka/kekkadata/2605_kouji.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "協積産業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "岩手標識（株）",
+     "pref": "岩手県",
+     "amount": 31350000.0
+    },
+    {
+     "company": "岩手道路開発（株）",
+     "pref": "",
+     "amount": 31700000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "d567bee98c07"
+  },
+  {
+   "date": "2026-05-07",
+   "name": "Ｒ８　岩手河川国道管内通信設備維持補修工事",
+   "org": "東北地方整備局　岩手河川国道事務所",
+   "company": "南部電気工事（株）",
+   "amount": 92000000.0,
+   "rate": 97.55,
+   "kind": "通信設備工事",
+   "period": "",
+   "pref": "岩手県",
+   "city": "北上市",
+   "employees": null,
+   "category": "工事",
+   "bureau": "東北地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(東北地方整備局)",
+     "url": "http://www.thr.mlit.go.jp/Bumon/B00013/K00730/nyusatu/nyusatukekka/kekkadata/2605_kouji.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "南部電気工事（株）",
+     "pref": "岩手県",
+     "amount": 92000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "4cd8aa77d602"
+  },
+  {
    "date": "2026-05-01",
    "name": "令和８年度　佐田樋門外ゲート設備塗装工事",
    "org": "四国地方整備局　中村河川国道事務所",
@@ -3960,6 +4350,36 @@
    ],
    "detail_url": "",
    "id": "5513c4ed2423"
+  },
+  {
+   "date": "2026-05-01",
+   "name": "Ｒ８　青森植栽維持工事",
+   "org": "東北地方整備局　青森河川国道事務所",
+   "company": "青森県森林綜合開発（株）",
+   "amount": 27704600.0,
+   "rate": 98.0,
+   "kind": "造園工事",
+   "period": "",
+   "pref": "青森県",
+   "city": "青森市",
+   "employees": null,
+   "category": "工事",
+   "bureau": "東北地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(東北地方整備局)",
+     "url": "http://www.thr.mlit.go.jp/Bumon/B00013/K00730/nyusatu/nyusatukekka/kekkadata/2605_kouji.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "青森県森林綜合開発（株）",
+     "pref": "青森県",
+     "amount": 27704600.0
+    }
+   ],
+   "detail_url": "",
+   "id": "cc3243ad88fe"
   },
   {
    "date": "2026-04-30",
