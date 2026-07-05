@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-03",
+ "updated": "2026-07-04",
  "cases": [
   {
    "date": "2026-05-29",
@@ -173280,36 +173280,6 @@
    ],
    "detail_url": "",
    "id": "301f91ba6c94"
-  },
-  {
-   "date": "2024-07-04",
-   "name": "中津川上流第１号砂防堰堤その１３外工事",
-   "org": "北陸地方整備局　湯沢砂防事務所",
-   "company": "（株）フクザワコーポレーション",
-   "amount": 89700000.0,
-   "rate": 97.0,
-   "kind": "一般土木工事",
-   "period": "",
-   "pref": "",
-   "city": "",
-   "employees": null,
-   "category": "工事",
-   "bureau": "北陸地方整備局",
-   "docs": [
-    {
-     "label": "入札結果(北陸地方整備局)",
-     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2024.xls"
-    }
-   ],
-   "bidders": [
-    {
-     "company": "（株）フクザワコーポレーション",
-     "pref": "",
-     "amount": 89700000.0
-    }
-   ],
-   "detail_url": "",
-   "id": "54f92ac3bfa6"
   }
  ]
 }
