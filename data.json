@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-04",
+ "updated": "2026-07-05",
  "cases": [
   {
    "date": "2026-05-29",
@@ -173195,91 +173195,6 @@
    ],
    "detail_url": "",
    "id": "b610c481ddd2"
-  },
-  {
-   "date": "2024-07-05",
-   "name": "令和６年度信濃川河川事務所庁舎外改修その２工事",
-   "org": "北陸地方整備局　信濃川河川事務所",
-   "company": "小柳建設（株）",
-   "amount": 56700000.0,
-   "rate": 94.33,
-   "kind": "建築工事",
-   "period": "",
-   "pref": "",
-   "city": "",
-   "employees": null,
-   "category": "工事",
-   "bureau": "北陸地方整備局",
-   "docs": [
-    {
-     "label": "入札結果(北陸地方整備局)",
-     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2024.xls"
-    }
-   ],
-   "bidders": [
-    {
-     "company": "小柳建設（株）",
-     "pref": "",
-     "amount": 56700000.0
-    },
-    {
-     "company": "（株）大石組",
-     "pref": "",
-     "amount": null
-    },
-    {
-     "company": "（株）丸山工務所",
-     "pref": "",
-     "amount": null
-    },
-    {
-     "company": "（株）多田組",
-     "pref": "",
-     "amount": null
-    }
-   ],
-   "detail_url": "",
-   "id": "ce58d274a5b5"
-  },
-  {
-   "date": "2024-07-05",
-   "name": "新屋地区道路改良その８工事",
-   "org": "北陸地方整備局　富山河川国道事務所",
-   "company": "松原建設（株）",
-   "amount": 128000000.0,
-   "rate": 91.59,
-   "kind": "一般土木工事",
-   "period": "",
-   "pref": "",
-   "city": "",
-   "employees": null,
-   "category": "工事",
-   "bureau": "北陸地方整備局",
-   "docs": [
-    {
-     "label": "入札結果(北陸地方整備局)",
-     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2024.xls"
-    }
-   ],
-   "bidders": [
-    {
-     "company": "（株）新興",
-     "pref": "",
-     "amount": 133000000.0
-    },
-    {
-     "company": "（株）林土木",
-     "pref": "",
-     "amount": 139000000.0
-    },
-    {
-     "company": "松原建設（株）",
-     "pref": "",
-     "amount": 128000000.0
-    }
-   ],
-   "detail_url": "",
-   "id": "301f91ba6c94"
   }
  ]
 }
