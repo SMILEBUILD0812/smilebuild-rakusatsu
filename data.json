@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-13",
+ "updated": "2026-07-14",
  "cases": [
   {
    "date": "2026-06-30",
@@ -192,6 +192,666 @@
    "id": "b5adfc701ccd"
   },
   {
+   "date": "2026-06-30",
+   "name": "令和８年度浪瀬トンネル外非常警報設備設置工事",
+   "org": "九州地方整備局　佐賀国道事務所",
+   "company": "西部電気工業（株）",
+   "amount": 117440000.0,
+   "rate": 91.14,
+   "kind": "通信設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "星和電機（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）オフィスコミニケーションサービス",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "コイト電工（株）",
+     "pref": "",
+     "amount": 128000000.0
+    },
+    {
+     "company": "西部電気工業（株）",
+     "pref": "",
+     "amount": 117440000.0
+    },
+    {
+     "company": "岩崎電気（株）",
+     "pref": "",
+     "amount": 117200000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "d691fabc024a"
+  },
+  {
+   "date": "2026-06-30",
+   "name": "Ｒ８球磨川田頭地区築堤護岸外（１工区）工事",
+   "org": "九州地方整備局　八代河川国道事務所",
+   "company": "三和建設（株）",
+   "amount": 277000000.0,
+   "rate": 99.27,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "三和建設（株）",
+     "pref": "",
+     "amount": 277000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "fdd56adedda1"
+  },
+  {
+   "date": "2026-06-30",
+   "name": "令和８年度　球磨川管内機械設備修繕工事",
+   "org": "九州地方整備局　八代河川国道事務所",
+   "company": "（株）ミゾタ",
+   "amount": 70900000.0,
+   "rate": 93.03,
+   "kind": "機械設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）ミゾタ",
+     "pref": "",
+     "amount": 70900000.0
+    },
+    {
+     "company": "（株）協和製作所",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "なごみ管理機工（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）タカセ・エンジニアリング",
+     "pref": "",
+     "amount": 71500000.0
+    },
+    {
+     "company": "開成工業（株）",
+     "pref": "",
+     "amount": 70700000.0
+    },
+    {
+     "company": "（株）カナデビアエンジニアリング",
+     "pref": "",
+     "amount": 79000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "7e2ee7a99241"
+  },
+  {
+   "date": "2026-06-30",
+   "name": "令和８年度逆瀬川１号橋関連工事",
+   "org": "九州地方整備局　川辺川ダム砂防事務所",
+   "company": "味岡建設（株）",
+   "amount": 240000000.0,
+   "rate": 97.34,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "味岡建設（株）",
+     "pref": "",
+     "amount": 240000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "d94dfde749c5"
+  },
+  {
+   "date": "2026-06-30",
+   "name": "大淀川橘通地区河道掘削（第２工区）工事",
+   "org": "九州地方整備局　宮崎河川国道事務所",
+   "company": "龍南建設（株）",
+   "amount": 164000000.0,
+   "rate": 90.8,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "松本建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "都北産業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "龍南建設（株）",
+     "pref": "",
+     "amount": 164000000.0
+    },
+    {
+     "company": "（株）徳満建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "吉原建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "九州建設工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）坂下組",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "c2242a81ae40"
+  },
+  {
+   "date": "2026-06-30",
+   "name": "川内川天辰第二地区道路付替外その１工事",
+   "org": "九州地方整備局　川内川河川事務所",
+   "company": "（株）田島組",
+   "amount": 161350000.0,
+   "rate": 90.65,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "福地建設（株）",
+     "pref": "",
+     "amount": 185000000.0
+    },
+    {
+     "company": "（株）二渡建設",
+     "pref": "",
+     "amount": 161780000.0
+    },
+    {
+     "company": "（株）田代組",
+     "pref": "",
+     "amount": 161290000.0
+    },
+    {
+     "company": "ヤマグチ（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）森山（清）組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "福上産業（株）",
+     "pref": "",
+     "amount": 161400000.0
+    },
+    {
+     "company": "（株）南日本運輸建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）祁答院土木",
+     "pref": "",
+     "amount": 161350000.0
+    },
+    {
+     "company": "（株）植村組",
+     "pref": "",
+     "amount": 178000000.0
+    },
+    {
+     "company": "外薗建設工業（株）",
+     "pref": "",
+     "amount": 161350000.0
+    },
+    {
+     "company": "林建設（株）",
+     "pref": "",
+     "amount": 165000000.0
+    },
+    {
+     "company": "（株）田島組",
+     "pref": "",
+     "amount": 161350000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "e9eb4b457245"
+  },
+  {
+   "date": "2026-06-30",
+   "name": "川内川天辰第二地区道路付替外その２工事",
+   "org": "九州地方整備局　川内川河川事務所",
+   "company": "福上産業（株）",
+   "amount": 141300000.0,
+   "rate": 90.87,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "福地建設（株）",
+     "pref": "",
+     "amount": 164000000.0
+    },
+    {
+     "company": "（株）二渡建設",
+     "pref": "",
+     "amount": 141280000.0
+    },
+    {
+     "company": "（株）田代組",
+     "pref": "",
+     "amount": 141070000.0
+    },
+    {
+     "company": "ヤマグチ（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）森山（清）組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "福上産業（株）",
+     "pref": "",
+     "amount": 141300000.0
+    },
+    {
+     "company": "（株）南日本運輸建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）祁答院土木",
+     "pref": "",
+     "amount": 141200000.0
+    },
+    {
+     "company": "（株）植村組",
+     "pref": "",
+     "amount": 155500000.0
+    },
+    {
+     "company": "外薗建設工業（株）",
+     "pref": "",
+     "amount": 141150000.0
+    },
+    {
+     "company": "林建設（株）",
+     "pref": "",
+     "amount": 145000000.0
+    },
+    {
+     "company": "（株）田島組",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "d97105b887b8"
+  },
+  {
+   "date": "2026-06-30",
+   "name": "川内川天辰第二地区道路付替外その３工事",
+   "org": "九州地方整備局　川内川河川事務所",
+   "company": "（株）田代組",
+   "amount": 117500000.0,
+   "rate": 90.48,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "福地建設（株）",
+     "pref": "",
+     "amount": 139000000.0
+    },
+    {
+     "company": "（株）二渡建設",
+     "pref": "",
+     "amount": 117680000.0
+    },
+    {
+     "company": "（株）田代組",
+     "pref": "",
+     "amount": 117500000.0
+    },
+    {
+     "company": "ヤマグチ（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）森山（清）組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "福上産業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）南日本運輸建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）祁答院土木",
+     "pref": "",
+     "amount": 117600000.0
+    },
+    {
+     "company": "（株）植村組",
+     "pref": "",
+     "amount": 129870000.0
+    },
+    {
+     "company": "外薗建設工業（株）",
+     "pref": "",
+     "amount": 117550000.0
+    },
+    {
+     "company": "林建設（株）",
+     "pref": "",
+     "amount": 119000000.0
+    },
+    {
+     "company": "（株）田島組",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "855291452504"
+  },
+  {
+   "date": "2026-06-30",
+   "name": "川内川天辰地区掘削工事",
+   "org": "九州地方整備局　川内川河川事務所",
+   "company": "（株）植村組",
+   "amount": 111480000.0,
+   "rate": 90.66,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "福地建設（株）",
+     "pref": "",
+     "amount": 125000000.0
+    },
+    {
+     "company": "（株）二渡建設",
+     "pref": "",
+     "amount": 111680000.0
+    },
+    {
+     "company": "（株）田代組",
+     "pref": "",
+     "amount": 112400000.0
+    },
+    {
+     "company": "ヤマグチ（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "南生建設（株）",
+     "pref": "",
+     "amount": 111450000.0
+    },
+    {
+     "company": "（株）森山（清）組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "福上産業（株）",
+     "pref": "",
+     "amount": 111450000.0
+    },
+    {
+     "company": "（株）南日本運輸建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）祁答院土木",
+     "pref": "",
+     "amount": 111450000.0
+    },
+    {
+     "company": "（株）植村組",
+     "pref": "",
+     "amount": 111480000.0
+    },
+    {
+     "company": "外薗建設工業（株）",
+     "pref": "",
+     "amount": 111450000.0
+    },
+    {
+     "company": "林建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）田島組",
+     "pref": "",
+     "amount": 111450000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "cb0a96e92d63"
+  },
+  {
+   "date": "2026-06-30",
+   "name": "川内川白浜地区掘削その２工事",
+   "org": "九州地方整備局　川内川河川事務所",
+   "company": "（株）田代組",
+   "amount": 95800000.0,
+   "rate": 90.92,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "福地建設（株）",
+     "pref": "",
+     "amount": 107900000.0
+    },
+    {
+     "company": "（株）二渡建設",
+     "pref": "",
+     "amount": 95780000.0
+    },
+    {
+     "company": "（株）田代組",
+     "pref": "",
+     "amount": 95800000.0
+    },
+    {
+     "company": "ヤマグチ（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "南生建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）森山（清）組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "福上産業（株）",
+     "pref": "",
+     "amount": 95700000.0
+    },
+    {
+     "company": "（株）南日本運輸建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）祁答院土木",
+     "pref": "",
+     "amount": 95700000.0
+    },
+    {
+     "company": "（株）植村組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "外薗建設工業（株）",
+     "pref": "",
+     "amount": 95700000.0
+    },
+    {
+     "company": "林建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）田島組",
+     "pref": "",
+     "amount": 95680000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "17089d273c94"
+  },
+  {
    "date": "2026-06-29",
    "name": "令和８年度　鹿野川ダム法面防護柵修繕工事",
    "org": "四国地方整備局　肱川ダム統合管理事務所",
@@ -220,6 +880,776 @@
    ],
    "detail_url": "",
    "id": "ccf403d37689"
+  },
+  {
+   "date": "2026-06-29",
+   "name": "令和８年度　番匠川蛇崎地区堤防補強外工事",
+   "org": "九州地方整備局　佐伯河川国道事務所",
+   "company": "谷川建設工業（株）",
+   "amount": 187700000.0,
+   "rate": 91.52,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）佐々木建設",
+     "pref": "",
+     "amount": 200900000.0
+    },
+    {
+     "company": "小田開発工業（株）",
+     "pref": "",
+     "amount": 187400000.0
+    },
+    {
+     "company": "（株）佐伯建設",
+     "pref": "",
+     "amount": 187250000.0
+    },
+    {
+     "company": "谷川建設工業（株）",
+     "pref": "",
+     "amount": 187700000.0
+    },
+    {
+     "company": "（株）友岡建設",
+     "pref": "",
+     "amount": 187300000.0
+    },
+    {
+     "company": "明大工業（株）",
+     "pref": "",
+     "amount": 187720000.0
+    },
+    {
+     "company": "（株）菅組",
+     "pref": "",
+     "amount": 187300000.0
+    },
+    {
+     "company": "（株）盛田組",
+     "pref": "",
+     "amount": 187500000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "6d46b3cb8081"
+  },
+  {
+   "date": "2026-06-29",
+   "name": "野尻川除石工外（その１）工事",
+   "org": "九州地方整備局　大隅河川国道事務所",
+   "company": "（株）カーネギー産業",
+   "amount": 113360000.0,
+   "rate": 90.64,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）鹿大丸",
+     "pref": "",
+     "amount": 113360000.0
+    },
+    {
+     "company": "（株）森山（清）組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）植村組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）カーネギー産業",
+     "pref": "",
+     "amount": 113360000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "1e1d47f3c068"
+  },
+  {
+   "date": "2026-06-29",
+   "name": "野尻川除石工外（その２）工事",
+   "org": "九州地方整備局　大隅河川国道事務所",
+   "company": "（株）鹿大丸",
+   "amount": 105950000.0,
+   "rate": 90.58,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）鹿大丸",
+     "pref": "",
+     "amount": 105950000.0
+    },
+    {
+     "company": "（株）森山（清）組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）植村組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）カーネギー産業",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "5c237d1042f7"
+  },
+  {
+   "date": "2026-06-29",
+   "name": "令和８年度山国川百留地区護岸工事",
+   "org": "九州地方整備局　山国川河川事務所",
+   "company": "笹原建設（株）",
+   "amount": 73200000.0,
+   "rate": 90.7,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "田中建設（株）",
+     "pref": "",
+     "amount": 74000000.0
+    },
+    {
+     "company": "（株）大島産業",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）久保組",
+     "pref": "",
+     "amount": 73330000.0
+    },
+    {
+     "company": "（株）末宗組",
+     "pref": "",
+     "amount": 73500000.0
+    },
+    {
+     "company": "末宗建設（株）",
+     "pref": "",
+     "amount": 73150000.0
+    },
+    {
+     "company": "（株）菅組",
+     "pref": "",
+     "amount": 73200000.0
+    },
+    {
+     "company": "伸和建設（株）",
+     "pref": "",
+     "amount": 75720000.0
+    },
+    {
+     "company": "大浜建設工業（株）",
+     "pref": "",
+     "amount": 77700000.0
+    },
+    {
+     "company": "岡本土木（株）",
+     "pref": "",
+     "amount": 73800000.0
+    },
+    {
+     "company": "（株）小森建設",
+     "pref": "",
+     "amount": 73850000.0
+    },
+    {
+     "company": "（株）福原組",
+     "pref": "",
+     "amount": 74000000.0
+    },
+    {
+     "company": "笹原建設（株）",
+     "pref": "",
+     "amount": 73200000.0
+    },
+    {
+     "company": "（株）元吉建設工業",
+     "pref": "",
+     "amount": 73400000.0
+    },
+    {
+     "company": "（株）久綱産業",
+     "pref": "",
+     "amount": 77000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "ef28da7d9be4"
+  },
+  {
+   "date": "2026-06-26",
+   "name": "姶良川赤野地区堤防浸透対策（第三工区）工事",
+   "org": "九州地方整備局　大隅河川国道事務所",
+   "company": "（株）吉留組",
+   "amount": 66450000.0,
+   "rate": 91.05,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "佐藤建設（株）",
+     "pref": "",
+     "amount": 66300000.0
+    },
+    {
+     "company": "山佐産業（株）",
+     "pref": "",
+     "amount": 72800000.0
+    },
+    {
+     "company": "（株）山本組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "肝付土建（株）",
+     "pref": "",
+     "amount": 66360000.0
+    },
+    {
+     "company": "（株）吉留組",
+     "pref": "",
+     "amount": 66450000.0
+    },
+    {
+     "company": "豊明建設（株）",
+     "pref": "",
+     "amount": 68000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "125dac72367e"
+  },
+  {
+   "date": "2026-06-25",
+   "name": "令和８年度武雄管内水位計測装置外更新工事",
+   "org": "九州地方整備局　武雄河川事務所",
+   "company": "ＮＥＣネッツエスアイ（株）",
+   "amount": 61810000.0,
+   "rate": 91.23,
+   "kind": "通信設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "精密舎（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）カワサキコーポレーション",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "旭進興業（株）",
+     "pref": "",
+     "amount": 67230000.0
+    },
+    {
+     "company": "ＮＥＣネッツエスアイ（株）",
+     "pref": "",
+     "amount": 61810000.0
+    },
+    {
+     "company": "エクシオグループ（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）ＳＹＳＫＥＮ",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）トーエネック",
+     "pref": "",
+     "amount": 63480000.0
+    },
+    {
+     "company": "東芝テリー（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "愛知時計電機（株）",
+     "pref": "",
+     "amount": 67750000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "369798814bfc"
+  },
+  {
+   "date": "2026-06-25",
+   "name": "令和８年度長田第２樋門外機械設備修繕工事",
+   "org": "九州地方整備局　長崎河川国道事務所",
+   "company": "開成工業（株）",
+   "amount": 21650000.0,
+   "rate": 93.2,
+   "kind": "機械設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "開成工業（株）",
+     "pref": "",
+     "amount": 21650000.0
+    },
+    {
+     "company": "（株）田中鉄工所",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）タカセ・エンジニアリング",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "なごみ管理機工（株）",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "e65184da3e10"
+  },
+  {
+   "date": "2026-06-24",
+   "name": "令和８年度佐賀国道事務所外改修工事",
+   "org": "九州地方整備局　佐賀国道事務所",
+   "company": "（株）港電気商会",
+   "amount": 45000000.0,
+   "rate": 91.02,
+   "kind": "電気設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）佐電工",
+     "pref": "",
+     "amount": 65000000.0
+    },
+    {
+     "company": "（株）有明電設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）宮園電工",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）電興社",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "正宝電気（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）岡田電機",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）脇山電気工事",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "高田電機（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）門田電気",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）ミゾタ",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "東島電気工事（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）笠原電設",
+     "pref": "",
+     "amount": 75080000.0
+    },
+    {
+     "company": "（株）水城電気",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "大西工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）港電気商会",
+     "pref": "",
+     "amount": 45000000.0
+    },
+    {
+     "company": "（株）昭和電設工業",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）田中電機",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "ハタナカ電通（株）",
+     "pref": "",
+     "amount": 81430000.0
+    },
+    {
+     "company": "古賀電気工事（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）新明電気",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "栄城設備工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）藤永電設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）小林産業",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）エスビック",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）ティーエム技研",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）栄信グループ",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "荒木電通（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）古賀電工",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "34c5077c3a2b"
+  },
+  {
+   "date": "2026-06-24",
+   "name": "令和８年度　堅田川川原地区堤防補強工事",
+   "org": "九州地方整備局　佐伯河川国道事務所",
+   "company": "（株）風戸工務店",
+   "amount": 102940000.0,
+   "rate": 90.89,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）佐々木建設",
+     "pref": "",
+     "amount": 111500000.0
+    },
+    {
+     "company": "小田開発工業（株）",
+     "pref": "",
+     "amount": 103200000.0
+    },
+    {
+     "company": "（株）佐伯建設",
+     "pref": "",
+     "amount": 103500000.0
+    },
+    {
+     "company": "谷川建設工業（株）",
+     "pref": "",
+     "amount": 103100000.0
+    },
+    {
+     "company": "（株）友岡建設",
+     "pref": "",
+     "amount": 103500000.0
+    },
+    {
+     "company": "ＡＮＡＩ（株）",
+     "pref": "",
+     "amount": 102950000.0
+    },
+    {
+     "company": "明大工業（株）",
+     "pref": "",
+     "amount": 103410000.0
+    },
+    {
+     "company": "（株）菅組",
+     "pref": "",
+     "amount": 103600000.0
+    },
+    {
+     "company": "（株）盛田組",
+     "pref": "",
+     "amount": 103100000.0
+    },
+    {
+     "company": "（株）風戸工務店",
+     "pref": "",
+     "amount": 102940000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "ab1ef1d5c288"
+  },
+  {
+   "date": "2026-06-24",
+   "name": "令和８年度　番匠川稲垣地区法面補修外工事",
+   "org": "九州地方整備局　佐伯河川国道事務所",
+   "company": "（株）風戸工務店",
+   "amount": 59410000.0,
+   "rate": 90.99,
+   "kind": "維持修繕工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "小田開発工業（株）",
+     "pref": "",
+     "amount": 59600000.0
+    },
+    {
+     "company": "（株）佐伯建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "谷川建設工業（株）",
+     "pref": "",
+     "amount": 59480000.0
+    },
+    {
+     "company": "（株）盛田組",
+     "pref": "",
+     "amount": 59550000.0
+    },
+    {
+     "company": "（有）スギショー",
+     "pref": "",
+     "amount": 60300000.0
+    },
+    {
+     "company": "（株）風戸工務店",
+     "pref": "",
+     "amount": 59410000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "ff567361abf6"
+  },
+  {
+   "date": "2026-06-24",
+   "name": "佐賀２０８号　諸富地区道路付属物設置外工事",
+   "org": "九州地方整備局　有明海沿岸国道事務所",
+   "company": "牟田建設（株）",
+   "amount": 124500000.0,
+   "rate": 90.71,
+   "kind": "維持修繕工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "祐徳建設興業（株）",
+     "pref": "",
+     "amount": 125000000.0
+    },
+    {
+     "company": "松尾建設（株）",
+     "pref": "",
+     "amount": 130000000.0
+    },
+    {
+     "company": "笠原建設（株）",
+     "pref": "",
+     "amount": 136300000.0
+    },
+    {
+     "company": "（株）大和建設",
+     "pref": "",
+     "amount": 136000000.0
+    },
+    {
+     "company": "牟田建設（株）",
+     "pref": "",
+     "amount": 124500000.0
+    },
+    {
+     "company": "ロードメンテナンス（株）",
+     "pref": "",
+     "amount": 126900000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "32a4bcfb2796"
   },
   {
    "date": "2026-06-23",
@@ -262,6 +1692,1926 @@
    "id": "31ddd38cf2ba"
   },
   {
+   "date": "2026-06-23",
+   "name": "Ｒ８球磨川荒瀬地区道路かさ上げ外工事",
+   "org": "九州地方整備局　八代河川国道事務所",
+   "company": "（株）森組",
+   "amount": 416000000.0,
+   "rate": 91.05,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）新井組",
+     "pref": "",
+     "amount": 416500000.0
+    },
+    {
+     "company": "日本国土開発（株）",
+     "pref": "",
+     "amount": 416950000.0
+    },
+    {
+     "company": "若築建設（株）",
+     "pref": "",
+     "amount": 416100000.0
+    },
+    {
+     "company": "（株）森組",
+     "pref": "",
+     "amount": 416000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "93b4604aa656"
+  },
+  {
+   "date": "2026-06-22",
+   "name": "九州地方整備局他機関向け映像共有化設備設置工事",
+   "org": "九州地方整備局　企画部",
+   "company": "ＮＥＣネッツエスアイ（株）",
+   "amount": 65800000.0,
+   "rate": 91.49,
+   "kind": "通信設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "ＮＥＣネッツエスアイ（株）",
+     "pref": "",
+     "amount": 65800000.0
+    },
+    {
+     "company": "富士通（株）",
+     "pref": "",
+     "amount": 71400000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "83126738bac4"
+  },
+  {
+   "date": "2026-06-19",
+   "name": "Ｒ８九州技術事務所災害機械格納庫改修外工事",
+   "org": "九州地方整備局　九州技術事務所",
+   "company": "大橋建設工業（株）",
+   "amount": 61400000.0,
+   "rate": 94.62,
+   "kind": "建築工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）ビルディングＤｒ．",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（有）佐々木工務店",
+     "pref": "",
+     "amount": 62400000.0
+    },
+    {
+     "company": "（株）高津建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）大藪組",
+     "pref": "",
+     "amount": 75400000.0
+    },
+    {
+     "company": "大橋建設工業（株）",
+     "pref": "",
+     "amount": 61400000.0
+    },
+    {
+     "company": "（株）月形",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（有）サヤ建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "眞鍋建設（株）",
+     "pref": "",
+     "amount": 74500000.0
+    },
+    {
+     "company": "（有）質倹",
+     "pref": "",
+     "amount": 68754000.0
+    },
+    {
+     "company": "梅原建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）キューボウ",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）栗木工務店",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "976fe007f359"
+  },
+  {
+   "date": "2026-06-18",
+   "name": "令和８年度緑川ダム管理用制御処理設備改造工事",
+   "org": "九州地方整備局　緑川ダム管理所",
+   "company": "三菱電機（株）",
+   "amount": 53900000.0,
+   "rate": 99.98,
+   "kind": "通信設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "三菱電機（株）",
+     "pref": "",
+     "amount": 53900000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "5664e3900e31"
+  },
+  {
+   "date": "2026-06-17",
+   "name": "令和７年度庄内地区登坂車線整備外工事",
+   "org": "九州地方整備局　大分河川国道事務所",
+   "company": "笹原建設（株）",
+   "amount": 110180000.0,
+   "rate": 90.49,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）佐伯建設",
+     "pref": "",
+     "amount": 110300000.0
+    },
+    {
+     "company": "（株）末宗組",
+     "pref": "",
+     "amount": 110400000.0
+    },
+    {
+     "company": "（株）平和建設",
+     "pref": "",
+     "amount": 111000000.0
+    },
+    {
+     "company": "明大工業（株）",
+     "pref": "",
+     "amount": 110350000.0
+    },
+    {
+     "company": "（株）菅組",
+     "pref": "",
+     "amount": 110300000.0
+    },
+    {
+     "company": "（株）安部組",
+     "pref": "",
+     "amount": 115000000.0
+    },
+    {
+     "company": "（株）小森建設",
+     "pref": "",
+     "amount": 110800000.0
+    },
+    {
+     "company": "三浦国土建設（株）",
+     "pref": "",
+     "amount": 110000000.0
+    },
+    {
+     "company": "利光建設工業（株）",
+     "pref": "",
+     "amount": 120000000.0
+    },
+    {
+     "company": "笹原建設（株）",
+     "pref": "",
+     "amount": 110180000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "ac07912f39b9"
+  },
+  {
+   "date": "2026-06-16",
+   "name": "令和８年度遠賀川知古地区下流掘削工事",
+   "org": "九州地方整備局　遠賀川河川事務所",
+   "company": "（株）白石組",
+   "amount": 73030000.0,
+   "rate": 90.56,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）大和土木",
+     "pref": "",
+     "amount": 73030000.0
+    },
+    {
+     "company": "（株）関野建設",
+     "pref": "",
+     "amount": 73020000.0
+    },
+    {
+     "company": "川本建設工業（株）",
+     "pref": "",
+     "amount": 73190000.0
+    },
+    {
+     "company": "（株）石橋組",
+     "pref": "",
+     "amount": 73000000.0
+    },
+    {
+     "company": "清水丸源建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "崎村組",
+     "pref": "",
+     "amount": 73060000.0
+    },
+    {
+     "company": "（株）安部工務店",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "有田建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）田代土木",
+     "pref": "",
+     "amount": 73010000.0
+    },
+    {
+     "company": "光工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "協和建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "柴田建設工業（株）",
+     "pref": "",
+     "amount": 73050000.0
+    },
+    {
+     "company": "（株）松原土木",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（有）安永工務店",
+     "pref": "",
+     "amount": 72990000.0
+    },
+    {
+     "company": "藤木建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）双一開發",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）高瀬組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）白石組",
+     "pref": "",
+     "amount": 73030000.0
+    },
+    {
+     "company": "（株）前田組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（有）北代組",
+     "pref": "",
+     "amount": 72990000.0
+    },
+    {
+     "company": "（株）黒瀬建設",
+     "pref": "",
+     "amount": 73100000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "9baff76f2f42"
+  },
+  {
+   "date": "2026-06-16",
+   "name": "令和８年度遠賀川知古地区上流掘削工事",
+   "org": "九州地方整備局　遠賀川河川事務所",
+   "company": "（株）田代土木",
+   "amount": 69510000.0,
+   "rate": 90.48,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）大和土木",
+     "pref": "",
+     "amount": 69550000.0
+    },
+    {
+     "company": "（株）関野建設",
+     "pref": "",
+     "amount": 69540000.0
+    },
+    {
+     "company": "川本建設工業（株）",
+     "pref": "",
+     "amount": 69700000.0
+    },
+    {
+     "company": "（株）石橋組",
+     "pref": "",
+     "amount": 69550000.0
+    },
+    {
+     "company": "清水丸源建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "崎村組",
+     "pref": "",
+     "amount": 69570000.0
+    },
+    {
+     "company": "（株）安部工務店",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "有田建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）田代土木",
+     "pref": "",
+     "amount": 69510000.0
+    },
+    {
+     "company": "光工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "協和建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "柴田建設工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）松原土木",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（有）安永工務店",
+     "pref": "",
+     "amount": 69500000.0
+    },
+    {
+     "company": "藤木建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）双一開發",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）高瀬組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）白石組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）前田組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（有）北代組",
+     "pref": "",
+     "amount": 69500000.0
+    },
+    {
+     "company": "（株）黒瀬建設",
+     "pref": "",
+     "amount": 69700000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "1eadf4f28248"
+  },
+  {
+   "date": "2026-06-15",
+   "name": "令和８年度遠賀川下大隈地区上流掘削工事",
+   "org": "九州地方整備局　遠賀川河川事務所",
+   "company": "光工業（株）",
+   "amount": 77590000.0,
+   "rate": 90.58,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）大和土木",
+     "pref": "",
+     "amount": 77600000.0
+    },
+    {
+     "company": "（株）関野建設",
+     "pref": "",
+     "amount": 77600000.0
+    },
+    {
+     "company": "川本建設工業（株）",
+     "pref": "",
+     "amount": 77770000.0
+    },
+    {
+     "company": "（株）石橋組",
+     "pref": "",
+     "amount": 77600000.0
+    },
+    {
+     "company": "清水丸源建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "崎村組",
+     "pref": "",
+     "amount": 77640000.0
+    },
+    {
+     "company": "（株）安部工務店",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "有田建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）田代土木",
+     "pref": "",
+     "amount": 77580000.0
+    },
+    {
+     "company": "光工業（株）",
+     "pref": "",
+     "amount": 77590000.0
+    },
+    {
+     "company": "柴田建設工業（株）",
+     "pref": "",
+     "amount": 77600000.0
+    },
+    {
+     "company": "（株）松原土木",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "藤木建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）双一開發",
+     "pref": "",
+     "amount": 77600000.0
+    },
+    {
+     "company": "（株）高瀬組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）白石組",
+     "pref": "",
+     "amount": 77620000.0
+    },
+    {
+     "company": "（株）前田組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）黒瀬建設",
+     "pref": "",
+     "amount": 77650000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "287eb6ee8e72"
+  },
+  {
+   "date": "2026-06-15",
+   "name": "令和８年度遠賀川片島地区掘削外工事",
+   "org": "九州地方整備局　遠賀川河川事務所",
+   "company": "柴田建設工業（株）",
+   "amount": 69900000.0,
+   "rate": 90.49,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）大和土木",
+     "pref": "",
+     "amount": 69900000.0
+    },
+    {
+     "company": "（株）関野建設",
+     "pref": "",
+     "amount": 69890000.0
+    },
+    {
+     "company": "川本建設工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）石橋組",
+     "pref": "",
+     "amount": 69900000.0
+    },
+    {
+     "company": "清水丸源建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "崎村組",
+     "pref": "",
+     "amount": 69920000.0
+    },
+    {
+     "company": "（株）安部工務店",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "有田建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）田代土木",
+     "pref": "",
+     "amount": 69860000.0
+    },
+    {
+     "company": "光工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "柴田建設工業（株）",
+     "pref": "",
+     "amount": 69900000.0
+    },
+    {
+     "company": "藤木建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）双一開發",
+     "pref": "",
+     "amount": 69900000.0
+    },
+    {
+     "company": "（株）高瀬組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）白石組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）前田組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）黒瀬建設",
+     "pref": "",
+     "amount": 70000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "67263fe9b333"
+  },
+  {
+   "date": "2026-06-15",
+   "name": "令和８年度長崎５７号田尻地区環境整備工事",
+   "org": "九州地方整備局　長崎河川国道事務所",
+   "company": "（株）荒木組",
+   "amount": 113000000.0,
+   "rate": 94.11,
+   "kind": "維持修繕工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "吉川建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）親和テクノ",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）寺尾建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）ウヱノ",
+     "pref": "",
+     "amount": 118400000.0
+    },
+    {
+     "company": "（株）荒木組",
+     "pref": "",
+     "amount": 113000000.0
+    },
+    {
+     "company": "増崎建設（株）",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "aa9582f60923"
+  },
+  {
+   "date": "2026-06-15",
+   "name": "Ｒ８球磨川渡地区築堤護岸外工事",
+   "org": "九州地方整備局　八代河川国道事務所",
+   "company": "（株）上村工業",
+   "amount": 260000000.0,
+   "rate": 91.78,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）上村工業",
+     "pref": "",
+     "amount": 260000000.0
+    },
+    {
+     "company": "徳南建設（株）",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "ba4d05618ed2"
+  },
+  {
+   "date": "2026-06-15",
+   "name": "合志川災害復旧（その２）工事",
+   "org": "九州地方整備局　菊池川河川事務所",
+   "company": "（株）中川組",
+   "amount": 131370000.0,
+   "rate": 90.92,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）緒方建設",
+     "pref": "",
+     "amount": 133200000.0
+    },
+    {
+     "company": "（株）八方建設",
+     "pref": "",
+     "amount": 131300000.0
+    },
+    {
+     "company": "（株）中川組",
+     "pref": "",
+     "amount": 131370000.0
+    },
+    {
+     "company": "（株）トーカイ",
+     "pref": "",
+     "amount": 131080000.0
+    },
+    {
+     "company": "（株）フチガミ",
+     "pref": "",
+     "amount": 133150000.0
+    },
+    {
+     "company": "（株）宝建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）熊野組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "世紀建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）十五建設",
+     "pref": "",
+     "amount": 131300000.0
+    },
+    {
+     "company": "（株）吉村建設",
+     "pref": "",
+     "amount": 131290000.0
+    },
+    {
+     "company": "（株）イワタ",
+     "pref": "",
+     "amount": 134000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "39080f71bb5e"
+  },
+  {
+   "date": "2026-06-15",
+   "name": "令和８年度道の駅いぶすき情報休憩施設衛生設備外工事",
+   "org": "九州地方整備局　鹿児島国道事務所",
+   "company": "セイコー工業（株）",
+   "amount": 87870000.0,
+   "rate": 92.88,
+   "kind": "暖冷房衛生設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "テクノ冷熱（株）",
+     "pref": "",
+     "amount": 91240000.0
+    },
+    {
+     "company": "旭工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "セイコー工業（株）",
+     "pref": "",
+     "amount": 87870000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "1c1dd7421f6c"
+  },
+  {
+   "date": "2026-06-12",
+   "name": "令和８年度遠賀川下大隈地区下流掘削外工事",
+   "org": "九州地方整備局　遠賀川河川事務所",
+   "company": "（株）松原土木",
+   "amount": 83380000.0,
+   "rate": 90.71,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）大和土木",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）関野建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "川本建設工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）石橋組",
+     "pref": "",
+     "amount": 83300000.0
+    },
+    {
+     "company": "清水丸源建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "崎村組",
+     "pref": "",
+     "amount": 83350000.0
+    },
+    {
+     "company": "（株）安部工務店",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "有田建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）田代土木",
+     "pref": "",
+     "amount": 83300000.0
+    },
+    {
+     "company": "光工業（株）",
+     "pref": "",
+     "amount": 83310000.0
+    },
+    {
+     "company": "柴田建設工業（株）",
+     "pref": "",
+     "amount": 83300000.0
+    },
+    {
+     "company": "（株）松原土木",
+     "pref": "",
+     "amount": 83380000.0
+    },
+    {
+     "company": "藤木建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）双一開發",
+     "pref": "",
+     "amount": 83350000.0
+    },
+    {
+     "company": "（株）高瀬組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）白石組",
+     "pref": "",
+     "amount": 83350000.0
+    },
+    {
+     "company": "（株）前田組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）黒瀬建設",
+     "pref": "",
+     "amount": 83400000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "85c3664bd05f"
+  },
+  {
+   "date": "2026-06-12",
+   "name": "熊本３号岡山地区改良５工区工事",
+   "org": "九州地方整備局　八代河川国道事務所",
+   "company": "徳倉建設（株）",
+   "amount": 560500000.0,
+   "rate": 91.49,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "松尾建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "徳倉建設（株）",
+     "pref": "",
+     "amount": 560500000.0
+    },
+    {
+     "company": "（株）森組",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "bc74430884f3"
+  },
+  {
+   "date": "2026-06-11",
+   "name": "遠賀川直方津田町地区築堤護岸工事",
+   "org": "九州地方整備局　遠賀川河川事務所",
+   "company": "協和建設（株）",
+   "amount": 118880000.0,
+   "rate": 91.07,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）大和土木",
+     "pref": "",
+     "amount": 118750000.0
+    },
+    {
+     "company": "川本建設工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）石橋組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "清水丸源建設（株）",
+     "pref": "",
+     "amount": 119210000.0
+    },
+    {
+     "company": "崎村組",
+     "pref": "",
+     "amount": 119060000.0
+    },
+    {
+     "company": "（株）安部工務店",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "有田建設（株）",
+     "pref": "",
+     "amount": 118720000.0
+    },
+    {
+     "company": "（株）田代土木",
+     "pref": "",
+     "amount": 119100000.0
+    },
+    {
+     "company": "光工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "協和建設（株）",
+     "pref": "",
+     "amount": 118880000.0
+    },
+    {
+     "company": "柴田建設工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）松原土木",
+     "pref": "",
+     "amount": 125000000.0
+    },
+    {
+     "company": "（有）安永工務店",
+     "pref": "",
+     "amount": 118860000.0
+    },
+    {
+     "company": "藤木建設（株）",
+     "pref": "",
+     "amount": 118600000.0
+    },
+    {
+     "company": "（株）双一開發",
+     "pref": "",
+     "amount": 118580000.0
+    },
+    {
+     "company": "（株）高瀬組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）白石組",
+     "pref": "",
+     "amount": 129530000.0
+    },
+    {
+     "company": "（株）前田組",
+     "pref": "",
+     "amount": 118700000.0
+    },
+    {
+     "company": "（有）北代組",
+     "pref": "",
+     "amount": 130000000.0
+    },
+    {
+     "company": "（株）黒瀬建設",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "4c98aa13f25c"
+  },
+  {
+   "date": "2026-06-11",
+   "name": "遠賀川直方殿町地区築堤護岸工事",
+   "org": "九州地方整備局　遠賀川河川事務所",
+   "company": "有田建設（株）",
+   "amount": 114090000.0,
+   "rate": 90.87,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）大和土木",
+     "pref": "",
+     "amount": 114480000.0
+    },
+    {
+     "company": "川本建設工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）石橋組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "清水丸源建設（株）",
+     "pref": "",
+     "amount": 115710000.0
+    },
+    {
+     "company": "崎村組",
+     "pref": "",
+     "amount": 114730000.0
+    },
+    {
+     "company": "（株）安部工務店",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "有田建設（株）",
+     "pref": "",
+     "amount": 114090000.0
+    },
+    {
+     "company": "（株）田代土木",
+     "pref": "",
+     "amount": 114820000.0
+    },
+    {
+     "company": "光工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "協和建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "柴田建設工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）松原土木",
+     "pref": "",
+     "amount": 119000000.0
+    },
+    {
+     "company": "（有）安永工務店",
+     "pref": "",
+     "amount": 114690000.0
+    },
+    {
+     "company": "藤木建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）双一開發",
+     "pref": "",
+     "amount": 114040000.0
+    },
+    {
+     "company": "（株）高瀬組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）白石組",
+     "pref": "",
+     "amount": 125200000.0
+    },
+    {
+     "company": "（株）前田組",
+     "pref": "",
+     "amount": 114200000.0
+    },
+    {
+     "company": "（有）北代組",
+     "pref": "",
+     "amount": 125000000.0
+    },
+    {
+     "company": "（株）黒瀬建設",
+     "pref": "",
+     "amount": 126200000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "db6d83a5770b"
+  },
+  {
+   "date": "2026-06-11",
+   "name": "遠賀川直方新町地区築堤護岸工事",
+   "org": "九州地方整備局　遠賀川河川事務所",
+   "company": "藤木建設（株）",
+   "amount": 115400000.0,
+   "rate": 90.84,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）大和土木",
+     "pref": "",
+     "amount": 115650000.0
+    },
+    {
+     "company": "川本建設工業（株）",
+     "pref": "",
+     "amount": 115650000.0
+    },
+    {
+     "company": "（株）石橋組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "清水丸源建設（株）",
+     "pref": "",
+     "amount": 116360000.0
+    },
+    {
+     "company": "崎村組",
+     "pref": "",
+     "amount": 115960000.0
+    },
+    {
+     "company": "（株）安部工務店",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "有田建設（株）",
+     "pref": "",
+     "amount": 115450000.0
+    },
+    {
+     "company": "（株）田代土木",
+     "pref": "",
+     "amount": 116270000.0
+    },
+    {
+     "company": "光工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "協和建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "柴田建設工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）松原土木",
+     "pref": "",
+     "amount": 120000000.0
+    },
+    {
+     "company": "（有）安永工務店",
+     "pref": "",
+     "amount": 115850000.0
+    },
+    {
+     "company": "藤木建設（株）",
+     "pref": "",
+     "amount": 115400000.0
+    },
+    {
+     "company": "（株）双一開發",
+     "pref": "",
+     "amount": 115400000.0
+    },
+    {
+     "company": "（株）高瀬組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）白石組",
+     "pref": "",
+     "amount": 126200000.0
+    },
+    {
+     "company": "（株）前田組",
+     "pref": "",
+     "amount": 115700000.0
+    },
+    {
+     "company": "（有）北代組",
+     "pref": "",
+     "amount": 127000000.0
+    },
+    {
+     "company": "（株）黒瀬建設",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "5585f67101cf"
+  },
+  {
+   "date": "2026-06-11",
+   "name": "犬鳴川宮田地区掘削外工事",
+   "org": "九州地方整備局　遠賀川河川事務所",
+   "company": "（株）双一開發",
+   "amount": 103580000.0,
+   "rate": 90.77,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）大和土木",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）関野建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）石橋組",
+     "pref": "",
+     "amount": 103700000.0
+    },
+    {
+     "company": "清水丸源建設（株）",
+     "pref": "",
+     "amount": 103770000.0
+    },
+    {
+     "company": "崎村組",
+     "pref": "",
+     "amount": 103820000.0
+    },
+    {
+     "company": "（株）安部工務店",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "有田建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）田代土木",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "光工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "協和建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "柴田建設工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）松原土木",
+     "pref": "",
+     "amount": 103770000.0
+    },
+    {
+     "company": "（有）安永工務店",
+     "pref": "",
+     "amount": 103790000.0
+    },
+    {
+     "company": "藤木建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）双一開發",
+     "pref": "",
+     "amount": 103580000.0
+    },
+    {
+     "company": "（株）高瀬組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）白石組",
+     "pref": "",
+     "amount": 113250000.0
+    },
+    {
+     "company": "（株）前田組",
+     "pref": "",
+     "amount": 104000000.0
+    },
+    {
+     "company": "（有）北代組",
+     "pref": "",
+     "amount": 114000000.0
+    },
+    {
+     "company": "（株）黒瀬建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）修成工業",
+     "pref": "",
+     "amount": 104220000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "fe8d3f91211e"
+  },
+  {
+   "date": "2026-06-11",
+   "name": "笹尾川野面地区掘削工事",
+   "org": "九州地方整備局　遠賀川河川事務所",
+   "company": "（株）前田組",
+   "amount": 68500000.0,
+   "rate": 91.1,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）大和土木",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）関野建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "川本建設工業（株）",
+     "pref": "",
+     "amount": 71000000.0
+    },
+    {
+     "company": "（株）石橋組",
+     "pref": "",
+     "amount": 68100000.0
+    },
+    {
+     "company": "清水丸源建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "崎村組",
+     "pref": "",
+     "amount": 67990000.0
+    },
+    {
+     "company": "（株）安部工務店",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "有田建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "小西建設工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "柴田建設工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "藤木建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）双一開發",
+     "pref": "",
+     "amount": 68000000.0
+    },
+    {
+     "company": "（株）高瀬組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）前田組",
+     "pref": "",
+     "amount": 68500000.0
+    },
+    {
+     "company": "（有）北代組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）黒瀬建設",
+     "pref": "",
+     "amount": 70000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "2f4baa525e7c"
+  },
+  {
+   "date": "2026-06-11",
+   "name": "令和８年度　緑川樋管補修及び維持管理工事",
+   "org": "九州地方整備局　熊本河川国道事務所",
+   "company": "松本建設（株）",
+   "amount": 67300000.0,
+   "rate": 90.71,
+   "kind": "維持修繕工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）杉本建設",
+     "pref": "",
+     "amount": 67880000.0
+    },
+    {
+     "company": "松本建設（株）",
+     "pref": "",
+     "amount": 67300000.0
+    },
+    {
+     "company": "（株）坂本建設",
+     "pref": "",
+     "amount": 72180000.0
+    },
+    {
+     "company": "（有）八十建設",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "7b7fa2a3cc01"
+  },
+  {
+   "date": "2026-06-11",
+   "name": "Ｒ８簡易パーキング「宇佐市」防災倉庫新築工事",
+   "org": "九州地方整備局　大分河川国道事務所",
+   "company": "（株）末宗組",
+   "amount": 175000000.0,
+   "rate": 97.49,
+   "kind": "建築工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）末宗組",
+     "pref": "",
+     "amount": 175000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "32f4624bba9b"
+  },
+  {
+   "date": "2026-06-10",
+   "name": "合志川災害復旧（その１）工事",
+   "org": "九州地方整備局　菊池川河川事務所",
+   "company": "（株）熊野組",
+   "amount": 132060000.0,
+   "rate": 90.82,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）緒方建設",
+     "pref": "",
+     "amount": 135900000.0
+    },
+    {
+     "company": "（株）八方建設",
+     "pref": "",
+     "amount": 132150000.0
+    },
+    {
+     "company": "（株）中川組",
+     "pref": "",
+     "amount": 132260000.0
+    },
+    {
+     "company": "（株）トーカイ",
+     "pref": "",
+     "amount": 131900000.0
+    },
+    {
+     "company": "（株）フチガミ",
+     "pref": "",
+     "amount": 133800000.0
+    },
+    {
+     "company": "（株）宝建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）熊野組",
+     "pref": "",
+     "amount": 132060000.0
+    },
+    {
+     "company": "世紀建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）十五建設",
+     "pref": "",
+     "amount": 132000000.0
+    },
+    {
+     "company": "（株）吉村建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）イワタ",
+     "pref": "",
+     "amount": 136500000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "bacdf2a56033"
+  },
+  {
+   "date": "2026-06-10",
+   "name": "令和８年度　古川樋門外機械設備修繕工事",
+   "org": "九州地方整備局　延岡河川国道事務所",
+   "company": "なごみ管理機工（株）",
+   "amount": 46800000.0,
+   "rate": 99.3,
+   "kind": "機械設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）協和製作所",
+     "pref": "",
+     "amount": 47400000.0
+    },
+    {
+     "company": "なごみ管理機工（株）",
+     "pref": "",
+     "amount": 46800000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "d9510a49c974"
+  },
+  {
    "date": "2026-06-09",
    "name": "令和８年度　山鳥坂ダム残土仮置場造成外（その１）工事",
    "org": "四国地方整備局　山鳥坂ダム工事事務所",
@@ -290,6 +3640,326 @@
    ],
    "detail_url": "",
    "id": "df340de28aad"
+  },
+  {
+   "date": "2026-06-09",
+   "name": "犬鳴川金丸地区掘削外工事",
+   "org": "九州地方整備局　遠賀川河川事務所",
+   "company": "（株）松原土木",
+   "amount": 99640000.0,
+   "rate": 90.47,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）大和土木",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）関野建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）石橋組",
+     "pref": "",
+     "amount": 99750000.0
+    },
+    {
+     "company": "清水丸源建設（株）",
+     "pref": "",
+     "amount": 99760000.0
+    },
+    {
+     "company": "崎村組",
+     "pref": "",
+     "amount": 99800000.0
+    },
+    {
+     "company": "（株）安部工務店",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "有田建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）田代土木",
+     "pref": "",
+     "amount": 99670000.0
+    },
+    {
+     "company": "光工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "協和建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "柴田建設工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）松原土木",
+     "pref": "",
+     "amount": 99640000.0
+    },
+    {
+     "company": "（有）安永工務店",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "藤木建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）双一開發",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）高瀬組",
+     "pref": "",
+     "amount": 99700000.0
+    },
+    {
+     "company": "（株）白石組",
+     "pref": "",
+     "amount": 110000000.0
+    },
+    {
+     "company": "（株）前田組",
+     "pref": "",
+     "amount": 100000000.0
+    },
+    {
+     "company": "（有）北代組",
+     "pref": "",
+     "amount": 99650000.0
+    },
+    {
+     "company": "（株）黒瀬建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）修成工業",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "1d374c29089f"
+  },
+  {
+   "date": "2026-06-09",
+   "name": "浜戸川新開地区（８工区）築堤工事",
+   "org": "九州地方整備局　熊本河川国道事務所",
+   "company": "（株）杉本建設",
+   "amount": 104750000.0,
+   "rate": 90.91,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "山本建設（株）",
+     "pref": "",
+     "amount": 104820000.0
+    },
+    {
+     "company": "（株）明興建設",
+     "pref": "",
+     "amount": 104970000.0
+    },
+    {
+     "company": "（株）杉本建設",
+     "pref": "",
+     "amount": 104750000.0
+    },
+    {
+     "company": "松本建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "大政建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）吉永産業",
+     "pref": "",
+     "amount": 105950000.0
+    },
+    {
+     "company": "（株）吉田企業",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）岩永組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）高村建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）十五建設",
+     "pref": "",
+     "amount": 104900000.0
+    },
+    {
+     "company": "（株）南州土木",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）坂本建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（有）八十建設",
+     "pref": "",
+     "amount": 104800000.0
+    },
+    {
+     "company": "大栄企業（株）",
+     "pref": "",
+     "amount": 110300000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "b39e444aa385"
+  },
+  {
+   "date": "2026-06-09",
+   "name": "浜戸川新開地区（７工区）築堤工事",
+   "org": "九州地方整備局　熊本河川国道事務所",
+   "company": "大政建設（株）",
+   "amount": 113200000.0,
+   "rate": 91.0,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "山本建設（株）",
+     "pref": "",
+     "amount": 113220000.0
+    },
+    {
+     "company": "（株）明興建設",
+     "pref": "",
+     "amount": 113330000.0
+    },
+    {
+     "company": "（株）杉本建設",
+     "pref": "",
+     "amount": 113200000.0
+    },
+    {
+     "company": "松本建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "大政建設（株）",
+     "pref": "",
+     "amount": 113200000.0
+    },
+    {
+     "company": "（株）吉永産業",
+     "pref": "",
+     "amount": 114250000.0
+    },
+    {
+     "company": "（株）吉田企業",
+     "pref": "",
+     "amount": 113700000.0
+    },
+    {
+     "company": "（株）岩永組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）高村建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）十五建設",
+     "pref": "",
+     "amount": 113200000.0
+    },
+    {
+     "company": "（株）南州土木",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）坂本建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（有）八十建設",
+     "pref": "",
+     "amount": 113200000.0
+    },
+    {
+     "company": "大栄企業（株）",
+     "pref": "",
+     "amount": 119614000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "b549e41ba6ad"
   },
   {
    "date": "2026-06-08",
@@ -357,6 +4027,711 @@
    "id": "7219e83f574c"
   },
   {
+   "date": "2026-06-08",
+   "name": "白川十禅寺地区（１工区）外掘削護岸工事",
+   "org": "九州地方整備局　熊本河川国道事務所",
+   "company": "（有）八十建設",
+   "amount": 123100000.0,
+   "rate": 90.61,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "山本建設（株）",
+     "pref": "",
+     "amount": 123300000.0
+    },
+    {
+     "company": "（株）明興建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）杉本建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "松本建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）丸立",
+     "pref": "",
+     "amount": 124000000.0
+    },
+    {
+     "company": "大政建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）吉永産業",
+     "pref": "",
+     "amount": 126100000.0
+    },
+    {
+     "company": "（株）岩永組",
+     "pref": "",
+     "amount": 123400000.0
+    },
+    {
+     "company": "（株）十五建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）南州土木",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（有）八十建設",
+     "pref": "",
+     "amount": 123100000.0
+    },
+    {
+     "company": "（株）イワタ",
+     "pref": "",
+     "amount": 125000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "d8f7e40c0d46"
+  },
+  {
+   "date": "2026-06-08",
+   "name": "白川十禅寺地区（２工区）掘削護岸工事",
+   "org": "九州地方整備局　熊本河川国道事務所",
+   "company": "（株）南州土木",
+   "amount": 129650000.0,
+   "rate": 90.78,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "山本建設（株）",
+     "pref": "",
+     "amount": 129700000.0
+    },
+    {
+     "company": "（株）明興建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）杉本建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "松本建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）丸立",
+     "pref": "",
+     "amount": 130600000.0
+    },
+    {
+     "company": "大政建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）吉永産業",
+     "pref": "",
+     "amount": 131700000.0
+    },
+    {
+     "company": "（株）岩永組",
+     "pref": "",
+     "amount": 129700000.0
+    },
+    {
+     "company": "（株）十五建設",
+     "pref": "",
+     "amount": 130400000.0
+    },
+    {
+     "company": "（株）南州土木",
+     "pref": "",
+     "amount": 129650000.0
+    },
+    {
+     "company": "（有）八十建設",
+     "pref": "",
+     "amount": 129700000.0
+    },
+    {
+     "company": "（株）イワタ",
+     "pref": "",
+     "amount": 130000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "3edce73fe586"
+  },
+  {
+   "date": "2026-06-08",
+   "name": "白川蓮台寺地区（１工区）掘削護岸工事",
+   "org": "九州地方整備局　熊本河川国道事務所",
+   "company": "（株）十五建設",
+   "amount": 115400000.0,
+   "rate": 90.72,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "山本建設（株）",
+     "pref": "",
+     "amount": 115400000.0
+    },
+    {
+     "company": "（株）明興建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）杉本建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "松本建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）丸立",
+     "pref": "",
+     "amount": 117000000.0
+    },
+    {
+     "company": "大政建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）吉永産業",
+     "pref": "",
+     "amount": 118150000.0
+    },
+    {
+     "company": "（株）岩永組",
+     "pref": "",
+     "amount": 115500000.0
+    },
+    {
+     "company": "（株）十五建設",
+     "pref": "",
+     "amount": 115400000.0
+    },
+    {
+     "company": "（株）南州土木",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（有）八十建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）イワタ",
+     "pref": "",
+     "amount": 115400000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "b931bf85e2d8"
+  },
+  {
+   "date": "2026-06-08",
+   "name": "冬野川右支川砂防堰堤新設（１期）外工事",
+   "org": "九州地方整備局　阿蘇砂防事務所",
+   "company": "（株）森工業",
+   "amount": 223700000.0,
+   "rate": 90.94,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）丸立",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）肥後建設社",
+     "pref": "",
+     "amount": 225500000.0
+    },
+    {
+     "company": "（株）森工業",
+     "pref": "",
+     "amount": 223700000.0
+    },
+    {
+     "company": "（株）藤本建設工業",
+     "pref": "",
+     "amount": 242800000.0
+    },
+    {
+     "company": "（株）吉村建設",
+     "pref": "",
+     "amount": 243000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "3859652e38b6"
+  },
+  {
+   "date": "2026-06-08",
+   "name": "令和８年度山国川上唐原地区防災ステーション整備工事",
+   "org": "九州地方整備局　山国川河川事務所",
+   "company": "佐々木工業・佐々木建設（共）",
+   "amount": 120000000.0,
+   "rate": 92.31,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）末宗組",
+     "pref": "",
+     "amount": 118300000.0
+    },
+    {
+     "company": "末宗建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）菅組",
+     "pref": "",
+     "amount": 118200000.0
+    },
+    {
+     "company": "伸和建設（株）",
+     "pref": "",
+     "amount": 119600000.0
+    },
+    {
+     "company": "大浜建設工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "岡本土木（株）",
+     "pref": "",
+     "amount": 118500000.0
+    },
+    {
+     "company": "（株）小森建設",
+     "pref": "",
+     "amount": 118350000.0
+    },
+    {
+     "company": "（株）福原組",
+     "pref": "",
+     "amount": 119550000.0
+    },
+    {
+     "company": "笹原建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）元吉建設工業",
+     "pref": "",
+     "amount": 118280000.0
+    },
+    {
+     "company": "（株）久綱産業",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "佐々木工業・佐々木建設（共）",
+     "pref": "",
+     "amount": 120000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "fabc23aae720"
+  },
+  {
+   "date": "2026-06-05",
+   "name": "浜戸川走潟地区（５工区）築堤工事",
+   "org": "九州地方整備局　熊本河川国道事務所",
+   "company": "（株）南州土木",
+   "amount": 128950000.0,
+   "rate": 91.05,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "山本建設（株）",
+     "pref": "",
+     "amount": 129030000.0
+    },
+    {
+     "company": "（株）明興建設",
+     "pref": "",
+     "amount": 129080000.0
+    },
+    {
+     "company": "（株）杉本建設",
+     "pref": "",
+     "amount": 128900000.0
+    },
+    {
+     "company": "松本建設（株）",
+     "pref": "",
+     "amount": 129300000.0
+    },
+    {
+     "company": "大政建設（株）",
+     "pref": "",
+     "amount": 128950000.0
+    },
+    {
+     "company": "（株）吉永産業",
+     "pref": "",
+     "amount": 131060000.0
+    },
+    {
+     "company": "（株）吉田企業",
+     "pref": "",
+     "amount": 129600000.0
+    },
+    {
+     "company": "（株）岩永組",
+     "pref": "",
+     "amount": 129000000.0
+    },
+    {
+     "company": "（株）高村建設",
+     "pref": "",
+     "amount": 129150000.0
+    },
+    {
+     "company": "（株）十五建設",
+     "pref": "",
+     "amount": 129000000.0
+    },
+    {
+     "company": "（株）南州土木",
+     "pref": "",
+     "amount": 128950000.0
+    },
+    {
+     "company": "（株）坂本建設",
+     "pref": "",
+     "amount": 129880000.0
+    },
+    {
+     "company": "（有）八十建設",
+     "pref": "",
+     "amount": 129000000.0
+    },
+    {
+     "company": "大栄企業（株）",
+     "pref": "",
+     "amount": 135082000.0
+    },
+    {
+     "company": "（株）イワタ",
+     "pref": "",
+     "amount": 129000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "ac88ad57cb9f"
+  },
+  {
+   "date": "2026-06-05",
+   "name": "浜戸川走潟地区（６工区）築堤工事",
+   "org": "九州地方整備局　熊本河川国道事務所",
+   "company": "松本建設（株）",
+   "amount": 121800000.0,
+   "rate": 91.28,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "山本建設（株）",
+     "pref": "",
+     "amount": 121500000.0
+    },
+    {
+     "company": "（株）明興建設",
+     "pref": "",
+     "amount": 121620000.0
+    },
+    {
+     "company": "（株）杉本建設",
+     "pref": "",
+     "amount": 121400000.0
+    },
+    {
+     "company": "松本建設（株）",
+     "pref": "",
+     "amount": 121800000.0
+    },
+    {
+     "company": "大政建設（株）",
+     "pref": "",
+     "amount": 121450000.0
+    },
+    {
+     "company": "（株）吉永産業",
+     "pref": "",
+     "amount": 123450000.0
+    },
+    {
+     "company": "（株）吉田企業",
+     "pref": "",
+     "amount": 122000000.0
+    },
+    {
+     "company": "（株）岩永組",
+     "pref": "",
+     "amount": 121600000.0
+    },
+    {
+     "company": "（株）高村建設",
+     "pref": "",
+     "amount": 121670000.0
+    },
+    {
+     "company": "（株）十五建設",
+     "pref": "",
+     "amount": 121500000.0
+    },
+    {
+     "company": "（株）南州土木",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）坂本建設",
+     "pref": "",
+     "amount": 122180000.0
+    },
+    {
+     "company": "（有）八十建設",
+     "pref": "",
+     "amount": 121500000.0
+    },
+    {
+     "company": "大栄企業（株）",
+     "pref": "",
+     "amount": 126643000.0
+    },
+    {
+     "company": "（株）イワタ",
+     "pref": "",
+     "amount": 121500000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "fba74319b676"
+  },
+  {
+   "date": "2026-06-04",
+   "name": "緑川海路口地区（２工区）護岸工事",
+   "org": "九州地方整備局　熊本河川国道事務所",
+   "company": "（株）明興建設",
+   "amount": 93130000.0,
+   "rate": 91.12,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "山本建設（株）",
+     "pref": "",
+     "amount": 93000000.0
+    },
+    {
+     "company": "（株）明興建設",
+     "pref": "",
+     "amount": 93130000.0
+    },
+    {
+     "company": "（株）杉本建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "松本建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "大政建設（株）",
+     "pref": "",
+     "amount": 92950000.0
+    },
+    {
+     "company": "（株）十五建設",
+     "pref": "",
+     "amount": 93100000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "9df6b0a778db"
+  },
+  {
+   "date": "2026-06-04",
+   "name": "令和８年度川内川水系えびの地区維持管理工事",
+   "org": "九州地方整備局　川内川河川事務所",
+   "company": "（株）オーム工業",
+   "amount": 83800000.0,
+   "rate": 91.3,
+   "kind": "維持修繕工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "吉原建設（株）",
+     "pref": "",
+     "amount": 93000000.0
+    },
+    {
+     "company": "（株）オーム工業",
+     "pref": "",
+     "amount": 83800000.0
+    },
+    {
+     "company": "（株）桜木組",
+     "pref": "",
+     "amount": 84670000.0
+    },
+    {
+     "company": "（株）山本組",
+     "pref": "",
+     "amount": 83250000.0
+    },
+    {
+     "company": "（株）淵上組",
+     "pref": "",
+     "amount": 84770000.0
+    },
+    {
+     "company": "（株）坂下組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "段建設工業（株）",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "b8bb8932a3a0"
+  },
+  {
    "date": "2026-06-03",
    "name": "令和８年度　国道５６号百石地区自転車通行環境整備外工事",
    "org": "四国地方整備局　土佐国道事務所",
@@ -410,6 +4785,126 @@
    ],
    "detail_url": "",
    "id": "0dd0dcd9091e"
+  },
+  {
+   "date": "2026-06-03",
+   "name": "直方地区陸閘ゲート設備製作据付工事",
+   "org": "九州地方整備局　遠賀川河川事務所",
+   "company": "なごみ管理機工（株）",
+   "amount": 25560000.0,
+   "rate": 94.18,
+   "kind": "機械設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "矢田工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）協和製作所",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "なごみ管理機工（株）",
+     "pref": "",
+     "amount": 25560000.0
+    },
+    {
+     "company": "（株）タカセ・エンジニアリング",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）乗富鉄工所",
+     "pref": "",
+     "amount": 26200000.0
+    },
+    {
+     "company": "開成工業（株）",
+     "pref": "",
+     "amount": 26600000.0
+    },
+    {
+     "company": "直方工業（株）",
+     "pref": "",
+     "amount": 25000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "15d6dedfbe6a"
+  },
+  {
+   "date": "2026-06-03",
+   "name": "Ｒ８球磨川柳瀬遊水地築堤外（１工区）工事",
+   "org": "九州地方整備局　八代河川国道事務所",
+   "company": "（株）土井組",
+   "amount": 296000000.0,
+   "rate": 96.43,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）土井組",
+     "pref": "",
+     "amount": 296000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "40e757babbe4"
+  },
+  {
+   "date": "2026-06-03",
+   "name": "Ｒ８球磨川中神遊水地築堤外工事",
+   "org": "九州地方整備局　八代河川国道事務所",
+   "company": "丸昭建設（株）",
+   "amount": 273000000.0,
+   "rate": 97.5,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "丸昭建設（株）",
+     "pref": "",
+     "amount": 273000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "54ac660c7d64"
   },
   {
    "date": "2026-06-02",
@@ -552,6 +5047,51 @@
    "id": "2816adeb045e"
   },
   {
+   "date": "2026-06-02",
+   "name": "令和８年度佐世保国道維持出張所外非常用発電設備設置工事",
+   "org": "九州地方整備局　長崎河川国道事務所",
+   "company": "（株）カワサキコーポレーション",
+   "amount": 83116000.0,
+   "rate": 91.76,
+   "kind": "受変電設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）関電設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）カワサキコーポレーション",
+     "pref": "",
+     "amount": 83116000.0
+    },
+    {
+     "company": "（株）長北電設",
+     "pref": "",
+     "amount": 84000000.0
+    },
+    {
+     "company": "大久保電工（株）",
+     "pref": "",
+     "amount": 84840000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "3391657b5fab"
+  },
+  {
    "date": "2026-06-01",
    "name": "令和８年度　山鳥坂ダム奥の山管理用道路工事",
    "org": "四国地方整備局　山鳥坂ダム工事事務所",
@@ -587,6 +5127,186 @@
    "id": "d6a5435c42e5"
   },
   {
+   "date": "2026-06-01",
+   "name": "令和８年度　居立川排水樋門開閉装置更新外工事",
+   "org": "九州地方整備局　遠賀川河川事務所",
+   "company": "（株）協和製作所",
+   "amount": 54780000.0,
+   "rate": 99.65,
+   "kind": "機械設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）協和製作所",
+     "pref": "",
+     "amount": 54780000.0
+    },
+    {
+     "company": "なごみ管理機工（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）タカセ・エンジニアリング",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）乗富鉄工所",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "開成工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "直方工業（株）",
+     "pref": "",
+     "amount": 58800000.0
+    },
+    {
+     "company": "西田鉄工（株）",
+     "pref": "",
+     "amount": 68000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "ebb8df8e751a"
+  },
+  {
+   "date": "2026-06-01",
+   "name": "Ｒ８球磨川柳瀬遊水地築堤外（２工区）工事",
+   "org": "九州地方整備局　八代河川国道事務所",
+   "company": "（株）技建日本",
+   "amount": 277000000.0,
+   "rate": 98.32,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）技建日本",
+     "pref": "",
+     "amount": 277000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "33d3be2b83fd"
+  },
+  {
+   "date": "2026-06-01",
+   "name": "Ｒ８球磨川中津道地区掘削護岸（１工区）工事",
+   "org": "九州地方整備局　八代河川国道事務所",
+   "company": "（株）松中土建",
+   "amount": 280000000.0,
+   "rate": 99.22,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）松中土建",
+     "pref": "",
+     "amount": 280000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "e3e1f3e7b30d"
+  },
+  {
+   "date": "2026-06-01",
+   "name": "令和８年度国道１０号柳迫横断歩道橋設置工事",
+   "org": "九州地方整備局　鹿児島国道事務所",
+   "company": "清本鉄工（株）",
+   "amount": 78800000.0,
+   "rate": 90.35,
+   "kind": "鋼橋上部工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "九州地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(九州地方整備局)",
+     "url": "https://www.qsr.mlit.go.jp/content/000002383.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "矢田工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）東亜工業所",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）名村造船所",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "山九（株）",
+     "pref": "",
+     "amount": 90000000.0
+    },
+    {
+     "company": "日本鉄塔工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "清本鉄工（株）",
+     "pref": "",
+     "amount": 78800000.0
+    },
+    {
+     "company": "（株）大島造船所",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "6e756d54f53e"
+  },
+  {
    "date": "2026-05-29",
    "name": "犬鳴川本城地区上流掘削工事",
    "org": "九州地方整備局　遠賀川河川事務所",
@@ -603,7 +5323,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -653,7 +5373,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -768,7 +5488,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -1363,7 +6083,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -1613,7 +6333,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -1663,7 +6383,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -1723,7 +6443,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -1778,7 +6498,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -1988,7 +6708,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -2078,7 +6798,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -2128,7 +6848,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -2243,7 +6963,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -2648,7 +7368,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -2688,7 +7408,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -2763,7 +7483,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -2923,7 +7643,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -3003,7 +7723,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -3903,7 +8623,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -3948,7 +8668,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -3998,7 +8718,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -4073,7 +8793,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -4148,7 +8868,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -4183,7 +8903,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -4213,7 +8933,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -4243,7 +8963,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -4378,7 +9098,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -4428,7 +9148,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -4488,7 +9208,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -4558,7 +9278,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -4603,7 +9323,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -4643,7 +9363,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -4893,7 +9613,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -4958,7 +9678,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -5313,7 +10033,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -5378,7 +10098,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -5423,7 +10143,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -5473,7 +10193,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -5538,7 +10258,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -5593,7 +10313,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -5638,7 +10358,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -5983,7 +10703,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -6013,7 +10733,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -6048,7 +10768,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -6323,7 +11043,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -6393,7 +11113,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -6463,7 +11183,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -6533,7 +11253,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -6608,7 +11328,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -6698,7 +11418,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -6728,7 +11448,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -6768,7 +11488,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -6798,7 +11518,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -6893,7 +11613,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -7013,7 +11733,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -7068,7 +11788,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -7608,7 +12328,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -7678,7 +12398,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -7763,7 +12483,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -7793,7 +12513,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
@@ -7908,7 +12628,7 @@
    "docs": [
     {
      "label": "入札結果(九州地方整備局)",
-     "url": "https://www.qsr.mlit.go.jp/content/000002180.xlsx"
+     "url": "https://www.qsr.mlit.go.jp/content/000002385.xlsx"
     }
    ],
    "bidders": [
