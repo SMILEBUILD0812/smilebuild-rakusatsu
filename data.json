@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-17",
+ "updated": "2026-07-18",
  "cases": [
   {
    "date": "2026-06-30",
@@ -176755,106 +176755,6 @@
    ],
    "detail_url": "",
    "id": "cb4f1785dad4"
-  },
-  {
-   "date": "2024-07-17",
-   "name": "富山管内国道１６０号舗装工事",
-   "org": "北陸地方整備局　富山河川国道事務所",
-   "company": "（株）加賀田組",
-   "amount": 369000000.0,
-   "rate": 92.99,
-   "kind": "アスファルト舗装工事",
-   "period": "",
-   "pref": "",
-   "city": "",
-   "employees": null,
-   "category": "工事",
-   "bureau": "北陸地方整備局",
-   "docs": [
-    {
-     "label": "入札結果(北陸地方整備局)",
-     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2024.xls"
-    }
-   ],
-   "bidders": [
-    {
-     "company": "（株）加賀田組",
-     "pref": "",
-     "amount": 369000000.0
-    },
-    {
-     "company": "鹿島道路（株）",
-     "pref": "",
-     "amount": null
-    },
-    {
-     "company": "世紀東急工業（株）",
-     "pref": "",
-     "amount": 384000000.0
-    },
-    {
-     "company": "大成ロテック（株）",
-     "pref": "",
-     "amount": null
-    },
-    {
-     "company": "東亜道路工業（株）",
-     "pref": "",
-     "amount": null
-    },
-    {
-     "company": "日本道路（株）",
-     "pref": "",
-     "amount": null
-    },
-    {
-     "company": "福田道路（株）",
-     "pref": "",
-     "amount": 380000000.0
-    },
-    {
-     "company": "前田道路（株）",
-     "pref": "",
-     "amount": 364370000.0
-    },
-    {
-     "company": "（株）佐藤渡辺",
-     "pref": "",
-     "amount": 363600000.0
-    }
-   ],
-   "detail_url": "",
-   "id": "24bb88800e8a"
-  },
-  {
-   "date": "2024-07-17",
-   "name": "令和６年度小矢部大堰管理用制御処理設備改修工事",
-   "org": "北陸地方整備局　富山河川国道事務所",
-   "company": "ＮＥＳ（株）",
-   "amount": 68500000.0,
-   "rate": 98.79,
-   "kind": "通信設備工事",
-   "period": "",
-   "pref": "",
-   "city": "",
-   "employees": null,
-   "category": "工事",
-   "bureau": "北陸地方整備局",
-   "docs": [
-    {
-     "label": "入札結果(北陸地方整備局)",
-     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2024.xls"
-    }
-   ],
-   "bidders": [
-    {
-     "company": "ＮＥＳ（株）",
-     "pref": "",
-     "amount": 68500000.0
-    }
-   ],
-   "detail_url": "",
-   "id": "16884232dad8"
   }
  ]
 }
