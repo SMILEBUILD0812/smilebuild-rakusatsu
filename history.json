@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-20",
+ "updated": "2026-07-21",
  "cases": [
   {
    "date": "2026-06-30",
@@ -852,6 +852,126 @@
    "id": "17089d273c94"
   },
   {
+   "date": "2026-06-30",
+   "name": "Ｒ８　国道４号国見地区舗装工事",
+   "org": "東北地方整備局　仙台河川国道事務所",
+   "company": "東亜道路工業（株）",
+   "amount": 140500000.0,
+   "rate": 90.71,
+   "kind": "アスファルト舗装工事",
+   "period": "",
+   "pref": "東京都",
+   "city": "港区",
+   "employees": null,
+   "category": "工事",
+   "bureau": "東北地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(東北地方整備局)",
+     "url": "http://www.thr.mlit.go.jp/Bumon/B00013/K00730/nyusatu/nyusatukekka/kekkadata/2606_kouji.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）ＮＩＰＰＯ",
+     "pref": "",
+     "amount": 140400000.0
+    },
+    {
+     "company": "鹿島道路（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "東亜道路工業（株）",
+     "pref": "東京都",
+     "amount": 140500000.0
+    },
+    {
+     "company": "大林道路（株）",
+     "pref": "",
+     "amount": 140410000.0
+    },
+    {
+     "company": "（株）ガイアート",
+     "pref": "",
+     "amount": 142200000.0
+    },
+    {
+     "company": "大有建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）佐藤渡辺",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "北川ヒューテック（株）",
+     "pref": "",
+     "amount": 140800000.0
+    },
+    {
+     "company": "常盤工業（株）",
+     "pref": "",
+     "amount": 170000000.0
+    },
+    {
+     "company": "戸田道路（株）",
+     "pref": "",
+     "amount": 141390000.0
+    },
+    {
+     "company": "地崎道路（株）",
+     "pref": "",
+     "amount": 148000000.0
+    },
+    {
+     "company": "東京鋪装工業（株）",
+     "pref": "",
+     "amount": 156000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "c4c28d355d3b"
+  },
+  {
+   "date": "2026-06-30",
+   "name": "Ｒ８ー９　東北中央道（相馬福島道路）維持補修工事",
+   "org": "東北地方整備局　福島河川国道事務所",
+   "company": "日本ロード・メンテナンス（株）",
+   "amount": 290000000.0,
+   "rate": 90.7,
+   "kind": "維持修繕工事",
+   "period": "",
+   "pref": "東京都",
+   "city": "港区",
+   "employees": null,
+   "category": "工事",
+   "bureau": "東北地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(東北地方整備局)",
+     "url": "http://www.thr.mlit.go.jp/Bumon/B00013/K00730/nyusatu/nyusatukekka/kekkadata/2606_kouji.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "日本ロード・メンテナンス（株）",
+     "pref": "東京都",
+     "amount": 290000000.0
+    },
+    {
+     "company": "山和建設（株）",
+     "pref": "",
+     "amount": 288800000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "0c8a62969acf"
+  },
+  {
    "date": "2026-06-29",
    "name": "令和８年度　鹿野川ダム法面防護柵修繕工事",
    "org": "四国地方整備局　肱川ダム統合管理事務所",
@@ -1132,6 +1252,191 @@
    "id": "ef28da7d9be4"
   },
   {
+   "date": "2026-06-29",
+   "name": "Ｒ８　宮城管内事故対策工事",
+   "org": "東北地方整備局　仙台河川国道事務所",
+   "company": "（株）佐藤渡辺",
+   "amount": 132000000.0,
+   "rate": 91.12,
+   "kind": "アスファルト舗装工事",
+   "period": "",
+   "pref": "東京都",
+   "city": "港区",
+   "employees": null,
+   "category": "工事",
+   "bureau": "東北地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(東北地方整備局)",
+     "url": "http://www.thr.mlit.go.jp/Bumon/B00013/K00730/nyusatu/nyusatukekka/kekkadata/2606_kouji.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）ＮＩＰＰＯ",
+     "pref": "",
+     "amount": 137400000.0
+    },
+    {
+     "company": "日本道路（株）",
+     "pref": "",
+     "amount": 132000000.0
+    },
+    {
+     "company": "鹿島道路（株）",
+     "pref": "",
+     "amount": 132000000.0
+    },
+    {
+     "company": "東亜道路工業（株）",
+     "pref": "",
+     "amount": 150000000.0
+    },
+    {
+     "company": "大林道路（株）",
+     "pref": "",
+     "amount": 134000000.0
+    },
+    {
+     "company": "（株）ガイアート",
+     "pref": "",
+     "amount": 133100000.0
+    },
+    {
+     "company": "大有建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）佐藤渡辺",
+     "pref": "東京都",
+     "amount": 132000000.0
+    },
+    {
+     "company": "北川ヒューテック（株）",
+     "pref": "",
+     "amount": 132500000.0
+    },
+    {
+     "company": "三井住建道路（株）",
+     "pref": "",
+     "amount": 132000000.0
+    },
+    {
+     "company": "常盤工業（株）",
+     "pref": "",
+     "amount": 145000000.0
+    },
+    {
+     "company": "戸田道路（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "地崎道路（株）",
+     "pref": "",
+     "amount": 134000000.0
+    },
+    {
+     "company": "東京鋪装工業（株）",
+     "pref": "",
+     "amount": 145000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "13a3ce6dc0c7"
+  },
+  {
+   "date": "2026-06-29",
+   "name": "Ｒ８　国道４８号　白沢地区外舗装工事",
+   "org": "東北地方整備局　仙台河川国道事務所",
+   "company": "大有建設（株）",
+   "amount": 187980000.0,
+   "rate": 90.81,
+   "kind": "アスファルト舗装工事",
+   "period": "",
+   "pref": "愛知県",
+   "city": "名古屋市",
+   "employees": null,
+   "category": "工事",
+   "bureau": "東北地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(東北地方整備局)",
+     "url": "http://www.thr.mlit.go.jp/Bumon/B00013/K00730/nyusatu/nyusatukekka/kekkadata/2606_kouji.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）ＮＩＰＰＯ",
+     "pref": "",
+     "amount": 187700000.0
+    },
+    {
+     "company": "日本道路（株）",
+     "pref": "",
+     "amount": 199000000.0
+    },
+    {
+     "company": "鹿島道路（株）",
+     "pref": "",
+     "amount": 187800000.0
+    },
+    {
+     "company": "東亜道路工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "大林道路（株）",
+     "pref": "",
+     "amount": 187800000.0
+    },
+    {
+     "company": "（株）ガイアート",
+     "pref": "",
+     "amount": 189800000.0
+    },
+    {
+     "company": "大有建設（株）",
+     "pref": "愛知県",
+     "amount": 187980000.0
+    },
+    {
+     "company": "（株）佐藤渡辺",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "フジタ道路（株）",
+     "pref": "",
+     "amount": 190400000.0
+    },
+    {
+     "company": "北川ヒューテック（株）",
+     "pref": "",
+     "amount": 188500000.0
+    },
+    {
+     "company": "常盤工業（株）",
+     "pref": "",
+     "amount": 207000000.0
+    },
+    {
+     "company": "戸田道路（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "地崎道路（株）",
+     "pref": "",
+     "amount": 191000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "ec8c9d922f56"
+  },
+  {
    "date": "2026-06-26",
    "name": "姶良川赤野地区堤防浸透対策（第三工区）工事",
    "org": "九州地方整備局　大隅河川国道事務所",
@@ -1185,6 +1490,111 @@
    ],
    "detail_url": "",
    "id": "125dac72367e"
+  },
+  {
+   "date": "2026-06-26",
+   "name": "Ｒ８　国道７号外青森地区道路施設防災対策工事",
+   "org": "東北地方整備局　青森河川国道事務所",
+   "company": "（株）藤本建設",
+   "amount": 244500000.0,
+   "rate": 91.07,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "青森県",
+   "city": "青森市",
+   "employees": null,
+   "category": "工事",
+   "bureau": "東北地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(東北地方整備局)",
+     "url": "http://www.thr.mlit.go.jp/Bumon/B00013/K00730/nyusatu/nyusatukekka/kekkadata/2606_kouji.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）鹿内組",
+     "pref": "",
+     "amount": 257000000.0
+    },
+    {
+     "company": "（株）佐々木建設工業",
+     "pref": "",
+     "amount": 254000000.0
+    },
+    {
+     "company": "（株）大坂組",
+     "pref": "",
+     "amount": 249000000.0
+    },
+    {
+     "company": "（株）藤本建設",
+     "pref": "青森県",
+     "amount": 244500000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "018a1a349ac6"
+  },
+  {
+   "date": "2026-06-26",
+   "name": "Ｒ８　国道４号稲荷林地区舗装工事",
+   "org": "東北地方整備局　岩手河川国道事務所",
+   "company": "（株）丹野組",
+   "amount": 105000000.0,
+   "rate": 96.3,
+   "kind": "アスファルト舗装工事",
+   "period": "",
+   "pref": "岩手県",
+   "city": "二戸市",
+   "employees": null,
+   "category": "工事",
+   "bureau": "東北地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(東北地方整備局)",
+     "url": "http://www.thr.mlit.go.jp/Bumon/B00013/K00730/nyusatu/nyusatukekka/kekkadata/2606_kouji.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）丹野組",
+     "pref": "岩手県",
+     "amount": 105000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "9d777bc059b5"
+  },
+  {
+   "date": "2026-06-26",
+   "name": "Ｒ８　国道４６号角館管内道路照明設備他維持補修工事",
+   "org": "東北地方整備局　秋田河川国道事務所",
+   "company": "玉川電気工業（株）",
+   "amount": 19700000.0,
+   "rate": 98.5,
+   "kind": "維持修繕工事",
+   "period": "",
+   "pref": "秋田県",
+   "city": "大仙市",
+   "employees": null,
+   "category": "工事",
+   "bureau": "東北地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(東北地方整備局)",
+     "url": "http://www.thr.mlit.go.jp/Bumon/B00013/K00730/nyusatu/nyusatukekka/kekkadata/2606_kouji.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "玉川電気工業（株）",
+     "pref": "秋田県",
+     "amount": 19700000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "bab9d51dc481"
   },
   {
    "date": "2026-06-25",
@@ -1652,6 +2062,161 @@
    "id": "32a4bcfb2796"
   },
   {
+   "date": "2026-06-24",
+   "name": "Ｒ８　久慈地区改良工事",
+   "org": "東北地方整備局　三陸国道事務所",
+   "company": "（株）テラ",
+   "amount": 155000000.0,
+   "rate": 96.42,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "岩手県",
+   "city": "遠野市",
+   "employees": null,
+   "category": "工事",
+   "bureau": "東北地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(東北地方整備局)",
+     "url": "http://www.thr.mlit.go.jp/Bumon/B00013/K00730/nyusatu/nyusatukekka/kekkadata/2606_kouji.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）テラ",
+     "pref": "岩手県",
+     "amount": 155000000.0
+    },
+    {
+     "company": "（株）佐々木建設工業",
+     "pref": "",
+     "amount": 147700000.0
+    },
+    {
+     "company": "北星鉱業（株）",
+     "pref": "",
+     "amount": 146000000.0
+    },
+    {
+     "company": "丸協建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）神奈川フェンス土木",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "e9ea842fb18d"
+  },
+  {
+   "date": "2026-06-24",
+   "name": "Ｒ８　田野畑地区改良工事",
+   "org": "東北地方整備局　三陸国道事務所",
+   "company": "樋下建設（株）",
+   "amount": 282970000.0,
+   "rate": 91.74,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "岩手県",
+   "city": "盛岡市",
+   "employees": null,
+   "category": "工事",
+   "bureau": "東北地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(東北地方整備局)",
+     "url": "http://www.thr.mlit.go.jp/Bumon/B00013/K00730/nyusatu/nyusatukekka/kekkadata/2606_kouji.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "樋下建設（株）",
+     "pref": "岩手県",
+     "amount": 282970000.0
+    },
+    {
+     "company": "（株）テラ",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）佐々木建設工業",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "北星鉱業（株）",
+     "pref": "",
+     "amount": 282700000.0
+    },
+    {
+     "company": "（株）神奈川フェンス土木",
+     "pref": "",
+     "amount": 294700000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "b048ad3918a6"
+  },
+  {
+   "date": "2026-06-24",
+   "name": "鳴瀬川ダム付替国道工事用道路改良工事",
+   "org": "東北地方整備局　鳴瀬川総合開発工事事務所",
+   "company": "（株）佐藤工務店",
+   "amount": 170340000.0,
+   "rate": 90.78,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "宮城県",
+   "city": "加美郡",
+   "employees": null,
+   "category": "工事",
+   "bureau": "東北地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(東北地方整備局)",
+     "url": "http://www.thr.mlit.go.jp/Bumon/B00013/K00730/nyusatu/nyusatukekka/kekkadata/2606_kouji.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "丸か建設（株）",
+     "pref": "",
+     "amount": 170310000.0
+    },
+    {
+     "company": "（株）佐藤工務店",
+     "pref": "宮城県",
+     "amount": 170340000.0
+    },
+    {
+     "company": "（株）深松組",
+     "pref": "",
+     "amount": 170480000.0
+    },
+    {
+     "company": "千田建設（株）",
+     "pref": "",
+     "amount": 170290000.0
+    },
+    {
+     "company": "（株）藤山工務店",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）村田工務所",
+     "pref": "",
+     "amount": 171000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "dc73fe056fb7"
+  },
+  {
    "date": "2026-06-23",
    "name": "令和８年度　津島道路国道５６号跨道橋下部（Ａ１）工事",
    "org": "四国地方整備局　大洲河川国道事務所",
@@ -1735,6 +2300,71 @@
    ],
    "detail_url": "",
    "id": "93b4604aa656"
+  },
+  {
+   "date": "2026-06-23",
+   "name": "Ｒ８　水沢東ＢＰ上姉体地区道路改良工事",
+   "org": "東北地方整備局　岩手河川国道事務所",
+   "company": "板谷建設（株）",
+   "amount": 185300000.0,
+   "rate": 90.95,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "岩手県",
+   "city": "奥州市",
+   "employees": null,
+   "category": "工事",
+   "bureau": "東北地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(東北地方整備局)",
+     "url": "http://www.thr.mlit.go.jp/Bumon/B00013/K00730/nyusatu/nyusatukekka/kekkadata/2606_kouji.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "板谷建設（株）",
+     "pref": "岩手県",
+     "amount": 185300000.0
+    },
+    {
+     "company": "工藤建設（株）",
+     "pref": "",
+     "amount": 185840000.0
+    },
+    {
+     "company": "栗原建設（株）",
+     "pref": "",
+     "amount": 185400000.0
+    },
+    {
+     "company": "（株）佐藤組",
+     "pref": "",
+     "amount": 188000000.0
+    },
+    {
+     "company": "（株）いわい",
+     "pref": "",
+     "amount": 187500000.0
+    },
+    {
+     "company": "ＥＣ南部コーポレーション（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）板宮建設",
+     "pref": "",
+     "amount": 186000000.0
+    },
+    {
+     "company": "丸協建設（株）",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "89ac2d1c2436"
   },
   {
    "date": "2026-06-22",
@@ -1885,6 +2515,76 @@
    ],
    "detail_url": "",
    "id": "5664e3900e31"
+  },
+  {
+   "date": "2026-06-18",
+   "name": "Ｒ８　能代管内災害復旧工事",
+   "org": "東北地方整備局　能代河川国道事務所",
+   "company": "（株）丸茂組",
+   "amount": 107000000.0,
+   "rate": 95.42,
+   "kind": "法面処理工事",
+   "period": "",
+   "pref": "秋田県",
+   "city": "大仙市",
+   "employees": null,
+   "category": "工事",
+   "bureau": "東北地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(東北地方整備局)",
+     "url": "http://www.thr.mlit.go.jp/Bumon/B00013/K00730/nyusatu/nyusatukekka/kekkadata/2606_kouji.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "日特建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）渡部機工",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "奥山ボーリング（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "日本道路（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "那須建設（株）",
+     "pref": "",
+     "amount": 111000000.0
+    },
+    {
+     "company": "（株）佐々木建設工業",
+     "pref": "",
+     "amount": 109900000.0
+    },
+    {
+     "company": "（株）丸茂組",
+     "pref": "秋田県",
+     "amount": 107000000.0
+    },
+    {
+     "company": "佐藤建設（株）",
+     "pref": "",
+     "amount": 107500000.0
+    },
+    {
+     "company": "（株）協和土建",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "ca89c6a388d8"
   },
   {
    "date": "2026-06-17",
@@ -3497,6 +4197,46 @@
    "id": "32f4624bba9b"
   },
   {
+   "date": "2026-06-11",
+   "name": "八幡平山系澄川地区外砂防施設整備工事",
+   "org": "東北地方整備局　岩手河川国道事務所",
+   "company": "昭栄建設（株）",
+   "amount": 70000000.0,
+   "rate": 95.13,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "岩手県",
+   "city": "盛岡市",
+   "employees": null,
+   "category": "工事",
+   "bureau": "東北地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(東北地方整備局)",
+     "url": "http://www.thr.mlit.go.jp/Bumon/B00013/K00730/nyusatu/nyusatukekka/kekkadata/2606_kouji.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "昭栄建設（株）",
+     "pref": "岩手県",
+     "amount": 70000000.0
+    },
+    {
+     "company": "（株）中村建設",
+     "pref": "",
+     "amount": 73000000.0
+    },
+    {
+     "company": "（株）板宮建設",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "7ebce81c0d70"
+  },
+  {
    "date": "2026-06-10",
    "name": "合志川災害復旧（その１）工事",
    "org": "九州地方整備局　菊池川河川事務所",
@@ -4615,6 +5355,66 @@
    ],
    "detail_url": "",
    "id": "fba74319b676"
+  },
+  {
+   "date": "2026-06-05",
+   "name": "Ｒ８　郡山地区舗装修繕工事",
+   "org": "東北地方整備局　郡山国道事務所",
+   "company": "三立土建（株）",
+   "amount": 104500000.0,
+   "rate": 90.2,
+   "kind": "アスファルト舗装工事",
+   "period": "",
+   "pref": "福島県",
+   "city": "南会津郡",
+   "employees": null,
+   "category": "工事",
+   "bureau": "東北地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(東北地方整備局)",
+     "url": "http://www.thr.mlit.go.jp/Bumon/B00013/K00730/nyusatu/nyusatukekka/kekkadata/2606_kouji.xlsx"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "新道建設（株）",
+     "pref": "",
+     "amount": 105000000.0
+    },
+    {
+     "company": "穴澤建設（株）",
+     "pref": "",
+     "amount": 104500000.0
+    },
+    {
+     "company": "三立土建（株）",
+     "pref": "福島県",
+     "amount": 104500000.0
+    },
+    {
+     "company": "開東産業（株）",
+     "pref": "",
+     "amount": 104500000.0
+    },
+    {
+     "company": "石橋建設工業（株）",
+     "pref": "",
+     "amount": 107800000.0
+    },
+    {
+     "company": "三金興業（株）",
+     "pref": "",
+     "amount": 116890000.0
+    },
+    {
+     "company": "（株）エンドウ",
+     "pref": "",
+     "amount": 108788000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "210d7ad8d536"
   },
   {
    "date": "2026-06-04",
