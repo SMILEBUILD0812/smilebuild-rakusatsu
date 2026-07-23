@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-21",
+ "updated": "2026-07-22",
  "cases": [
   {
    "date": "2026-06-30",
@@ -177230,81 +177230,6 @@
    ],
    "detail_url": "",
    "id": "5df9d47bf34a"
-  },
-  {
-   "date": "2024-07-22",
-   "name": "令和６年度　北陸管内直流電源装置更新工事",
-   "org": "北陸地方整備局　企画部",
-   "company": "（株）八重電業社",
-   "amount": 63400000.0,
-   "rate": 91.83,
-   "kind": "受変電設備工事",
-   "period": "",
-   "pref": "",
-   "city": "",
-   "employees": null,
-   "category": "工事",
-   "bureau": "北陸地方整備局",
-   "docs": [
-    {
-     "label": "入札結果(北陸地方整備局)",
-     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2024.xls"
-    }
-   ],
-   "bidders": [
-    {
-     "company": "（株）応用電業社",
-     "pref": "",
-     "amount": 63600000.0
-    },
-    {
-     "company": "大原電業（株）",
-     "pref": "",
-     "amount": 64150000.0
-    },
-    {
-     "company": "（株）東光クリエート",
-     "pref": "",
-     "amount": null
-    },
-    {
-     "company": "星野電気（株）",
-     "pref": "",
-     "amount": null
-    },
-    {
-     "company": "（株）八重電業社",
-     "pref": "",
-     "amount": 63400000.0
-    },
-    {
-     "company": "本間電機工業（株）",
-     "pref": "",
-     "amount": 63100000.0
-    },
-    {
-     "company": "北陸電話工事（株）",
-     "pref": "",
-     "amount": null
-    },
-    {
-     "company": "インテクス（株）",
-     "pref": "",
-     "amount": 64000000.0
-    },
-    {
-     "company": "大島電気（株）",
-     "pref": "",
-     "amount": null
-    },
-    {
-     "company": "（株）平山電気商会",
-     "pref": "",
-     "amount": null
-    }
-   ],
-   "detail_url": "",
-   "id": "97a8c3c9de70"
   }
  ]
 }
