@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-22",
+ "updated": "2026-07-23",
  "cases": [
   {
    "date": "2026-06-30",
@@ -972,6 +972,46 @@
    "id": "0c8a62969acf"
   },
   {
+   "date": "2026-06-30",
+   "name": "Ｒ８小滝第１号下流砂防堰堤付替道路外工事",
+   "org": "北陸地方整備局　松本砂防事務所",
+   "company": "猪又建設（株）",
+   "amount": 75500000.0,
+   "rate": 93.22,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "北陸地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(北陸地方整備局)",
+     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2026.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）後藤組",
+     "pref": "",
+     "amount": 81500000.0
+    },
+    {
+     "company": "猪又建設（株）",
+     "pref": "",
+     "amount": 75500000.0
+    },
+    {
+     "company": "（株）谷村建設",
+     "pref": "",
+     "amount": 81000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "62c0e0605ada"
+  },
+  {
    "date": "2026-06-29",
    "name": "令和８年度　鹿野川ダム法面防護柵修繕工事",
    "org": "四国地方整備局　肱川ダム統合管理事務所",
@@ -1435,6 +1475,36 @@
    ],
    "detail_url": "",
    "id": "ec8c9d922f56"
+  },
+  {
+   "date": "2026-06-29",
+   "name": "Ｒ８北股上流法面対策護岸工外工事",
+   "org": "北陸地方整備局　松本砂防事務所",
+   "company": "（株）相模組",
+   "amount": 76600000.0,
+   "rate": 99.42,
+   "kind": "法面処理工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "北陸地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(北陸地方整備局)",
+     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2026.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）相模組",
+     "pref": "",
+     "amount": 76600000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "1b02eb997bbb"
   },
   {
    "date": "2026-06-26",
@@ -2217,6 +2287,36 @@
    "id": "dc73fe056fb7"
   },
   {
+   "date": "2026-06-24",
+   "name": "Ｒ８浦川砂防堰堤改築工事",
+   "org": "北陸地方整備局　松本砂防事務所",
+   "company": "（株）鷲澤建設",
+   "amount": 79000000.0,
+   "rate": 96.32,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "北陸地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(北陸地方整備局)",
+     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2026.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）鷲澤建設",
+     "pref": "",
+     "amount": 79000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "c99ca53cc11b"
+  },
+  {
    "date": "2026-06-23",
    "name": "令和８年度　津島道路国道５６号跨道橋下部（Ａ１）工事",
    "org": "四国地方整備局　大洲河川国道事務所",
@@ -2487,6 +2587,96 @@
    "id": "976fe007f359"
   },
   {
+   "date": "2026-06-19",
+   "name": "Ｒ８下須頃地区道路改良工事",
+   "org": "北陸地方整備局　新潟国道事務所",
+   "company": "（株）加賀田組",
+   "amount": 163900000.0,
+   "rate": 90.76,
+   "kind": "アスファルト舗装工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "北陸地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(北陸地方整備局)",
+     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2026.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "大成ロテック（株）",
+     "pref": "",
+     "amount": 164200000.0
+    },
+    {
+     "company": "東亜道路工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）加賀田組",
+     "pref": "",
+     "amount": 163900000.0
+    },
+    {
+     "company": "日本道路（株）",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "ed4c5ec93c00"
+  },
+  {
+   "date": "2026-06-19",
+   "name": "Ｒ８猿花上流砂防堰堤改築工事",
+   "org": "北陸地方整備局　金沢河川国道事務所",
+   "company": "竹腰永井建設（株）",
+   "amount": 84000000.0,
+   "rate": 97.69,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "北陸地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(北陸地方整備局)",
+     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2026.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）風組",
+     "pref": "",
+     "amount": 82000000.0
+    },
+    {
+     "company": "（株）西山産業",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "竹腰永井建設（株）",
+     "pref": "",
+     "amount": 84000000.0
+    },
+    {
+     "company": "（株）山崎組",
+     "pref": "",
+     "amount": 84500000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "fc45fa3908f8"
+  },
+  {
    "date": "2026-06-18",
    "name": "令和８年度緑川ダム管理用制御処理設備改造工事",
    "org": "九州地方整備局　緑川ダム管理所",
@@ -2587,6 +2777,41 @@
    "id": "ca89c6a388d8"
   },
   {
+   "date": "2026-06-18",
+   "name": "Ｒ８葛葉上流右岸法面対策工事",
+   "org": "北陸地方整備局　松本砂防事務所",
+   "company": "北陽建設（株）",
+   "amount": 92500000.0,
+   "rate": 94.09,
+   "kind": "法面処理工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "北陸地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(北陸地方整備局)",
+     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2026.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）笠原建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "北陽建設（株）",
+     "pref": "",
+     "amount": 92500000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "e247e5b40ddd"
+  },
+  {
    "date": "2026-06-17",
    "name": "令和７年度庄内地区登坂車線整備外工事",
    "org": "九州地方整備局　大分河川国道事務所",
@@ -2660,6 +2885,106 @@
    ],
    "detail_url": "",
    "id": "ac07912f39b9"
+  },
+  {
+   "date": "2026-06-17",
+   "name": "信濃川管内ポンプ設備維持修繕工事",
+   "org": "北陸地方整備局　信濃川河川事務所",
+   "company": "敦井産業（株）",
+   "amount": 98600000.0,
+   "rate": 95.82,
+   "kind": "機械設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "北陸地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(北陸地方整備局)",
+     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2026.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "敦井産業（株）",
+     "pref": "",
+     "amount": 98600000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "1e30e2e89e39"
+  },
+  {
+   "date": "2026-06-17",
+   "name": "Ｒ８猿壁砂防堰堤改築工事",
+   "org": "北陸地方整備局　金沢河川国道事務所",
+   "company": "（株）風組",
+   "amount": 90000000.0,
+   "rate": 94.27,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "北陸地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(北陸地方整備局)",
+     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2026.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）風組",
+     "pref": "",
+     "amount": 90000000.0
+    },
+    {
+     "company": "竹腰永井建設（株）",
+     "pref": "",
+     "amount": 94000000.0
+    },
+    {
+     "company": "（株）西山産業",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "58527f42f4a7"
+  },
+  {
+   "date": "2026-06-17",
+   "name": "Ｒ８甚之助谷右岸下流地下水排除工事",
+   "org": "北陸地方整備局　金沢河川国道事務所",
+   "company": "（株）風組",
+   "amount": 79500000.0,
+   "rate": 98.21,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "北陸地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(北陸地方整備局)",
+     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2026.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）風組",
+     "pref": "",
+     "amount": 79500000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "809673c4ac67"
   },
   {
    "date": "2026-06-16",
@@ -3512,6 +3837,161 @@
    "id": "bc74430884f3"
   },
   {
+   "date": "2026-06-12",
+   "name": "栗ノ木道路　栗ノ木高架橋上部その３工事",
+   "org": "北陸地方整備局　新潟国道事務所",
+   "company": "（株）ＩＨＩインフラスクエア",
+   "amount": 1276000000.0,
+   "rate": 92.15,
+   "kind": "プレストレスト・コンクリート工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "北陸地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(北陸地方整備局)",
+     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2026.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）ＩＨＩインフラスクエア",
+     "pref": "",
+     "amount": 1276000000.0
+    },
+    {
+     "company": "（株）富士ピー・エス",
+     "pref": "",
+     "amount": 1275200000.0
+    },
+    {
+     "company": "日本高圧コンクリート（株）",
+     "pref": "",
+     "amount": 1277000000.0
+    },
+    {
+     "company": "（株）安部日鋼工業",
+     "pref": "",
+     "amount": 1275900000.0
+    },
+    {
+     "company": "オリエンタル白石（株）",
+     "pref": "",
+     "amount": 1276000000.0
+    },
+    {
+     "company": "三井住友建設（株）",
+     "pref": "",
+     "amount": 1274000000.0
+    },
+    {
+     "company": "昭和コンクリート工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）日本ピーエス",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "ピーエス・コンストラクション（株）",
+     "pref": "",
+     "amount": 1277000000.0
+    },
+    {
+     "company": "極東興和（株）",
+     "pref": "",
+     "amount": 1274800000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "8c2d2a5dfab4"
+  },
+  {
+   "date": "2026-06-12",
+   "name": "Ｒ８ー１０　能越道穴水越の原橋梁復旧上部その２工事",
+   "org": "北陸地方整備局　金沢河川国道事務所",
+   "company": "（株）日本ピーエス",
+   "amount": 1983000000.0,
+   "rate": 92.44,
+   "kind": "プレストレスト・コンクリート工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "北陸地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(北陸地方整備局)",
+     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2026.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "川田建設（株）",
+     "pref": "",
+     "amount": 1979000000.0
+    },
+    {
+     "company": "昭和コンクリート工業（株）",
+     "pref": "",
+     "amount": 1975500000.0
+    },
+    {
+     "company": "（株）日本ピーエス",
+     "pref": "",
+     "amount": 1983000000.0
+    },
+    {
+     "company": "ピーエス・コンストラクション（株）",
+     "pref": "",
+     "amount": 1985000000.0
+    },
+    {
+     "company": "（株）ＩＨＩインフラスクエア",
+     "pref": "",
+     "amount": 1977000000.0
+    },
+    {
+     "company": "三井住友建設（株）",
+     "pref": "",
+     "amount": 1978500000.0
+    },
+    {
+     "company": "極東興和（株）",
+     "pref": "",
+     "amount": 1985000000.0
+    },
+    {
+     "company": "オリエンタル白石（株）",
+     "pref": "",
+     "amount": 1986000000.0
+    },
+    {
+     "company": "（株）富士ピー・エス",
+     "pref": "",
+     "amount": 1984000000.0
+    },
+    {
+     "company": "（株）安部日鋼工業",
+     "pref": "",
+     "amount": 2253600000.0
+    },
+    {
+     "company": "日本高圧コンクリート（株）",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "06ef3562c71f"
+  },
+  {
    "date": "2026-06-11",
    "name": "遠賀川直方津田町地区築堤護岸工事",
    "org": "九州地方整備局　遠賀川河川事務所",
@@ -4237,6 +4717,36 @@
    "id": "7ebce81c0d70"
   },
   {
+   "date": "2026-06-11",
+   "name": "令和８年度不動沢盛土工事",
+   "org": "北陸地方整備局　千曲川河川事務所",
+   "company": "（株）相模組",
+   "amount": 83300000.0,
+   "rate": 99.49,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "北陸地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(北陸地方整備局)",
+     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2026.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）相模組",
+     "pref": "",
+     "amount": 83300000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "4bacb1bd518f"
+  },
+  {
    "date": "2026-06-10",
    "name": "合志川災害復旧（その１）工事",
    "org": "九州地方整備局　菊池川河川事務所",
@@ -4702,6 +5212,91 @@
    "id": "b549e41ba6ad"
   },
   {
+   "date": "2026-06-09",
+   "name": "Ｒ８国道７号春木山大沢川橋上部工事",
+   "org": "北陸地方整備局　羽越河川国道事務所",
+   "company": "オリエンタル白石（株）",
+   "amount": 77950000.0,
+   "rate": 90.51,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "北陸地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(北陸地方整備局)",
+     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2026.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "山和建設（株）",
+     "pref": "",
+     "amount": 78000000.0
+    },
+    {
+     "company": "昭和コンクリート工業（株）",
+     "pref": "",
+     "amount": 86300000.0
+    },
+    {
+     "company": "オリエンタル白石（株）",
+     "pref": "",
+     "amount": 77950000.0
+    },
+    {
+     "company": "日本サミコン（株）",
+     "pref": "",
+     "amount": 88600000.0
+    },
+    {
+     "company": "（株）日本ピーエス",
+     "pref": "",
+     "amount": 86100000.0
+    },
+    {
+     "company": "ドーピー建設工業（株）",
+     "pref": "",
+     "amount": 86000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "511f4c52ac8a"
+  },
+  {
+   "date": "2026-06-09",
+   "name": "Ｒ８大石ダム系光ケーブル災害復旧工事",
+   "org": "北陸地方整備局　羽越河川国道事務所",
+   "company": "（株）八重電業社",
+   "amount": 45000000.0,
+   "rate": 99.69,
+   "kind": "通信設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "北陸地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(北陸地方整備局)",
+     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2026.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）八重電業社",
+     "pref": "",
+     "amount": 45000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "625989adf9a1"
+  },
+  {
    "date": "2026-06-08",
    "name": "令和８年度　山鳥坂ダム奥の山残土処理場整備工事",
    "org": "四国地方整備局　山鳥坂ダム工事事務所",
@@ -5155,6 +5750,36 @@
    ],
    "detail_url": "",
    "id": "fabc23aae720"
+  },
+  {
+   "date": "2026-06-08",
+   "name": "令和８年度中尾第１号砂防堰堤工事用道路その他工事",
+   "org": "北陸地方整備局　神通川水系砂防事務所",
+   "company": "辻建設（株）",
+   "amount": 65200000.0,
+   "rate": 97.52,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "北陸地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(北陸地方整備局)",
+     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2026.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "辻建設（株）",
+     "pref": "",
+     "amount": 65200000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "82321b0a18fa"
   },
   {
    "date": "2026-06-05",
@@ -6105,6 +6730,76 @@
    ],
    "detail_url": "",
    "id": "6e756d54f53e"
+  },
+  {
+   "date": "2026-06-01",
+   "name": "居頭沢砂防堰堤工事用道路外工事",
+   "org": "北陸地方整備局　湯沢砂防事務所",
+   "company": "（株）森下組",
+   "amount": 69800000.0,
+   "rate": 98.2,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "北陸地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(北陸地方整備局)",
+     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2026.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）森下組",
+     "pref": "",
+     "amount": 69800000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "4b104f87f60e"
+  },
+  {
+   "date": "2026-06-01",
+   "name": "市ノ沢第１号砂防堰堤その６外工事",
+   "org": "北陸地方整備局　湯沢砂防事務所",
+   "company": "伊米ヶ崎建設（株）",
+   "amount": 73000000.0,
+   "rate": 93.91,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "北陸地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(北陸地方整備局)",
+     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2026.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "伊米ヶ崎建設（株）",
+     "pref": "",
+     "amount": 73000000.0
+    },
+    {
+     "company": "井口建設工業（株）",
+     "pref": "",
+     "amount": 78180000.0
+    },
+    {
+     "company": "（株）三友組",
+     "pref": "",
+     "amount": 73300000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "57a311d4c62e"
   },
   {
    "date": "2026-05-29",
