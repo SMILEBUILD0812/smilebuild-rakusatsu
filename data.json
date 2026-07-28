@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-26",
+ "updated": "2026-07-27",
  "cases": [
   {
    "date": "2026-06-30",
@@ -177295,56 +177295,6 @@
    ],
    "detail_url": "",
    "id": "9f5f4f36dcf9"
-  },
-  {
-   "date": "2024-07-26",
-   "name": "令和６年度神通川水系砂防事務所ＣＣＴＶ整備工事",
-   "org": "北陸地方整備局　神通川水系砂防事務所",
-   "company": "銀扇産業（株）",
-   "amount": 53000000.0,
-   "rate": 91.08,
-   "kind": "通信設備工事",
-   "period": "",
-   "pref": "",
-   "city": "",
-   "employees": null,
-   "category": "工事",
-   "bureau": "北陸地方整備局",
-   "docs": [
-    {
-     "label": "入札結果(北陸地方整備局)",
-     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2024.xls"
-    }
-   ],
-   "bidders": [
-    {
-     "company": "（株）ほくつう",
-     "pref": "",
-     "amount": null
-    },
-    {
-     "company": "北陸電気工事（株）",
-     "pref": "",
-     "amount": 53370000.0
-    },
-    {
-     "company": "銀扇産業（株）",
-     "pref": "",
-     "amount": 53000000.0
-    },
-    {
-     "company": "北陸電話工事（株）",
-     "pref": "",
-     "amount": null
-    },
-    {
-     "company": "（株）シーテック",
-     "pref": "",
-     "amount": 54000000.0
-    }
-   ],
-   "detail_url": "",
-   "id": "b26e801ebc8f"
   }
  ]
 }
