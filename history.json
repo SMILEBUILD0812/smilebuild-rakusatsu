@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-30",
+ "updated": "2026-07-31",
  "cases": [
   {
    "date": "2026-06-30",
@@ -1012,6 +1012,166 @@
    "id": "62c0e0605ada"
   },
   {
+   "date": "2026-06-30",
+   "name": "Ｒ７渡良瀬遊水池放送設備設置工事",
+   "org": "関東地方整備局　利根川上流河川事務所",
+   "company": "東邦電気工業（株）",
+   "amount": 177800000.0,
+   "rate": 94.19,
+   "kind": "通信設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "東邦電気工業（株）",
+     "pref": "",
+     "amount": 177800000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "c4cee49c413c"
+  },
+  {
+   "date": "2026-06-30",
+   "name": "Ｒ８国道１７号与野大宮道路改良舗装工事",
+   "org": "関東地方整備局　大宮国道事務所",
+   "company": "世紀東急工業（株）",
+   "amount": 164800000.0,
+   "rate": 91.36,
+   "kind": "アスファルト舗装工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "世紀東急工業（株）",
+     "pref": "",
+     "amount": 164800000.0
+    },
+    {
+     "company": "北川ヒューテック（株）",
+     "pref": "",
+     "amount": 171000000.0
+    },
+    {
+     "company": "大成ロテック（株）",
+     "pref": "",
+     "amount": 165000000.0
+    },
+    {
+     "company": "大有建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "常盤工業（株）",
+     "pref": "",
+     "amount": 163800000.0
+    },
+    {
+     "company": "戸田道路（株）",
+     "pref": "",
+     "amount": 163820000.0
+    },
+    {
+     "company": "日工建設（株）",
+     "pref": "",
+     "amount": 164180000.0
+    },
+    {
+     "company": "日本道路（株）",
+     "pref": "",
+     "amount": 179000000.0
+    },
+    {
+     "company": "東亜道路工業（株）",
+     "pref": "",
+     "amount": 164400000.0
+    },
+    {
+     "company": "（株）ＮＩＰＰＯ",
+     "pref": "",
+     "amount": 163800000.0
+    },
+    {
+     "company": "（株）竹中道路",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "フジタ道路（株）",
+     "pref": "",
+     "amount": 173000000.0
+    },
+    {
+     "company": "鹿島道路（株）",
+     "pref": "",
+     "amount": 165000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "d29745c79ae6"
+  },
+  {
+   "date": "2026-06-30",
+   "name": "Ｒ８富士川砂防管内ＣＣＴＶ設備設置他工事",
+   "org": "関東地方整備局　富士川砂防事務所",
+   "company": "エフコム（株）",
+   "amount": 62900000.0,
+   "rate": 95.16,
+   "kind": "通信設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "エフコム（株）",
+     "pref": "",
+     "amount": 62900000.0
+    },
+    {
+     "company": "（株）有電社",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "電気興業（株）",
+     "pref": "",
+     "amount": 60500000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "84d9f92ce022"
+  },
+  {
    "date": "2026-06-29",
    "name": "令和８年度　鹿野川ダム法面防護柵修繕工事",
    "org": "四国地方整備局　肱川ダム統合管理事務所",
@@ -1507,6 +1667,141 @@
    "id": "1b02eb997bbb"
   },
   {
+   "date": "2026-06-29",
+   "name": "Ｒ８葛川排水樋管ゲート設備新設工事",
+   "org": "関東地方整備局　荒川上流河川事務所",
+   "company": "飯田鉄工（株）",
+   "amount": 36000000.0,
+   "rate": 99.59,
+   "kind": "機械設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "旭イノベックス（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "矢田工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "飯田鉄工（株）",
+     "pref": "",
+     "amount": 36000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "d87ae8ca5c75"
+  },
+  {
+   "date": "2026-06-29",
+   "name": "Ｒ７長野国道管内交通安全対策（その３）工事",
+   "org": "関東地方整備局　長野国道事務所",
+   "company": "矢木コーポレーション（株）",
+   "amount": 106000000.0,
+   "rate": 97.11,
+   "kind": "維持修繕工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "矢木コーポレーション（株）",
+     "pref": "",
+     "amount": 106000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "f2fe47d85be4"
+  },
+  {
+   "date": "2026-06-29",
+   "name": "Ｒ７利根川ダム管内ダム観測設備更新工事",
+   "org": "関東地方整備局　利根川ダム統合管理事務所",
+   "company": "（株）ＹＤＫテクノロジーズ",
+   "amount": 85000000.0,
+   "rate": 99.31,
+   "kind": "通信設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）ＹＤＫテクノロジーズ",
+     "pref": "",
+     "amount": 85000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "dad06bd578ff"
+  },
+  {
+   "date": "2026-06-29",
+   "name": "Ｒ７関東技術事務所低圧受電設備設置工事",
+   "org": "関東地方整備局　関東技術事務所",
+   "company": "（株）協雄電設",
+   "amount": 64400000.0,
+   "rate": 99.92,
+   "kind": "受変電設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）協雄電設",
+     "pref": "",
+     "amount": 64400000.0
+    },
+    {
+     "company": "（株）川北電工",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "0c7459c18074"
+  },
+  {
    "date": "2026-06-26",
    "name": "姶良川赤野地区堤防浸透対策（第三工区）工事",
    "org": "九州地方整備局　大隅河川国道事務所",
@@ -1667,6 +1962,66 @@
    "id": "bab9d51dc481"
   },
   {
+   "date": "2026-06-26",
+   "name": "Ｒ７霞ヶ浦河川事務所管内光テレメータ設備他更新工事",
+   "org": "関東地方整備局　霞ヶ浦河川事務所",
+   "company": "ＪＲＣシステムサービス（株）",
+   "amount": 80000000.0,
+   "rate": 99.19,
+   "kind": "通信設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "ＪＲＣシステムサービス（株）",
+     "pref": "",
+     "amount": 80000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "d0340075dd03"
+  },
+  {
+   "date": "2026-06-26",
+   "name": "Ｒ８稲又第三砂防堰堤改築工事",
+   "org": "関東地方整備局　富士川砂防事務所",
+   "company": "（株）八木沢興業",
+   "amount": 125000000.0,
+   "rate": 99.63,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）八木沢興業",
+     "pref": "",
+     "amount": 125000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "f0ce4957b9bf"
+  },
+  {
    "date": "2026-06-25",
    "name": "令和８年度武雄管内水位計測装置外更新工事",
    "org": "九州地方整備局　武雄河川事務所",
@@ -1780,6 +2135,36 @@
    ],
    "detail_url": "",
    "id": "e65184da3e10"
+  },
+  {
+   "date": "2026-06-25",
+   "name": "Ｒ８・Ｒ９国道２９８号戸田維持出張所管内道路清掃作業（その２",
+   "org": "関東地方整備局　北首都国道事務所",
+   "company": "ムサシ興発（株）",
+   "amount": 157420000.0,
+   "rate": 97.98,
+   "kind": "維持修繕工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "ムサシ興発（株）",
+     "pref": "",
+     "amount": 157420000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "44f078da6a77"
   },
   {
    "date": "2026-06-24",
@@ -2317,6 +2702,141 @@
    "id": "c99ca53cc11b"
   },
   {
+   "date": "2026-06-24",
+   "name": "Ｒ７那珂川左岸小場上地区築堤護岸工事",
+   "org": "関東地方整備局　常陸河川国道事務所",
+   "company": "昭和建設（株）",
+   "amount": 269900000.0,
+   "rate": 91.97,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "北都建設工業（株）",
+     "pref": "",
+     "amount": 270500000.0
+    },
+    {
+     "company": "常陽建設（株）",
+     "pref": "",
+     "amount": 268590000.0
+    },
+    {
+     "company": "グンジ建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "サコー建設（株）",
+     "pref": "",
+     "amount": 269000000.0
+    },
+    {
+     "company": "新井土木（株）",
+     "pref": "",
+     "amount": 269000000.0
+    },
+    {
+     "company": "日東エンジニアリング（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "星田建設工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "昭和建設（株）",
+     "pref": "",
+     "amount": 269900000.0
+    },
+    {
+     "company": "東康建設工業（株）",
+     "pref": "",
+     "amount": 269800000.0
+    },
+    {
+     "company": "松崎建設（株）",
+     "pref": "",
+     "amount": 268480000.0
+    },
+    {
+     "company": "（株）新みらい",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）赤塚土木興業",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "菅原建設（株）",
+     "pref": "",
+     "amount": 269410000.0
+    },
+    {
+     "company": "谷原建設（株）",
+     "pref": "",
+     "amount": 273500000.0
+    },
+    {
+     "company": "鈴縫工業（株）",
+     "pref": "",
+     "amount": 268380000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "1e6ffade1643"
+  },
+  {
+   "date": "2026-06-24",
+   "name": "横浜税関南本牧埠頭検査場（仮称）（２６）電気設備工事",
+   "org": "関東地方整備局　横浜営繕事務所",
+   "company": "（株）大三洋行",
+   "amount": 500000000.0,
+   "rate": 98.72,
+   "kind": "電気設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "成電工（株）",
+     "pref": "",
+     "amount": 680000000.0
+    },
+    {
+     "company": "（株）大三洋行",
+     "pref": "",
+     "amount": 500000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "67ec61732fb6"
+  },
+  {
    "date": "2026-06-23",
    "name": "令和８年度　津島道路国道５６号跨道橋下部（Ａ１）工事",
    "org": "四国地方整備局　大洲河川国道事務所",
@@ -2467,6 +2987,86 @@
    "id": "89ac2d1c2436"
   },
   {
+   "date": "2026-06-23",
+   "name": "Ｒ８浅間山北麓砂防施設整備工事",
+   "org": "関東地方整備局　利根川水系砂防事務所",
+   "company": "渡辺建設（株）",
+   "amount": 175800000.0,
+   "rate": 91.94,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）山藤組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）美才治林業",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "沼田土建（株）",
+     "pref": "",
+     "amount": 175000000.0
+    },
+    {
+     "company": "渡辺建設（株）",
+     "pref": "",
+     "amount": 175800000.0
+    },
+    {
+     "company": "萬屋建設（株）",
+     "pref": "",
+     "amount": 175000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "6955744aea2b"
+  },
+  {
+   "date": "2026-06-23",
+   "name": "Ｒ７利根川上流ＳＲＳ設備新設工事",
+   "org": "関東地方整備局　利根川上流河川事務所",
+   "company": "ＪＲＣシステムサービス（株）",
+   "amount": 78000000.0,
+   "rate": 97.23,
+   "kind": "通信設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "ＪＲＣシステムサービス（株）",
+     "pref": "",
+     "amount": 78000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "b19e0dd56bfe"
+  },
+  {
    "date": "2026-06-22",
    "name": "九州地方整備局他機関向け映像共有化設備設置工事",
    "org": "九州地方整備局　企画部",
@@ -2500,6 +3100,136 @@
    ],
    "detail_url": "",
    "id": "83126738bac4"
+  },
+  {
+   "date": "2026-06-22",
+   "name": "Ｒ７道路交通情報通信システム更新工事",
+   "org": "関東地方整備局　企画部",
+   "company": "ＮＥＣネッツエスアイ（株）",
+   "amount": 204900000.0,
+   "rate": 98.59,
+   "kind": "通信設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "ＮＥＣネッツエスアイ（株）",
+     "pref": "",
+     "amount": 204900000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "dfc04aa0777b"
+  },
+  {
+   "date": "2026-06-22",
+   "name": "Ｒ８国道２０号八王子南ＢＰ館地区ＴＮラジオ再放送設備他工事",
+   "org": "関東地方整備局　相武国道事務所",
+   "company": "東芝テリー（株）",
+   "amount": 280100000.0,
+   "rate": 92.16,
+   "kind": "通信設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "東芝テリー（株）",
+     "pref": "",
+     "amount": 280100000.0
+    },
+    {
+     "company": "ＪＥＳＣＯネットワークシステム（株）",
+     "pref": "",
+     "amount": 283000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "7c830c08c1d7"
+  },
+  {
+   "date": "2026-06-22",
+   "name": "Ｒ８横浜国道事務所管内共同溝補修工事",
+   "org": "関東地方整備局　横浜国道事務所",
+   "company": "カジマ・リノベイト（株）",
+   "amount": 51490000.0,
+   "rate": 89.78,
+   "kind": "維持修繕工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "日機道路（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "カジマ・リノベイト（株）",
+     "pref": "",
+     "amount": 51490000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "ee8cf0eba789"
+  },
+  {
+   "date": "2026-06-22",
+   "name": "Ｒ８相俣ダム貯砂ダム土砂掘削工事",
+   "org": "関東地方整備局　利根川ダム統合管理事務所",
+   "company": "新和建設（株）",
+   "amount": 38000000.0,
+   "rate": 95.86,
+   "kind": "維持修繕工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "新和建設（株）",
+     "pref": "",
+     "amount": 38000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "dd8e84868ae2"
   },
   {
    "date": "2026-06-19",
@@ -2677,6 +3407,46 @@
    "id": "fc45fa3908f8"
   },
   {
+   "date": "2026-06-19",
+   "name": "Ｒ７国道１５８号松本波田道路新村和田地区外改良６工事",
+   "org": "関東地方整備局　長野国道事務所",
+   "company": "（株）岡谷組",
+   "amount": 159600000.0,
+   "rate": 91.42,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "庫昌土建（株）",
+     "pref": "",
+     "amount": 159900000.0
+    },
+    {
+     "company": "（株）岡谷組",
+     "pref": "",
+     "amount": 159600000.0
+    },
+    {
+     "company": "興和工業（株）",
+     "pref": "",
+     "amount": 161700000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "18ecb24c5b5f"
+  },
+  {
    "date": "2026-06-18",
    "name": "令和８年度緑川ダム管理用制御処理設備改造工事",
    "org": "九州地方整備局　緑川ダム管理所",
@@ -2810,6 +3580,196 @@
    ],
    "detail_url": "",
    "id": "e247e5b40ddd"
+  },
+  {
+   "date": "2026-06-18",
+   "name": "Ｒ７那珂川左岸水府町地区外河道掘削他工事",
+   "org": "関東地方整備局　常陸河川国道事務所",
+   "company": "松崎建設（株）",
+   "amount": 248800000.0,
+   "rate": 91.21,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "北都建設工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "増子建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "常陽建設（株）",
+     "pref": "",
+     "amount": 248800000.0
+    },
+    {
+     "company": "グンジ建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "サコー建設（株）",
+     "pref": "",
+     "amount": 250000000.0
+    },
+    {
+     "company": "新井土木（株）",
+     "pref": "",
+     "amount": 249200000.0
+    },
+    {
+     "company": "日東エンジニアリング（株）",
+     "pref": "",
+     "amount": 249000000.0
+    },
+    {
+     "company": "昭和建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "東康建設工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "松原建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "松崎建設（株）",
+     "pref": "",
+     "amount": 248800000.0
+    },
+    {
+     "company": "（株）新みらい",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）柳田組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）菱木土建",
+     "pref": "",
+     "amount": 254600000.0
+    },
+    {
+     "company": "（株）赤塚土木興業",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）高野工務店",
+     "pref": "",
+     "amount": 251300000.0
+    },
+    {
+     "company": "樋口土木（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "菅原建設（株）",
+     "pref": "",
+     "amount": 248710000.0
+    },
+    {
+     "company": "高橋建設工業（株）",
+     "pref": "",
+     "amount": 248650000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "841b7a7f2831"
+  },
+  {
+   "date": "2026-06-18",
+   "name": "Ｒ８渡良瀬川管内砂防整備工事",
+   "org": "関東地方整備局　渡良瀬川河川事務所",
+   "company": "大川建設（株）",
+   "amount": 79500000.0,
+   "rate": 94.97,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "前橋地建（株）",
+     "pref": "",
+     "amount": 83000000.0
+    },
+    {
+     "company": "大川建設（株）",
+     "pref": "",
+     "amount": 79500000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "13792a6a6421"
+  },
+  {
+   "date": "2026-06-18",
+   "name": "Ｒ８横環南戸塚ＩＣ改良その１工事",
+   "org": "関東地方整備局　横浜国道事務所",
+   "company": "（株）厚木植木",
+   "amount": 268200000.0,
+   "rate": 91.36,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "大野建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）厚木植木",
+     "pref": "",
+     "amount": 268200000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "5c254e0f12b5"
   },
   {
    "date": "2026-06-17",
@@ -2985,6 +3945,146 @@
    ],
    "detail_url": "",
    "id": "809673c4ac67"
+  },
+  {
+   "date": "2026-06-17",
+   "name": "Ｒ８国道２０号八王子南ＢＰ大船地区改良工事",
+   "org": "関東地方整備局　相武国道事務所",
+   "company": "（株）佐々木建設工業",
+   "amount": 285000000.0,
+   "rate": 97.34,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）佐々木建設工業",
+     "pref": "",
+     "amount": 285000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "8d72e3fb881e"
+  },
+  {
+   "date": "2026-06-17",
+   "name": "Ｒ７国道２０号八王子南ＢＰ改良他その３工事",
+   "org": "関東地方整備局　相武国道事務所",
+   "company": "（株）佐々木建設工業",
+   "amount": 200000000.0,
+   "rate": 96.87,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "世紀東急工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）佐々木建設工業",
+     "pref": "",
+     "amount": 200000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "967bcabdb394"
+  },
+  {
+   "date": "2026-06-17",
+   "name": "Ｒ７甲府出張所管内外標識補修工事",
+   "org": "関東地方整備局　甲府河川国道事務所",
+   "company": "信号器材（株）",
+   "amount": 45800000.0,
+   "rate": 96.36,
+   "kind": "維持修繕工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "世紀東急工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "信号器材（株）",
+     "pref": "",
+     "amount": 45800000.0
+    },
+    {
+     "company": "（株）エイチエスケイ",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）佐々木建設工業",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "383345fa49e0"
+  },
+  {
+   "date": "2026-06-17",
+   "name": "Ｒ８・Ｒ９大磯施設整備工事",
+   "org": "関東地方整備局　国営昭和記念公園事務所",
+   "company": "（株）厚木植木",
+   "amount": 169200000.0,
+   "rate": 91.58,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）厚木植木",
+     "pref": "",
+     "amount": 169200000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "644ac9aa98f2"
   },
   {
    "date": "2026-06-16",
@@ -3245,6 +4345,246 @@
    ],
    "detail_url": "",
    "id": "1eadf4f28248"
+  },
+  {
+   "date": "2026-06-16",
+   "name": "Ｒ８甘田入第９地区基盤整備工事",
+   "org": "関東地方整備局　霞ヶ浦河川事務所",
+   "company": "日東エンジニアリング（株）",
+   "amount": 207000000.0,
+   "rate": 91.2,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "大勝建設（株）",
+     "pref": "",
+     "amount": 207000000.0
+    },
+    {
+     "company": "キムラ工業（株）",
+     "pref": "",
+     "amount": 208360000.0
+    },
+    {
+     "company": "常総開発工業（株）",
+     "pref": "",
+     "amount": 206830000.0
+    },
+    {
+     "company": "常陽建設（株）",
+     "pref": "",
+     "amount": 210000000.0
+    },
+    {
+     "company": "グンジ建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "成島建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "新井土木（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "日東エンジニアリング（株）",
+     "pref": "",
+     "amount": 207000000.0
+    },
+    {
+     "company": "星田建設工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "松原建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "松崎建設（株）",
+     "pref": "",
+     "amount": 207000000.0
+    },
+    {
+     "company": "（株）アレスコ",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）伊藤建設",
+     "pref": "",
+     "amount": 207600000.0
+    },
+    {
+     "company": "（株）佐々木建設工業",
+     "pref": "",
+     "amount": 228000000.0
+    },
+    {
+     "company": "（株）大貫工務店",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）新みらい",
+     "pref": "",
+     "amount": 207300000.0
+    },
+    {
+     "company": "（株）菱木土建",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）赤塚土木興業",
+     "pref": "",
+     "amount": 263500000.0
+    },
+    {
+     "company": "水郷建設（株）",
+     "pref": "",
+     "amount": 206800000.0
+    },
+    {
+     "company": "石井工業（株）",
+     "pref": "",
+     "amount": 206800000.0
+    },
+    {
+     "company": "細谷建設工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "菅原建設（株）",
+     "pref": "",
+     "amount": 206800000.0
+    },
+    {
+     "company": "谷原建設（株）",
+     "pref": "",
+     "amount": 208000000.0
+    },
+    {
+     "company": "高橋建設（株）",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "7cadc4ad232e"
+  },
+  {
+   "date": "2026-06-16",
+   "name": "Ｒ７国分寺出張所管内交通安全対策その２工事",
+   "org": "関東地方整備局　宇都宮国道事務所",
+   "company": "（株）増渕組",
+   "amount": 137500000.0,
+   "rate": 91.58,
+   "kind": "アスファルト舗装工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "北川ヒューテック（株）",
+     "pref": "",
+     "amount": 147300000.0
+    },
+    {
+     "company": "大成ロテック（株）",
+     "pref": "",
+     "amount": 136250000.0
+    },
+    {
+     "company": "川上建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）ＮＩＰＰＯ",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）増渕組",
+     "pref": "",
+     "amount": 137500000.0
+    },
+    {
+     "company": "（株）新みらい",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）端工務店",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "鹿島道路（株）",
+     "pref": "",
+     "amount": 147800000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "378062edbf80"
+  },
+  {
+   "date": "2026-06-16",
+   "name": "Ｒ７華厳仮設備撤去工事",
+   "org": "関東地方整備局　日光砂防事務所",
+   "company": "榎本建設（株）",
+   "amount": 96800000.0,
+   "rate": 95.62,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "榎本建設（株）",
+     "pref": "",
+     "amount": 96800000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "28daacc8f27a"
   },
   {
    "date": "2026-06-15",
@@ -3682,6 +5022,306 @@
    "id": "1c1dd7421f6c"
   },
   {
+   "date": "2026-06-15",
+   "name": "Ｒ８利根川左岸稲築堤他関連整備工事",
+   "org": "関東地方整備局　利根川上流河川事務所",
+   "company": "戸邊建設（株）",
+   "amount": 181900000.0,
+   "rate": 91.21,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "川村建設（株）",
+     "pref": "",
+     "amount": 181700000.0
+    },
+    {
+     "company": "キムラ工業（株）",
+     "pref": "",
+     "amount": 181900000.0
+    },
+    {
+     "company": "常陽建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "戸邊建設（株）",
+     "pref": "",
+     "amount": 181900000.0
+    },
+    {
+     "company": "新井土木（株）",
+     "pref": "",
+     "amount": 182400000.0
+    },
+    {
+     "company": "日東エンジニアリング（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "松浦建設（株）",
+     "pref": "",
+     "amount": 182700000.0
+    },
+    {
+     "company": "（株）佐々木建設工業",
+     "pref": "",
+     "amount": 240500000.0
+    },
+    {
+     "company": "（株）堀建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）新みらい",
+     "pref": "",
+     "amount": 184100000.0
+    },
+    {
+     "company": "（株）端工務店",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）赤塚土木興業",
+     "pref": "",
+     "amount": 183500000.0
+    },
+    {
+     "company": "谷原建設（株）",
+     "pref": "",
+     "amount": 183500000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "105f182c5a69"
+  },
+  {
+   "date": "2026-06-15",
+   "name": "Ｒ８圏央道側道維持他その２工事",
+   "org": "関東地方整備局　北首都国道事務所",
+   "company": "川上建設（株）",
+   "amount": 130000000.0,
+   "rate": 91.83,
+   "kind": "維持修繕工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "大坂建鋼（株）",
+     "pref": "",
+     "amount": 140200000.0
+    },
+    {
+     "company": "川上建設（株）",
+     "pref": "",
+     "amount": 130000000.0
+    },
+    {
+     "company": "新井土木（株）",
+     "pref": "",
+     "amount": 130000000.0
+    },
+    {
+     "company": "（株）端工務店",
+     "pref": "",
+     "amount": 129500000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "8df383480955"
+  },
+  {
+   "date": "2026-06-15",
+   "name": "Ｒ８国道１２７号遠隔遮断機設置工事",
+   "org": "関東地方整備局　千葉国道事務所",
+   "company": "名古屋電機工業（株）",
+   "amount": 183000000.0,
+   "rate": 91.63,
+   "kind": "通信設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "名古屋電機工業（株）",
+     "pref": "",
+     "amount": 183000000.0
+    },
+    {
+     "company": "星和電機（株）",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "d9d51e2905d5"
+  },
+  {
+   "date": "2026-06-15",
+   "name": "Ｒ７荒川下流左岸松島一丁目地区高水敷掘削工事",
+   "org": "関東地方整備局　荒川下流河川事務所",
+   "company": "金杉建設（株）",
+   "amount": 217500000.0,
+   "rate": 91.67,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "多田建設（株）",
+     "pref": "",
+     "amount": 217350000.0
+    },
+    {
+     "company": "（株）ナカノフドー建設",
+     "pref": "",
+     "amount": 217150000.0
+    },
+    {
+     "company": "（株）淺川組",
+     "pref": "",
+     "amount": 220600000.0
+    },
+    {
+     "company": "金杉建設（株）",
+     "pref": "",
+     "amount": 217500000.0
+    },
+    {
+     "company": "鈴中工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "関口工業（株）",
+     "pref": "",
+     "amount": 230000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "0b6bd737a64a"
+  },
+  {
+   "date": "2026-06-15",
+   "name": "Ｒ８荒川下流左岸川口地区高規格堤防擁壁工事",
+   "org": "関東地方整備局　荒川下流河川事務所",
+   "company": "（株）淺川組",
+   "amount": 293600000.0,
+   "rate": 95.21,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "新日本工業（株）",
+     "pref": "",
+     "amount": 306000000.0
+    },
+    {
+     "company": "（株）淺川組",
+     "pref": "",
+     "amount": 293600000.0
+    },
+    {
+     "company": "池田建設（株）",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "fc7e91f8e1cf"
+  },
+  {
+   "date": "2026-06-15",
+   "name": "Ｒ８利根川ダム管内放流警報設備他更新工事",
+   "org": "関東地方整備局　利根川ダム統合管理事務所",
+   "company": "（株）イートラスト",
+   "amount": 85780000.0,
+   "rate": 98.01,
+   "kind": "通信設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）イートラスト",
+     "pref": "",
+     "amount": 85780000.0
+    },
+    {
+     "company": "コイト電工（株）",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "7e7d982bc482"
+  },
+  {
    "date": "2026-06-12",
    "name": "令和８年度遠賀川下大隈地区下流掘削外工事",
    "org": "九州地方整備局　遠賀川河川事務所",
@@ -3990,6 +5630,126 @@
    ],
    "detail_url": "",
    "id": "06ef3562c71f"
+  },
+  {
+   "date": "2026-06-12",
+   "name": "Ｒ７大谷川第８床固改築工事",
+   "org": "関東地方整備局　日光砂防事務所",
+   "company": "（株）八興建設",
+   "amount": 110300000.0,
+   "rate": 92.27,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "小島土建（株）",
+     "pref": "",
+     "amount": 112800000.0
+    },
+    {
+     "company": "斉藤建設（株）",
+     "pref": "",
+     "amount": 113500000.0
+    },
+    {
+     "company": "東武建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）佐藤組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）八興建設",
+     "pref": "",
+     "amount": 110300000.0
+    },
+    {
+     "company": "（株）岡工務店",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）浜屋組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "磯部建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "那須土木（株）",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "0f86a7957b20"
+  },
+  {
+   "date": "2026-06-12",
+   "name": "Ｒ７国道１５号蒲田地区外電線共同溝他工事",
+   "org": "関東地方整備局　川崎国道事務所",
+   "company": "日工建設（株）",
+   "amount": 189990000.0,
+   "rate": 99.23,
+   "kind": "アスファルト舗装工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "地崎道路（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "日工建設（株）",
+     "pref": "",
+     "amount": 189990000.0
+    },
+    {
+     "company": "（株）ＮＩＰＰＯ",
+     "pref": "",
+     "amount": 208500000.0
+    },
+    {
+     "company": "（株）竹中道路",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "鹿島道路（株）",
+     "pref": "",
+     "amount": 199000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "10e8c2e60500"
   },
   {
    "date": "2026-06-11",
@@ -4747,6 +6507,551 @@
    "id": "4bacb1bd518f"
   },
   {
+   "date": "2026-06-11",
+   "name": "Ｒ７大谷川第６・７床固改築その２工事",
+   "org": "関東地方整備局　日光砂防事務所",
+   "company": "磯部建設（株）",
+   "amount": 111900000.0,
+   "rate": 94.78,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "小島土建（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "斉藤建設（株）",
+     "pref": "",
+     "amount": 120500000.0
+    },
+    {
+     "company": "東武建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）佐藤組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）岡工務店",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）浜屋組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "磯部建設（株）",
+     "pref": "",
+     "amount": 111900000.0
+    },
+    {
+     "company": "那須土木（株）",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "fe319ce12e42"
+  },
+  {
+   "date": "2026-06-11",
+   "name": "Ｒ７川浦第１８・１９・２０帯工工事",
+   "org": "関東地方整備局　利根川水系砂防事務所",
+   "company": "（株）佐藤建設工業",
+   "amount": 123950000.0,
+   "rate": 90.79,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "前橋地建（株）",
+     "pref": "",
+     "amount": 125000000.0
+    },
+    {
+     "company": "（株）佐藤建設工業",
+     "pref": "",
+     "amount": 123950000.0
+    },
+    {
+     "company": "（株）山藤組",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）美才治林業",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "池下工業（株）",
+     "pref": "",
+     "amount": 126000000.0
+    },
+    {
+     "company": "沼田土建（株）",
+     "pref": "",
+     "amount": 124500000.0
+    },
+    {
+     "company": "瑞穂建設（株）",
+     "pref": "",
+     "amount": 125800000.0
+    },
+    {
+     "company": "萬屋建設（株）",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "759acc4fa70d"
+  },
+  {
+   "date": "2026-06-11",
+   "name": "Ｒ８国道２０号八王子南ＢＰ大船寺田地区改良舗装その１工事",
+   "org": "関東地方整備局　相武国道事務所",
+   "company": "（株）竹中道路",
+   "amount": 247000000.0,
+   "rate": 91.09,
+   "kind": "アスファルト舗装工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "世紀東急工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "前田道路（株）",
+     "pref": "",
+     "amount": 269000000.0
+    },
+    {
+     "company": "北川ヒューテック（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "大成ロテック（株）",
+     "pref": "",
+     "amount": 255300000.0
+    },
+    {
+     "company": "大有建設（株）",
+     "pref": "",
+     "amount": 252500000.0
+    },
+    {
+     "company": "日本道路（株）",
+     "pref": "",
+     "amount": 255700000.0
+    },
+    {
+     "company": "日瀝道路（株）",
+     "pref": "",
+     "amount": 254800000.0
+    },
+    {
+     "company": "東亜道路工業（株）",
+     "pref": "",
+     "amount": 249200000.0
+    },
+    {
+     "company": "（株）ＮＩＰＰＯ",
+     "pref": "",
+     "amount": 249000000.0
+    },
+    {
+     "company": "（株）佐藤渡辺",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）竹中道路",
+     "pref": "",
+     "amount": 247000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "5c91572259fc"
+  },
+  {
+   "date": "2026-06-11",
+   "name": "Ｒ７国道２０号日野ＢＰ改良舗装他工事",
+   "org": "関東地方整備局　相武国道事務所",
+   "company": "大有建設（株）",
+   "amount": 165500000.0,
+   "rate": 91.17,
+   "kind": "アスファルト舗装工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "世紀東急工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "北川ヒューテック（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "大有建設（株）",
+     "pref": "",
+     "amount": 165500000.0
+    },
+    {
+     "company": "戸田道路（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "日工建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "日本道路（株）",
+     "pref": "",
+     "amount": 177400000.0
+    },
+    {
+     "company": "東亜道路工業（株）",
+     "pref": "",
+     "amount": 174000000.0
+    },
+    {
+     "company": "（株）ＮＩＰＰＯ",
+     "pref": "",
+     "amount": 188400000.0
+    },
+    {
+     "company": "（株）竹中道路",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "鹿島道路（株）",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "d858056df0aa"
+  },
+  {
+   "date": "2026-06-11",
+   "name": "Ｒ８宮ヶ瀬ダム堆積土砂搬出工事",
+   "org": "関東地方整備局　相模川水系広域ダム管理事務所",
+   "company": "国土開発工業（株）",
+   "amount": 171700000.0,
+   "rate": 92.11,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "亀井工業（株）",
+     "pref": "",
+     "amount": 172000000.0
+    },
+    {
+     "company": "国土開発工業（株）",
+     "pref": "",
+     "amount": 171700000.0
+    },
+    {
+     "company": "大野建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "木本建興（株）",
+     "pref": "",
+     "amount": 180000000.0
+    },
+    {
+     "company": "（株）エス・ケイ・ディ",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）佐々木建設工業",
+     "pref": "",
+     "amount": 187900000.0
+    },
+    {
+     "company": "（株）寿組",
+     "pref": "",
+     "amount": 172000000.0
+    },
+    {
+     "company": "（株）山善",
+     "pref": "",
+     "amount": 172370000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "25edbff8c003"
+  },
+  {
+   "date": "2026-06-11",
+   "name": "Ｒ８横環南栄ＩＣ・ＪＣＴ本線第４橋他床版工事",
+   "org": "関東地方整備局　横浜国道事務所",
+   "company": "若築建設（株）",
+   "amount": 1010000000.0,
+   "rate": 97.75,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "三井住友建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "五洋建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "佐田建設（株）",
+     "pref": "",
+     "amount": 978000000.0
+    },
+    {
+     "company": "戸田建設（株）",
+     "pref": "",
+     "amount": 1106000000.0
+    },
+    {
+     "company": "東急建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）横河ブリッジ",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）錢高組",
+     "pref": "",
+     "amount": 1187000000.0
+    },
+    {
+     "company": "矢作建設工業（株）",
+     "pref": "",
+     "amount": 1246900000.0
+    },
+    {
+     "company": "若築建設（株）",
+     "pref": "",
+     "amount": 1010000000.0
+    },
+    {
+     "company": "鉄建建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "青木あすなろ建設（株）",
+     "pref": "",
+     "amount": 1061000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "2915b9c764ae"
+  },
+  {
+   "date": "2026-06-11",
+   "name": "Ｒ８横環南戸塚ＩＣ改良その２工事",
+   "org": "関東地方整備局　横浜国道事務所",
+   "company": "（株）厚木植木",
+   "amount": 238000000.0,
+   "rate": 91.43,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "大野建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）佐々木建設工業",
+     "pref": "",
+     "amount": 258500000.0
+    },
+    {
+     "company": "（株）厚木植木",
+     "pref": "",
+     "amount": 238000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "175d94383f92"
+  },
+  {
+   "date": "2026-06-11",
+   "name": "Ｒ７国道３５７号東京湾岸道路夏島地区改良その１工事",
+   "org": "関東地方整備局　横浜国道事務所",
+   "company": "馬淵建設（株）",
+   "amount": 259500000.0,
+   "rate": 92.32,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "国土開発工業（株）",
+     "pref": "",
+     "amount": 260000000.0
+    },
+    {
+     "company": "大野建設（株）",
+     "pref": "",
+     "amount": 260400000.0
+    },
+    {
+     "company": "（株）佐々木建設工業",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "馬淵建設（株）",
+     "pref": "",
+     "amount": 259500000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "33393c533440"
+  },
+  {
+   "date": "2026-06-11",
+   "name": "Ｒ８荒川工事用道路工事",
+   "org": "関東地方整備局　富士川砂防事務所",
+   "company": "湯澤工業（株）",
+   "amount": 218000000.0,
+   "rate": 97.31,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "湯澤工業（株）",
+     "pref": "",
+     "amount": 218000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "af012d6d4ce9"
+  },
+  {
    "date": "2026-06-10",
    "name": "合志川災害復旧（その１）工事",
    "org": "九州地方整備局　菊池川河川事務所",
@@ -4860,6 +7165,151 @@
    ],
    "detail_url": "",
    "id": "d9510a49c974"
+  },
+  {
+   "date": "2026-06-10",
+   "name": "Ｒ８霞ヶ浦導水通信設備設置工事",
+   "org": "関東地方整備局　霞ヶ浦導水工事事務所",
+   "company": "田中電気（株）",
+   "amount": 178850000.0,
+   "rate": 94.4,
+   "kind": "通信設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "三菱電機システムサービス（株）",
+     "pref": "",
+     "amount": 186000000.0
+    },
+    {
+     "company": "エフコム（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "田中電気（株）",
+     "pref": "",
+     "amount": 178850000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "0eccf9dab66b"
+  },
+  {
+   "date": "2026-06-10",
+   "name": "Ｒ７利根砂防管内無線ＬＡＮ環境整備工事",
+   "org": "関東地方整備局　利根川水系砂防事務所",
+   "company": "（株）たけのうち電器",
+   "amount": 55900000.0,
+   "rate": 95.33,
+   "kind": "通信設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "日本テクニカル・サービス（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）ケーネス",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）たけのうち電器",
+     "pref": "",
+     "amount": 55900000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "b7ab56ea88a9"
+  },
+  {
+   "date": "2026-06-10",
+   "name": "日本社会事業大学厚生棟（２６）建築改修その他工事",
+   "org": "関東地方整備局　甲武営繕事務所",
+   "company": "（株）イズミ・コンストラクション",
+   "amount": 157000000.0,
+   "rate": 94.24,
+   "kind": "建築工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "加藤建設興業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "大石建設（株）",
+     "pref": "",
+     "amount": 166000000.0
+    },
+    {
+     "company": "松本建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）イッシン",
+     "pref": "",
+     "amount": 132000000.0
+    },
+    {
+     "company": "（株）マルリョウ",
+     "pref": "",
+     "amount": 195969688.0
+    },
+    {
+     "company": "（株）ビッグルーフ",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）セブン・プルーフ",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）イズミ・コンストラクション",
+     "pref": "",
+     "amount": 157000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "3081bca41b06"
   },
   {
    "date": "2026-06-09",
@@ -5295,6 +7745,351 @@
    ],
    "detail_url": "",
    "id": "625989adf9a1"
+  },
+  {
+   "date": "2026-06-09",
+   "name": "Ｒ８国道５１号神宮橋架替鹿嶋側橋梁上部工事",
+   "org": "関東地方整備局　常陸河川国道事務所",
+   "company": "日本ファブテック（株）",
+   "amount": 2217500000.0,
+   "rate": 92.84,
+   "kind": "鋼橋上部工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "三井住友建設鉄構エンジニアリング（株）",
+     "pref": "",
+     "amount": 2222000000.0
+    },
+    {
+     "company": "古河産機システムズ（株）",
+     "pref": "",
+     "amount": 2215000000.0
+    },
+    {
+     "company": "Ｒ８国道５１号神宮橋架替鹿嶋側橋梁上部工事名村・巴特定建設工事共同企業",
+     "pref": "",
+     "amount": 2248000000.0
+    },
+    {
+     "company": "Ｒ８国道５１号神宮橋架替鹿嶋側橋梁上部工事横河・横河ＮＳ特定建設工事共",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "宮地エンジニアリング（株）",
+     "pref": "",
+     "amount": 2246000000.0
+    },
+    {
+     "company": "川田工業（株）",
+     "pref": "",
+     "amount": 2347000000.0
+    },
+    {
+     "company": "日本ファブテック（株）",
+     "pref": "",
+     "amount": 2217500000.0
+    },
+    {
+     "company": "日本橋梁（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "日本車輌製造（株）",
+     "pref": "",
+     "amount": 2258000000.0
+    },
+    {
+     "company": "日本鉄塔工業（株）",
+     "pref": "",
+     "amount": 2242000000.0
+    },
+    {
+     "company": "ＪＦＥエンジニアリング（株）",
+     "pref": "",
+     "amount": 2240000000.0
+    },
+    {
+     "company": "ＵＢＥマシナリー（株）",
+     "pref": "",
+     "amount": 2300000000.0
+    },
+    {
+     "company": "（株）ＩＨＩインフラシステム",
+     "pref": "",
+     "amount": 2286000000.0
+    },
+    {
+     "company": "（株）駒井ハルテック",
+     "pref": "",
+     "amount": 2340000000.0
+    },
+    {
+     "company": "瀧上工業（株）",
+     "pref": "",
+     "amount": 2292900000.0
+    },
+    {
+     "company": "矢田工業（株）",
+     "pref": "",
+     "amount": 2206000000.0
+    },
+    {
+     "company": "高田機工（株）",
+     "pref": "",
+     "amount": 2255000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "9a42f2cddcbf"
+  },
+  {
+   "date": "2026-06-09",
+   "name": "Ｒ８東関道潮来行方地区改良工事",
+   "org": "関東地方整備局　常総国道事務所",
+   "company": "（株）大貫工務店",
+   "amount": 181550000.0,
+   "rate": 90.93,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "北都建設工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "大勝建設（株）",
+     "pref": "",
+     "amount": 182000000.0
+    },
+    {
+     "company": "大昭建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "キムラ工業（株）",
+     "pref": "",
+     "amount": 186400000.0
+    },
+    {
+     "company": "常総開発工業（株）",
+     "pref": "",
+     "amount": 199600000.0
+    },
+    {
+     "company": "常陽建設（株）",
+     "pref": "",
+     "amount": 184000000.0
+    },
+    {
+     "company": "日東エンジニアリング（株）",
+     "pref": "",
+     "amount": 182000000.0
+    },
+    {
+     "company": "星田建設工業（株）",
+     "pref": "",
+     "amount": 184000000.0
+    },
+    {
+     "company": "松崎建設（株）",
+     "pref": "",
+     "amount": 181800000.0
+    },
+    {
+     "company": "（株）アレスコ",
+     "pref": "",
+     "amount": 184850000.0
+    },
+    {
+     "company": "（株）伊藤建設",
+     "pref": "",
+     "amount": 182400000.0
+    },
+    {
+     "company": "（株）大貫工務店",
+     "pref": "",
+     "amount": 181550000.0
+    },
+    {
+     "company": "（株）成財基業",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）淺川組",
+     "pref": "",
+     "amount": 181830000.0
+    },
+    {
+     "company": "（株）茂木工務店",
+     "pref": "",
+     "amount": 184600000.0
+    },
+    {
+     "company": "（株）菱木土建",
+     "pref": "",
+     "amount": 185500000.0
+    },
+    {
+     "company": "樋口土木（株）",
+     "pref": "",
+     "amount": 182000000.0
+    },
+    {
+     "company": "菅原建設（株）",
+     "pref": "",
+     "amount": 199000000.0
+    },
+    {
+     "company": "金成重機建設（株）",
+     "pref": "",
+     "amount": 182500000.0
+    },
+    {
+     "company": "高橋建設（株）",
+     "pref": "",
+     "amount": 182300000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "7cf1ca7c99a7"
+  },
+  {
+   "date": "2026-06-09",
+   "name": "Ｒ７渡良瀬川右岸野田町地先護岸工事",
+   "org": "関東地方整備局　渡良瀬川河川事務所",
+   "company": "河本工業（株）",
+   "amount": 157400000.0,
+   "rate": 91.14,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "中村土建（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "古郡建設（株）",
+     "pref": "",
+     "amount": 157500000.0
+    },
+    {
+     "company": "大協建設（株）",
+     "pref": "",
+     "amount": 168000000.0
+    },
+    {
+     "company": "小川工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）戸室組",
+     "pref": "",
+     "amount": 154300000.0
+    },
+    {
+     "company": "河本工業（株）",
+     "pref": "",
+     "amount": 157400000.0
+    },
+    {
+     "company": "渡辺建設（株）",
+     "pref": "",
+     "amount": 157500000.0
+    },
+    {
+     "company": "田部井建設（株）",
+     "pref": "",
+     "amount": 157200000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "5b393cff8ea1"
+  },
+  {
+   "date": "2026-06-09",
+   "name": "Ｒ８大笹床固群工事",
+   "org": "関東地方整備局　利根川水系砂防事務所",
+   "company": "（株）山藤組",
+   "amount": 175000000.0,
+   "rate": 91.52,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）佐藤建設工業",
+     "pref": "",
+     "amount": 173990000.0
+    },
+    {
+     "company": "（株）山藤組",
+     "pref": "",
+     "amount": 175000000.0
+    },
+    {
+     "company": "（株）美才治林業",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "渡辺建設（株）",
+     "pref": "",
+     "amount": 175200000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "2c192983ea7c"
   },
   {
    "date": "2026-06-08",
@@ -5782,6 +8577,661 @@
    "id": "82321b0a18fa"
   },
   {
+   "date": "2026-06-08",
+   "name": "Ｒ７統一河川情報設備（関東本局）更新工事",
+   "org": "関東地方整備局　企画部",
+   "company": "富士通（株）",
+   "amount": 190000000.0,
+   "rate": 98.27,
+   "kind": "通信設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "富士通（株）",
+     "pref": "",
+     "amount": 190000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "973e87cd5739"
+  },
+  {
+   "date": "2026-06-08",
+   "name": "Ｒ８東関道行方鉾田地区改良工事",
+   "org": "関東地方整備局　常総国道事務所",
+   "company": "高橋建設（株）",
+   "amount": 170100000.0,
+   "rate": 91.16,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "北都建設工業（株）",
+     "pref": "",
+     "amount": 170200000.0
+    },
+    {
+     "company": "大勝建設（株）",
+     "pref": "",
+     "amount": 170000000.0
+    },
+    {
+     "company": "大昭建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "キムラ工業（株）",
+     "pref": "",
+     "amount": 180000000.0
+    },
+    {
+     "company": "常総開発工業（株）",
+     "pref": "",
+     "amount": 186600000.0
+    },
+    {
+     "company": "常陽建設（株）",
+     "pref": "",
+     "amount": 173000000.0
+    },
+    {
+     "company": "日東エンジニアリング（株）",
+     "pref": "",
+     "amount": 170000000.0
+    },
+    {
+     "company": "星田建設工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "東亜興業（株）",
+     "pref": "",
+     "amount": 169590000.0
+    },
+    {
+     "company": "松崎建設（株）",
+     "pref": "",
+     "amount": 169800000.0
+    },
+    {
+     "company": "（株）アレスコ",
+     "pref": "",
+     "amount": 169650000.0
+    },
+    {
+     "company": "（株）伊藤建設",
+     "pref": "",
+     "amount": 170700000.0
+    },
+    {
+     "company": "（株）大貫工務店",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）成財基業",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）淺川組",
+     "pref": "",
+     "amount": 169980000.0
+    },
+    {
+     "company": "（株）茂木工務店",
+     "pref": "",
+     "amount": 169800000.0
+    },
+    {
+     "company": "（株）菱木土建",
+     "pref": "",
+     "amount": 170100000.0
+    },
+    {
+     "company": "樋口土木（株）",
+     "pref": "",
+     "amount": 170100000.0
+    },
+    {
+     "company": "菅原建設（株）",
+     "pref": "",
+     "amount": 186000000.0
+    },
+    {
+     "company": "金成重機建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "高橋建設（株）",
+     "pref": "",
+     "amount": 170100000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "350cd5953b05"
+  },
+  {
+   "date": "2026-06-08",
+   "name": "Ｒ８東関道潮来地区改良その１工事",
+   "org": "関東地方整備局　常総国道事務所",
+   "company": "大昭建設（株）",
+   "amount": 180800000.0,
+   "rate": 91.1,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "北都建設工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "大勝建設（株）",
+     "pref": "",
+     "amount": 181000000.0
+    },
+    {
+     "company": "大昭建設（株）",
+     "pref": "",
+     "amount": 180800000.0
+    },
+    {
+     "company": "キムラ工業（株）",
+     "pref": "",
+     "amount": 180730000.0
+    },
+    {
+     "company": "常総開発工業（株）",
+     "pref": "",
+     "amount": 197200000.0
+    },
+    {
+     "company": "常陽建設（株）",
+     "pref": "",
+     "amount": 183000000.0
+    },
+    {
+     "company": "グンジ建設（株）",
+     "pref": "",
+     "amount": 181400000.0
+    },
+    {
+     "company": "日東エンジニアリング（株）",
+     "pref": "",
+     "amount": 190000000.0
+    },
+    {
+     "company": "星田建設工業（株）",
+     "pref": "",
+     "amount": 191200000.0
+    },
+    {
+     "company": "松尾建設（株）",
+     "pref": "",
+     "amount": 180440000.0
+    },
+    {
+     "company": "松崎建設（株）",
+     "pref": "",
+     "amount": 180600000.0
+    },
+    {
+     "company": "（株）アレスコ",
+     "pref": "",
+     "amount": 189850000.0
+    },
+    {
+     "company": "（株）二輝建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）伊藤建設",
+     "pref": "",
+     "amount": 181500000.0
+    },
+    {
+     "company": "（株）大貫工務店",
+     "pref": "",
+     "amount": 180450000.0
+    },
+    {
+     "company": "（株）成財基業",
+     "pref": "",
+     "amount": 180800000.0
+    },
+    {
+     "company": "（株）新みらい",
+     "pref": "",
+     "amount": 182500000.0
+    },
+    {
+     "company": "（株）木村工務店",
+     "pref": "",
+     "amount": 181000000.0
+    },
+    {
+     "company": "（株）柳田組",
+     "pref": "",
+     "amount": 191200000.0
+    },
+    {
+     "company": "（株）淺川組",
+     "pref": "",
+     "amount": 180730000.0
+    },
+    {
+     "company": "（株）茂木工務店",
+     "pref": "",
+     "amount": 180700000.0
+    },
+    {
+     "company": "（株）菱木土建",
+     "pref": "",
+     "amount": 187000000.0
+    },
+    {
+     "company": "樋口土木（株）",
+     "pref": "",
+     "amount": 180950000.0
+    },
+    {
+     "company": "菅原建設（株）",
+     "pref": "",
+     "amount": 198000000.0
+    },
+    {
+     "company": "谷原建設（株）",
+     "pref": "",
+     "amount": 181000000.0
+    },
+    {
+     "company": "金成重機建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "鈴縫工業（株）",
+     "pref": "",
+     "amount": 180430000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "488acdbdd302"
+  },
+  {
+   "date": "2026-06-08",
+   "name": "Ｒ８東関道潮来地区改良その２工事",
+   "org": "関東地方整備局　常総国道事務所",
+   "company": "グンジ建設（株）",
+   "amount": 172000000.0,
+   "rate": 91.38,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "北都建設工業（株）",
+     "pref": "",
+     "amount": 172000000.0
+    },
+    {
+     "company": "大勝建設（株）",
+     "pref": "",
+     "amount": 171500000.0
+    },
+    {
+     "company": "大昭建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "キムラ工業（株）",
+     "pref": "",
+     "amount": 171370000.0
+    },
+    {
+     "company": "常総開発工業（株）",
+     "pref": "",
+     "amount": 187900000.0
+    },
+    {
+     "company": "常陽建設（株）",
+     "pref": "",
+     "amount": 174000000.0
+    },
+    {
+     "company": "グンジ建設（株）",
+     "pref": "",
+     "amount": 172000000.0
+    },
+    {
+     "company": "日東エンジニアリング（株）",
+     "pref": "",
+     "amount": 180000000.0
+    },
+    {
+     "company": "星田建設工業（株）",
+     "pref": "",
+     "amount": 173000000.0
+    },
+    {
+     "company": "東亜興業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "松尾建設（株）",
+     "pref": "",
+     "amount": 171140000.0
+    },
+    {
+     "company": "松崎建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）アレスコ",
+     "pref": "",
+     "amount": 179790000.0
+    },
+    {
+     "company": "（株）伊藤建設",
+     "pref": "",
+     "amount": 171600000.0
+    },
+    {
+     "company": "（株）大貫工務店",
+     "pref": "",
+     "amount": 171100000.0
+    },
+    {
+     "company": "（株）成財基業",
+     "pref": "",
+     "amount": 171340000.0
+    },
+    {
+     "company": "（株）新みらい",
+     "pref": "",
+     "amount": 172900000.0
+    },
+    {
+     "company": "（株）木村工務店",
+     "pref": "",
+     "amount": 171500000.0
+    },
+    {
+     "company": "（株）柳田組",
+     "pref": "",
+     "amount": 180450000.0
+    },
+    {
+     "company": "（株）淺川組",
+     "pref": "",
+     "amount": 171330000.0
+    },
+    {
+     "company": "（株）茂木工務店",
+     "pref": "",
+     "amount": 171200000.0
+    },
+    {
+     "company": "（株）菱木土建",
+     "pref": "",
+     "amount": 174800000.0
+    },
+    {
+     "company": "樋口土木（株）",
+     "pref": "",
+     "amount": 171500000.0
+    },
+    {
+     "company": "菅原建設（株）",
+     "pref": "",
+     "amount": 188000000.0
+    },
+    {
+     "company": "谷原建設（株）",
+     "pref": "",
+     "amount": 172000000.0
+    },
+    {
+     "company": "金成重機建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "鈴縫工業（株）",
+     "pref": "",
+     "amount": 171100000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "a67309b738a9"
+  },
+  {
+   "date": "2026-06-08",
+   "name": "Ｒ７松木山腹工（下桐久保沢）工事",
+   "org": "関東地方整備局　渡良瀬川河川事務所",
+   "company": "（株）佐藤組",
+   "amount": 93300000.0,
+   "rate": 91.28,
+   "kind": "法面処理工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "中村土建（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "東武建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）佐藤組",
+     "pref": "",
+     "amount": 93300000.0
+    },
+    {
+     "company": "磯部建設（株）",
+     "pref": "",
+     "amount": 102000000.0
+    },
+    {
+     "company": "那須土木（株）",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "753b1edb7911"
+  },
+  {
+   "date": "2026-06-08",
+   "name": "Ｒ８国道１７号渋川西ＢＰ石原地区外改良舗装工事",
+   "org": "関東地方整備局　高崎河川国道事務所",
+   "company": "フジタ道路（株）",
+   "amount": 133000000.0,
+   "rate": 90.53,
+   "kind": "アスファルト舗装工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "佐田建設（株）",
+     "pref": "",
+     "amount": 133100000.0
+    },
+    {
+     "company": "地崎道路（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "大成ロテック（株）",
+     "pref": "",
+     "amount": 133140000.0
+    },
+    {
+     "company": "大林道路（株）",
+     "pref": "",
+     "amount": 140000000.0
+    },
+    {
+     "company": "宮下工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "小野里工業（株）",
+     "pref": "",
+     "amount": 136500000.0
+    },
+    {
+     "company": "戸田道路（株）",
+     "pref": "",
+     "amount": 143500000.0
+    },
+    {
+     "company": "（株）ＮＩＰＰＯ",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "沼田土建（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "フジタ道路（株）",
+     "pref": "",
+     "amount": 133000000.0
+    },
+    {
+     "company": "鹿島道路（株）",
+     "pref": "",
+     "amount": 134200000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "6f827ee1cece"
+  },
+  {
+   "date": "2026-06-08",
+   "name": "Ｒ８国道２０号八王子南ＢＰ館地区ＴＮ非常警報設備他工事",
+   "org": "関東地方整備局　相武国道事務所",
+   "company": "東照工業（株）",
+   "amount": 270000000.0,
+   "rate": 92.37,
+   "kind": "通信設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "星和電機（株）",
+     "pref": "",
+     "amount": 269000000.0
+    },
+    {
+     "company": "東照工業（株）",
+     "pref": "",
+     "amount": 270000000.0
+    },
+    {
+     "company": "（株）丸電",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "コイト電工（株）",
+     "pref": "",
+     "amount": 271300000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "53df0e1faaa8"
+  },
+  {
    "date": "2026-06-05",
    "name": "浜戸川走潟地区（５工区）築堤工事",
    "org": "九州地方整備局　熊本河川国道事務所",
@@ -6042,6 +9492,416 @@
    "id": "210d7ad8d536"
   },
   {
+   "date": "2026-06-05",
+   "name": "Ｒ７田母沢砂防堰堤改築工事",
+   "org": "関東地方整備局　日光砂防事務所",
+   "company": "（株）佐藤組",
+   "amount": 120500000.0,
+   "rate": 91.7,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "三晃建設（株）",
+     "pref": "",
+     "amount": 126000000.0
+    },
+    {
+     "company": "斉藤建設（株）",
+     "pref": "",
+     "amount": 133300000.0
+    },
+    {
+     "company": "東武建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）佐藤組",
+     "pref": "",
+     "amount": 120500000.0
+    },
+    {
+     "company": "（株）岡工務店",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）浜屋組",
+     "pref": "",
+     "amount": 125500000.0
+    },
+    {
+     "company": "（株）野澤實業",
+     "pref": "",
+     "amount": 123000000.0
+    },
+    {
+     "company": "那須土木（株）",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "d919cfc23c7c"
+  },
+  {
+   "date": "2026-06-05",
+   "name": "Ｒ８国道５０号前橋笠懸道路外環境整備工事",
+   "org": "関東地方整備局　高崎河川国道事務所",
+   "company": "小林工業（株）",
+   "amount": 114500000.0,
+   "rate": 91.89,
+   "kind": "維持修繕工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "小林工業（株）",
+     "pref": "",
+     "amount": 114500000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "97e795ebb305"
+  },
+  {
+   "date": "2026-06-05",
+   "name": "Ｒ７江戸川左岸岩名地先堤防整備工事",
+   "org": "関東地方整備局　江戸川河川事務所",
+   "company": "松浦建設（株）",
+   "amount": 190800000.0,
+   "rate": 91.14,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "古久根建設（株）",
+     "pref": "",
+     "amount": 190900000.0
+    },
+    {
+     "company": "名倉建設（株）",
+     "pref": "",
+     "amount": 191000000.0
+    },
+    {
+     "company": "川村建設（株）",
+     "pref": "",
+     "amount": 190700000.0
+    },
+    {
+     "company": "キムラ工業（株）",
+     "pref": "",
+     "amount": 199000000.0
+    },
+    {
+     "company": "常陽建設（株）",
+     "pref": "",
+     "amount": 190900000.0
+    },
+    {
+     "company": "戸邊建設（株）",
+     "pref": "",
+     "amount": 190800000.0
+    },
+    {
+     "company": "新井土木（株）",
+     "pref": "",
+     "amount": 191000000.0
+    },
+    {
+     "company": "日東エンジニアリング（株）",
+     "pref": "",
+     "amount": 191000000.0
+    },
+    {
+     "company": "星田建設工業（株）",
+     "pref": "",
+     "amount": 190800000.0
+    },
+    {
+     "company": "松浦建設（株）",
+     "pref": "",
+     "amount": 190800000.0
+    },
+    {
+     "company": "（株）ケージーエム",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）佐々木建設工業",
+     "pref": "",
+     "amount": 210000000.0
+    },
+    {
+     "company": "（株）堀建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）成財基業",
+     "pref": "",
+     "amount": 191870000.0
+    },
+    {
+     "company": "（株）赤塚土木興業",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "河本工業（株）",
+     "pref": "",
+     "amount": 190680000.0
+    },
+    {
+     "company": "金杉建設（株）",
+     "pref": "",
+     "amount": 196000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "9d635cf3952e"
+  },
+  {
+   "date": "2026-06-05",
+   "name": "Ｒ７江戸川右岸花島地先外堤防整備工事",
+   "org": "関東地方整備局　江戸川河川事務所",
+   "company": "（株）ケージーエム",
+   "amount": 278150000.0,
+   "rate": 91.72,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "名倉建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "小川工業（株）",
+     "pref": "",
+     "amount": 281500000.0
+    },
+    {
+     "company": "川村建設（株）",
+     "pref": "",
+     "amount": 281800000.0
+    },
+    {
+     "company": "キムラ工業（株）",
+     "pref": "",
+     "amount": 280000000.0
+    },
+    {
+     "company": "常陽建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "新井土木（株）",
+     "pref": "",
+     "amount": 282000000.0
+    },
+    {
+     "company": "日東エンジニアリング（株）",
+     "pref": "",
+     "amount": 282000000.0
+    },
+    {
+     "company": "日清建設（株）",
+     "pref": "",
+     "amount": 281500000.0
+    },
+    {
+     "company": "星田建設工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "松浦建設（株）",
+     "pref": "",
+     "amount": 281800000.0
+    },
+    {
+     "company": "（株）ケージーエム",
+     "pref": "",
+     "amount": 278150000.0
+    },
+    {
+     "company": "（株）佐々木建設工業",
+     "pref": "",
+     "amount": 294000000.0
+    },
+    {
+     "company": "（株）堀建設",
+     "pref": "",
+     "amount": 280700000.0
+    },
+    {
+     "company": "（株）松永建設",
+     "pref": "",
+     "amount": 282500000.0
+    },
+    {
+     "company": "河本工業（株）",
+     "pref": "",
+     "amount": 281100000.0
+    },
+    {
+     "company": "金杉建設（株）",
+     "pref": "",
+     "amount": 288000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "8d0a2453116f"
+  },
+  {
+   "date": "2026-06-05",
+   "name": "Ｒ７江戸川左岸今上地先堤防整備工事",
+   "org": "関東地方整備局　江戸川河川事務所",
+   "company": "松浦建設（株）",
+   "amount": 204000000.0,
+   "rate": 91.81,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "古久根建設（株）",
+     "pref": "",
+     "amount": 203000000.0
+    },
+    {
+     "company": "名倉建設（株）",
+     "pref": "",
+     "amount": 202800000.0
+    },
+    {
+     "company": "川村建設（株）",
+     "pref": "",
+     "amount": 202700000.0
+    },
+    {
+     "company": "キムラ工業（株）",
+     "pref": "",
+     "amount": 223000000.0
+    },
+    {
+     "company": "常陽建設（株）",
+     "pref": "",
+     "amount": 202900000.0
+    },
+    {
+     "company": "戸邊建設（株）",
+     "pref": "",
+     "amount": 202800000.0
+    },
+    {
+     "company": "新井土木（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "日東エンジニアリング（株）",
+     "pref": "",
+     "amount": 203000000.0
+    },
+    {
+     "company": "星田建設工業（株）",
+     "pref": "",
+     "amount": 207800000.0
+    },
+    {
+     "company": "松浦建設（株）",
+     "pref": "",
+     "amount": 204000000.0
+    },
+    {
+     "company": "（株）ケージーエム",
+     "pref": "",
+     "amount": 202800000.0
+    },
+    {
+     "company": "（株）佐々木建設工業",
+     "pref": "",
+     "amount": 225000000.0
+    },
+    {
+     "company": "（株）堀建設",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）成財基業",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "河本工業（株）",
+     "pref": "",
+     "amount": 202680000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "fa5887102747"
+  },
+  {
    "date": "2026-06-04",
    "name": "緑川海路口地区（２工区）護岸工事",
    "org": "九州地方整備局　熊本河川国道事務所",
@@ -6155,6 +10015,181 @@
    ],
    "detail_url": "",
    "id": "b8bb8932a3a0"
+  },
+  {
+   "date": "2026-06-04",
+   "name": "Ｒ７関東地整路車間情報処理設備更新工事",
+   "org": "関東地方整備局　企画部",
+   "company": "沖電気工業（株）",
+   "amount": 173000000.0,
+   "rate": 99.38,
+   "kind": "通信設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "沖電気工業（株）",
+     "pref": "",
+     "amount": 173000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "55f502270cfb"
+  },
+  {
+   "date": "2026-06-04",
+   "name": "Ｒ７堂沢砂防堰堤工事",
+   "org": "関東地方整備局　利根川水系砂防事務所",
+   "company": "（株）美才治林業",
+   "amount": 117700000.0,
+   "rate": 90.39,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）佐藤建設工業",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）山藤組",
+     "pref": "",
+     "amount": 125000000.0
+    },
+    {
+     "company": "（株）美才治林業",
+     "pref": "",
+     "amount": 117700000.0
+    },
+    {
+     "company": "沼田土建（株）",
+     "pref": "",
+     "amount": 119500000.0
+    },
+    {
+     "company": "渡辺建設（株）",
+     "pref": "",
+     "amount": 119300000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "d3e8237fc26b"
+  },
+  {
+   "date": "2026-06-04",
+   "name": "Ｒ７首都国道管内ＣＣＴＶ設備設置他その２工事",
+   "org": "関東地方整備局　首都国道事務所",
+   "company": "東京システム特機（株）",
+   "amount": 64300000.0,
+   "rate": 91.18,
+   "kind": "通信設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "日本エレクトロニツクシステムズ（株）",
+     "pref": "",
+     "amount": 64280000.0
+    },
+    {
+     "company": "東京システム特機（株）",
+     "pref": "",
+     "amount": 64300000.0
+    },
+    {
+     "company": "ＪＥＳＣＯネットワークシステム（株）",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "e2eddfe7b4f4"
+  },
+  {
+   "date": "2026-06-04",
+   "name": "横浜税関大黒埠頭出張所（２６）建築改修その他工事",
+   "org": "関東地方整備局　横浜営繕事務所",
+   "company": "大成ユーレック（株）",
+   "amount": 276600000.0,
+   "rate": 98.09,
+   "kind": "建築工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "大成ユーレック（株）",
+     "pref": "",
+     "amount": 276600000.0
+    },
+    {
+     "company": "奈良建設（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）イッシン",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）ｉｎｆｒａｔ",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）セブン・プルーフ",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）イズミ・コンストラクション",
+     "pref": "",
+     "amount": 343000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "28754d15d4aa"
   },
   {
    "date": "2026-06-03",
@@ -6330,6 +10365,236 @@
    ],
    "detail_url": "",
    "id": "54ac660c7d64"
+  },
+  {
+   "date": "2026-06-03",
+   "name": "Ｒ７千ヶ滝西沢砂防堰堤工事",
+   "org": "関東地方整備局　利根川水系砂防事務所",
+   "company": "（株）新津組",
+   "amount": 184000000.0,
+   "rate": 92.06,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）佐々木建設工業",
+     "pref": "",
+     "amount": 217000000.0
+    },
+    {
+     "company": "（株）新津組",
+     "pref": "",
+     "amount": 184000000.0
+    },
+    {
+     "company": "（株）竹花組",
+     "pref": "",
+     "amount": 186500000.0
+    },
+    {
+     "company": "畑八開発（株）",
+     "pref": "",
+     "amount": 185000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "994984edf23c"
+  },
+  {
+   "date": "2026-06-03",
+   "name": "Ｒ８大窪沢川砂防堰堤工事",
+   "org": "関東地方整備局　利根川水系砂防事務所",
+   "company": "（株）新津組",
+   "amount": 162700000.0,
+   "rate": 92.71,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）新津組",
+     "pref": "",
+     "amount": 162700000.0
+    },
+    {
+     "company": "（株）竹花組",
+     "pref": "",
+     "amount": 166100000.0
+    },
+    {
+     "company": "畑八開発（株）",
+     "pref": "",
+     "amount": 163000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "812781e0a978"
+  },
+  {
+   "date": "2026-06-03",
+   "name": "Ｒ７赤川砂防堰堤工事",
+   "org": "関東地方整備局　利根川水系砂防事務所",
+   "company": "渡辺建設（株）",
+   "amount": 182800000.0,
+   "rate": 88.95,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）佐々木建設工業",
+     "pref": "",
+     "amount": 206000000.0
+    },
+    {
+     "company": "（株）佐藤建設工業",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）山藤組",
+     "pref": "",
+     "amount": 182500000.0
+    },
+    {
+     "company": "（株）美才治林業",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "渡辺建設（株）",
+     "pref": "",
+     "amount": 182800000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "8297fe9e92df"
+  },
+  {
+   "date": "2026-06-03",
+   "name": "Ｒ７圏央道側道補備工事",
+   "org": "関東地方整備局　北首都国道事務所",
+   "company": "大林道路（株）",
+   "amount": 124240000.0,
+   "rate": 90.7,
+   "kind": "維持修繕工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "世紀東急工業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "大坂建鋼（株）",
+     "pref": "",
+     "amount": 135500000.0
+    },
+    {
+     "company": "大成ロテック（株）",
+     "pref": "",
+     "amount": 126700000.0
+    },
+    {
+     "company": "大林道路（株）",
+     "pref": "",
+     "amount": 124240000.0
+    },
+    {
+     "company": "日本ロード・メンテナンス（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）成財基業",
+     "pref": "",
+     "amount": 130770000.0
+    },
+    {
+     "company": "森建設（株）",
+     "pref": "",
+     "amount": 128000000.0
+    },
+    {
+     "company": "谷原建設（株）",
+     "pref": "",
+     "amount": 133000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "c3be69115077"
+  },
+  {
+   "date": "2026-06-03",
+   "name": "Ｒ７利根下流管内ＩＰテレメータ設備更新工事",
+   "org": "関東地方整備局　利根川下流河川事務所",
+   "company": "（株）イートラスト",
+   "amount": 50380000.0,
+   "rate": 99.06,
+   "kind": "通信設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）イートラスト",
+     "pref": "",
+     "amount": 50380000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "e11e8f7b1683"
   },
   {
    "date": "2026-06-02",
@@ -6515,6 +10780,81 @@
    ],
    "detail_url": "",
    "id": "3391657b5fab"
+  },
+  {
+   "date": "2026-06-02",
+   "name": "Ｒ７日光砂防ネットワーク設備改修工事",
+   "org": "関東地方整備局　日光砂防事務所",
+   "company": "（株）ケーネス",
+   "amount": 25620000.0,
+   "rate": 90.47,
+   "kind": "通信設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "日本フィールド・エンジニアリング（株）",
+     "pref": "",
+     "amount": 26000000.0
+    },
+    {
+     "company": "（株）ケーネス",
+     "pref": "",
+     "amount": 25620000.0
+    },
+    {
+     "company": "（株）ＮＨＫテクノロジーズ",
+     "pref": "",
+     "amount": 25570000.0
+    },
+    {
+     "company": "（株）たけのうち電器",
+     "pref": "",
+     "amount": null
+    }
+   ],
+   "detail_url": "",
+   "id": "c2a2599da814"
+  },
+  {
+   "date": "2026-06-02",
+   "name": "Ｒ７相俣ダム小容量放流設備他新設工事",
+   "org": "関東地方整備局　利根川ダム統合管理事務所",
+   "company": "豊国工業（株）",
+   "amount": 173000000.0,
+   "rate": 99.98,
+   "kind": "機械設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "豊国工業（株）",
+     "pref": "",
+     "amount": 173000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "5b5eba247376"
   },
   {
    "date": "2026-06-01",
@@ -6800,6 +11140,191 @@
    ],
    "detail_url": "",
    "id": "57a311d4c62e"
+  },
+  {
+   "date": "2026-06-01",
+   "name": "Ｒ７常陸河川国道管内ネットワーク設備工事",
+   "org": "関東地方整備局　常陸河川国道事務所",
+   "company": "日本フィールド・エンジニアリング（株）",
+   "amount": 90000000.0,
+   "rate": 99.29,
+   "kind": "通信設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "三菱電機システムサービス（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "日本フィールド・エンジニアリング（株）",
+     "pref": "",
+     "amount": 90000000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "dbb5ca6b4180"
+  },
+  {
+   "date": "2026-06-01",
+   "name": "Ｒ７常陸河川国道管内（河川）ＣＣＴＶ設備他設置工事",
+   "org": "関東地方整備局　常陸河川国道事務所",
+   "company": "東京システム特機（株）",
+   "amount": 15900000.0,
+   "rate": 96.89,
+   "kind": "通信設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "東京システム特機（株）",
+     "pref": "",
+     "amount": 15900000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "5d4537872ee2"
+  },
+  {
+   "date": "2026-06-01",
+   "name": "Ｒ７荒川下流直流電源装置他更新工事",
+   "org": "関東地方整備局　荒川下流河川事務所",
+   "company": "（株）マルツ電波",
+   "amount": 37700000.0,
+   "rate": 99.81,
+   "kind": "受変電設備工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "（株）川北電工",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）桜電社",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "（株）マルツ電波",
+     "pref": "",
+     "amount": 37700000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "9baa939c2701"
+  },
+  {
+   "date": "2026-06-01",
+   "name": "Ｒ８相武国道事務所管内交通安全施設整備工事",
+   "org": "関東地方整備局　相武国道事務所",
+   "company": "世紀東急工業（株）",
+   "amount": 79500000.0,
+   "rate": 90.38,
+   "kind": "維持修繕工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "世紀東急工業（株）",
+     "pref": "",
+     "amount": 79500000.0
+    },
+    {
+     "company": "宮川興業（株）",
+     "pref": "",
+     "amount": null
+    },
+    {
+     "company": "日工建設（株）",
+     "pref": "",
+     "amount": 79200000.0
+    },
+    {
+     "company": "（株）厚木植木",
+     "pref": "",
+     "amount": 79300000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "6dc82dd5c282"
+  },
+  {
+   "date": "2026-06-01",
+   "name": "Ｒ７多摩川右岸石田防災ステーション橋梁工事",
+   "org": "関東地方整備局　京浜河川事務所",
+   "company": "中村建設（株）",
+   "amount": 185000000.0,
+   "rate": 92.44,
+   "kind": "一般土木工事",
+   "period": "",
+   "pref": "",
+   "city": "",
+   "employees": null,
+   "category": "工事",
+   "bureau": "関東地方整備局",
+   "docs": [
+    {
+     "label": "入札結果(関東地方整備局)",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000953484.xls"
+    }
+   ],
+   "bidders": [
+    {
+     "company": "中村建設（株）",
+     "pref": "",
+     "amount": 185000000.0
+    },
+    {
+     "company": "古久根建設（株）",
+     "pref": "",
+     "amount": 198500000.0
+    }
+   ],
+   "detail_url": "",
+   "id": "dd26931c9ff3"
   },
   {
    "date": "2026-05-29",
