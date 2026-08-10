@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-09",
+ "updated": "2026-08-10",
  "cases": [
   {
    "date": "2026-06-30",
@@ -180105,91 +180105,6 @@
    ],
    "detail_url": "",
    "id": "e6d58233f73e"
-  },
-  {
-   "date": "2024-08-09",
-   "name": "Ｒ６　２４９号珠洲地区道路復旧その３工事",
-   "org": "北陸地方整備局　能登復興事務所",
-   "company": "（株）門寺建設",
-   "amount": 222000000.0,
-   "rate": 96.24,
-   "kind": "一般土木工事",
-   "period": "",
-   "pref": "",
-   "city": "",
-   "employees": null,
-   "category": "工事",
-   "bureau": "北陸地方整備局",
-   "docs": [
-    {
-     "label": "入札結果(北陸地方整備局)",
-     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2024.xls"
-    }
-   ],
-   "bidders": [
-    {
-     "company": "（株）門寺建設",
-     "pref": "",
-     "amount": 222000000.0
-    },
-    {
-     "company": "（株）丸中組",
-     "pref": "",
-     "amount": null
-    }
-   ],
-   "detail_url": "",
-   "id": "700e52c6923d"
-  },
-  {
-   "date": "2024-08-09",
-   "name": "令和６年度三国川ダムＣＣＴＶ設備更新工事",
-   "org": "北陸地方整備局　三国川ダム管理所",
-   "company": "（株）宮下電設",
-   "amount": 11970000.0,
-   "rate": 92.5,
-   "kind": "通信設備工事",
-   "period": "",
-   "pref": "",
-   "city": "",
-   "employees": null,
-   "category": "工事",
-   "bureau": "北陸地方整備局",
-   "docs": [
-    {
-     "label": "入札結果(北陸地方整備局)",
-     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2024.xls"
-    }
-   ],
-   "bidders": [
-    {
-     "company": "大島電気（株）",
-     "pref": "",
-     "amount": 12000000.0
-    },
-    {
-     "company": "（株）イートラスト",
-     "pref": "",
-     "amount": null
-    },
-    {
-     "company": "（株）シミズシンテック",
-     "pref": "",
-     "amount": 11790000.0
-    },
-    {
-     "company": "（株）東光クリエート",
-     "pref": "",
-     "amount": 12100000.0
-    },
-    {
-     "company": "（株）宮下電設",
-     "pref": "",
-     "amount": 11970000.0
-    }
-   ],
-   "detail_url": "",
-   "id": "13b2721e188e"
   }
  ]
 }
