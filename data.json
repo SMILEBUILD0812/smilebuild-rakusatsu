@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-16",
+ "updated": "2026-08-17",
  "cases": [
   {
    "date": "2026-06-30",
@@ -180045,66 +180045,6 @@
    ],
    "detail_url": "",
    "id": "dda9ce034ecc"
-  },
-  {
-   "date": "2024-08-16",
-   "name": "Ｒ６羽咋道路　本江舗装その２工事",
-   "org": "北陸地方整備局　金沢河川国道事務所",
-   "company": "（株）ガイアート",
-   "amount": 230000000.0,
-   "rate": 93.22,
-   "kind": "アスファルト舗装工事",
-   "period": "",
-   "pref": "",
-   "city": "",
-   "employees": null,
-   "category": "工事",
-   "bureau": "北陸地方整備局",
-   "docs": [
-    {
-     "label": "入札結果(北陸地方整備局)",
-     "url": "https://www.hrr.mlit.go.jp/keiyaku/kekka/data/kouji_2024.xls"
-    }
-   ],
-   "bidders": [
-    {
-     "company": "北川ヒューテック（株）",
-     "pref": "",
-     "amount": null
-    },
-    {
-     "company": "（株）ガイアート",
-     "pref": "",
-     "amount": 230000000.0
-    },
-    {
-     "company": "世紀東急工業（株）",
-     "pref": "",
-     "amount": null
-    },
-    {
-     "company": "福田道路（株）",
-     "pref": "",
-     "amount": null
-    },
-    {
-     "company": "前田道路（株）",
-     "pref": "",
-     "amount": null
-    },
-    {
-     "company": "（株）佐藤渡辺",
-     "pref": "",
-     "amount": 247300000.0
-    },
-    {
-     "company": "鹿島道路（株）",
-     "pref": "",
-     "amount": null
-    }
-   ],
-   "detail_url": "",
-   "id": "e6d58233f73e"
   }
  ]
 }
